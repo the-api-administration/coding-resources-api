@@ -26,6 +26,19 @@ app.get('/api', (req, res) => {
 	res.json(resources);
 });
 
+app.get('/api/:tag', (req, res) => {
+    const tag = req.params.tag.toLowerCase();
+
+    // filter resources array, return items that match query; tag.
+    const filteredArr = resources.filter((obj) => obj.tags.includes(tag));
+
+    if (filteredArr.length > 0) {
+        res.json(filteredArr);
+    } else {
+        throw new Error('Resource not found.');
+    }
+});
+
 app.listen(PORT, () => {
 	console.log(`The 👨‍🏭 server 🚗 is 🏃‍♀️ running 👡 on ⚓ port 🐹 ${PORT}, 🛒 better 💅 go 😝 catch 🙀 it! 🍟`);
 });
