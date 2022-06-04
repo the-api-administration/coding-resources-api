@@ -16,3 +16,10 @@ const resources = [
         tags: ['arrays'],
     },
 ];
+
+
+app.listen(PORT, () => {
+    console.log(
+        `The 👨‍🏭 server 🚗 is 🏃‍♀️ running 👡 on ⚓ port 🐹 ${PORT}, 🛒 better 💅 go 😝 catch 🙀 it! 🍟`,
+    );
+});
