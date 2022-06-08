@@ -16,6 +16,11 @@ const resources = [
 		url: 'https://javascript.info/array',
 		tags: ['arrays'],
 	},
+	{
+		name: 'Building a Simple CRUD App with Node, Express, and MongoDB',
+		url: 'https://zellwk.com/blog/crud-express-mongodb/',
+		tags: ['mongodb', 'express', 'node', 'backend'],
+	}
 ];
 
 app.get('/', (req, res) => {
