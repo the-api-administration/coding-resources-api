@@ -16,6 +16,26 @@ const resources = [
 		url: 'https://javascript.info/array',
 		tags: ['arrays'],
 	},
+    {
+		name: 'Unsplash',
+		url: 'https://unsplash.com/',
+		tags: ['web design', 'photos', 'front-end'],
+	},
+    {
+		name: 'Coolors',
+		url: 'https://coolors.co/',
+		tags: ['web design', 'color palettes', 'front-end'],
+	},
+    {
+		name: 'California Contract Killer',
+		url: 'https://github.com/samuelsycamore/contract-killer',
+		tags: ['freelancing', 'contracts'],
+	},
+    {
+		name: 'CV Compiler',
+		url: 'https://cvcompiler.com/',
+		tags: ['job hunt', 'resume'],
+	},
 ];
 
 app.get('/', (req, res) => {
