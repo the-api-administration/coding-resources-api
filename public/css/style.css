@@ -1,6 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap');
 html {
 	font-family: 'Montserrat', sans-serif;
+	color: #141414;
+}
+
+nav {
+	height: 10rem;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 3rem;
+	background-color: lightgrey;
+}
+
+nav::after {
+	height: 10rem;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 5rem;
+}
+
+button {
+	--color: #141414;
+	position: relative;
+	overflow: hidden;
+	border: 3px solid var(--color);
+	transition: color 0.5s;
+	z-index: 1;
+	font-size: 1.5rem;
+	padding: 1rem;
+	border-radius: 15px;
+	font-weight: 600;
+	color: var(--color);
+}
+
+button:before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	background: var(--color);
+	height: 200px;
+	width: 250px;
+	border-radius: 50%;
+}
+
+button:hover {
+	color: #fff;
+	cursor: pointer;
+}
+
+button:before {
+	top: 100%;
+	left: 100%;
+	transition: all 0.4s;
+}
+
+button:hover:before {
+	top: -32px;
+	left: -30px;
+}
+
+button:active:before {
+	background: #141414;
+	transition: background 0s;
+}
+
+nav > img {
+	height: 100px;
 }
 
 div {
@@ -22,10 +91,6 @@ main > section {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-section > img {
-	width: 70%;
 }
 
 section.description > h1 {
