@@ -4,6 +4,7 @@ const cors = require('cors');
 const PORT = process.env.PORT || 8000;
 app.use(cors());
 app.use(express.static(__dirname + '/public'));
+app.use('/public', express.static(__dirname + '/public'));
 
 const resources = [
 	{
@@ -33,10 +34,10 @@ app.get('/api', (req, res) => {
 
 app.get('/api/:keyword', (req, res) => {
 	const keyword = req.params.keyword.toLowerCase();
-
+  
 	// filter resources array, return items that match query; tag.
 	const matches = resources.filter((obj) => obj.keywords.includes(keyword));
-
+  
 	if (matches.length > 0) {
 		res.json(matches);
 	} else {

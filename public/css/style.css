@@ -1,3 +1,185 @@
-h1 {
-	color: red;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap');
+html * {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Montserrat', sans-serif;
+	color: #141414;
+}
+
+div.frame {
+	padding: 0;
+	margin: 0;
+	border: solid 8px #141414;
+	margin: 2rem;
+	border-radius: 4rem;
+	overflow: hidden;
+}
+
+nav {
+	height: 10rem;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 3rem;
+	background-color: lightgrey;
+}
+
+nav::after {
+	height: 10rem;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 5rem;
+}
+
+nav > img {
+	height: 100px;
+}
+
+button.contributors {
+	--color: #141414;
+	position: relative;
+	overflow: hidden;
+	border: 3px solid var(--color);
+	transition: color 0.5s;
+	z-index: 1;
+	font-size: 1.5rem;
+	padding: 1rem;
+	border-radius: 15px;
+	font-weight: 600;
+	color: var(--color);
+}
+
+button.contributors:before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	background: var(--color);
+	height: 200px;
+	width: 250px;
+	border-radius: 50%;
+}
+
+button.contributors:hover {
+	color: #fff;
+	cursor: pointer;
+}
+
+button.contributors:before {
+	top: 100%;
+	left: 100%;
+	transition: all 0.4s;
+}
+
+button.contributors:hover:before {
+	top: -32px;
+	left: -30px;
+}
+
+button.contributors:active:before {
+	background: #141414;
+	transition: background 0s;
+}
+
+main {
+	display: flex;
+	padding: 2rem;
+}
+
+main > section.description {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+section.description > h1 {
+	width: 70%;
+	font-size: 2.5rem;
+	font-weight: 400;
+	margin: 0;
+}
+
+section.description > h1 > span {
+	font-weight: 800;
+}
+
+section.api-test {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+section.api-test form {
+	width: 100%;
+	height: 3.5rem;
+	display: flex;
+	justify-content: center;
+}
+
+section.api-test form input {
+	width: 65%;
+
+	padding: 0 0;
+	border-radius: 15px 0px 0px 15px;
+	font-size: 0.8rem;
+	padding-left: 1rem;
+	transition: width 500ms ease;
+	border: solid 2px #141414;
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+section.api-test form input::placeholder {
+	font-size: 1rem;
+	color: #afafaf;
+	font-weight: 600;
+}
+
+section.api-test form input:hover {
+	width: 70%;
+}
+
+section.api-test form input:focus {
+	outline: none;
+}
+
+section.api-test form button {
+	width: 10%;
+	background-color: #141414;
+	border: solid 2px #141414;
+	border-radius: 0 15px 15px 0;
+	font-size: 20px;
+}
+section.api-test form button i {
+	color: lightgray;
+	transition: 0.3s;
+}
+section.api-test form button:hover {
+	cursor: pointer;
+}
+
+section.api-test form button:hover > i {
+	color: #fff;
+}
+
+div.result {
+	width: 90%;
+	height: 70%;
+	border: dashed lightgray 2px;
+	border-radius: 25px;
+}
+
+section.documentation {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: lightgray;
 }
