@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap');
-html * {
-	box-sizing: border-box;
-}
+
+/* html */
 
 html {
 	font-family: 'Montserrat', sans-serif;
 	color: #141414;
 }
 
-div.frame {
+	html * {
+		box-sizing: border-box;
+	}
+
+/* frame */
+
+.frame {
 	padding: 0;
 	margin: 0;
 	border: solid 8px #141414;
@@ -16,6 +21,8 @@ div.frame {
 	border-radius: 4rem;
 	overflow: hidden;
 }
+
+/* nav */
 
 nav {
 	height: 10rem;
@@ -27,20 +34,22 @@ nav {
 	background-color: lightgrey;
 }
 
-nav::after {
-	height: 10rem;
-	background-color: transparent;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 0 5rem;
-}
+	nav::after {
+		height: 10rem;
+		background-color: transparent;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 5rem;
+	}
 
-nav > img {
-	height: 100px;
-}
+	nav > img {
+		height: 100px;
+	}
 
-button.contributors {
+/* contributors */
+
+.contributors {
 	--color: #141414;
 	position: relative;
 	overflow: hidden;
@@ -54,61 +63,69 @@ button.contributors {
 	color: var(--color);
 }
 
-button.contributors:before {
-	content: '';
-	position: absolute;
-	z-index: -1;
-	background: var(--color);
-	height: 200px;
-	width: 250px;
-	border-radius: 50%;
-}
+	.contributors:before {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		background: var(--color);
+		height: 200px;
+		width: 250px;
+		border-radius: 50%;
+		top: 100%;
+		left: 100%;
+		transition: all 0.4s;
+	}
 
-button.contributors:hover {
-	color: #fff;
-	cursor: pointer;
-}
+	.contributors:hover {
+		color: #fff;
+		cursor: pointer;
+	}
 
-button.contributors:before {
-	top: 100%;
-	left: 100%;
-	transition: all 0.4s;
-}
+		.contributors:hover:before {
+			top: -32px;
+			left: -30px;
+		}
 
-button.contributors:hover:before {
-	top: -32px;
-	left: -30px;
-}
+		.contributors:active:before {
+			background: #141414;
+			transition: background 0s;
+		}
 
-button.contributors:active:before {
-	background: #141414;
-	transition: background 0s;
-}
+/* main */
 
 main {
 	display: flex;
 	padding: 2rem;
 }
 
-main > section.description {
+/* description */
+
+.description {
 	width: 50%;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
 
-section.description > h1 {
-	width: 70%;
-	font-size: 2.5rem;
-	font-weight: 400;
-	margin: 0;
-}
+	.description > h1 {
+		width: 70%;
+		font-size: 2.5rem;
+		font-weight: 800;
+		margin: 0;
+		display: inline;
+	}
 
-section.description > h1 > span {
-	font-weight: 800;
-}
+	.description > p {
+		font-size: 2.5rem;
+		width: 70%;
+		margin: 1rem 0;
+		display: inline;
+	}
 
-section.api-test {
+/* api-test */
+
+.api-test {
 	width: 50%;
 	display: flex;
 	flex-wrap: wrap;
@@ -117,67 +134,72 @@ section.api-test {
 	align-items: center;
 }
 
-section.api-test form {
-	width: 100%;
-	height: 3.5rem;
-	display: flex;
-	justify-content: center;
-}
+	.api-test form {
+		width: 100%;
+		height: 3.5rem;
+		display: flex;
+		justify-content: center;
+	}
 
-section.api-test form input {
-	width: 65%;
+		.api-test form input {
+			width: 65%;
 
-	padding: 0 0;
-	border-radius: 15px 0px 0px 15px;
-	font-size: 0.8rem;
-	padding-left: 1rem;
-	transition: width 500ms ease;
-	border: solid 2px #141414;
-	font-size: 1rem;
-	font-weight: 600;
-}
+			padding: 0 0;
+			border-radius: 15px 0px 0px 15px;
+			font-size: 0.8rem;
+			padding-left: 1rem;
+			transition: width 500ms ease;
+			border: solid 2px #141414;
+			font-size: 1rem;
+			font-weight: 600;
+		}
 
-section.api-test form input::placeholder {
-	font-size: 1rem;
-	color: #afafaf;
-	font-weight: 600;
-}
+			.api-test form input::placeholder {
+				font-size: 1rem;
+				color: #afafaf;
+				font-weight: 600;
+			}
 
-section.api-test form input:hover {
-	width: 70%;
-}
+			.api-test form input:hover {
+				width: 70%;
+			}
 
-section.api-test form input:focus {
-	outline: none;
-}
+			.api-test form input:focus {
+				outline: none;
+			}
 
-section.api-test form button {
-	width: 10%;
-	background-color: #141414;
-	border: solid 2px #141414;
-	border-radius: 0 15px 15px 0;
-	font-size: 20px;
-}
-section.api-test form button i {
-	color: lightgray;
-	transition: 0.3s;
-}
-section.api-test form button:hover {
-	cursor: pointer;
-}
+		.api-test form button {
+			width: 10%;
+			background-color: #141414;
+			border: solid 2px #141414;
+			border-radius: 0 15px 15px 0;
+			font-size: 20px;
+		}
 
-section.api-test form button:hover > i {
-	color: #fff;
-}
+			.api-test form button i {
+				color: lightgray;
+				transition: 0.3s;
+			}
 
-div.result {
+			.api-test form button:hover {
+				cursor: pointer;
+			}
+
+				.api-test form button:hover > i {
+					color: #fff;
+				}
+/* result */
+
+.result {
 	width: 90%;
 	height: 70%;
 	border: dashed lightgray 2px;
 	border-radius: 25px;
 }
 
-section.documentation {
+/* documentation */
+
+.documentation {
 	display: flex;
 	align-items: center;
 	justify-content: center;
