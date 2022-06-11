@@ -1,55 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Resources API</title>
-        <!-- STYLESHEETS -->
-        <link rel="stylesheet" type="text/css" href="css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        >
-    </head>
-    <body>
-        <div class="frame">
-            <nav>
-                <img src="public/assets/logo.svg" alt="logo">
-                <button class="contributors">Contributors</button>
-            </nav>
-            <main>
-                <section class="description">
-                    <h1>Coding Resources API-</h1>
-                    <p>
-                        Search for coding resources by relevant keywords. This API serves educational content for a wide variety of computer science topics,
-                        languages and technologies relevant to web development.
-                    </p>
-                </section>
-                <section class="api-test">
-                    <form action="">
-                        <input
-                            type="text"
-                            name=""
-                            value=""
-                            placeholder="https://coding-resources-api.herokuapp.com/api/'keyword'"
-                        >
-                        <button type="button">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
-                    </form>
-                    <div class="result">
-                        <!-- JSON RESULT --></div>
-                </section>
-            </main>
-            <section class="documentation">
-                <h1>Documentation</h1>
-            </section>
-        </div>
-    </body>
-    <script src="js/main.js"></script>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Resources API</title>
+		<!-- STYLESHEETS -->
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<div class="frame">
+			<nav>
+				<img src="public/assets/logo.svg" alt="logo" />
+				<button class="contributors">Contributors</button>
+			</nav>
+			<main>
+				<section class="description">
+					<h1>Coding Resources API-</h1>
+					<p>
+						Search for coding resources by relevant keywords. This API serves educational content for a wide variety of computer science topics,
+						languages and technologies relevant to web development.
+					</p>
+				</section>
+				<section class="api-test">
+					<form action="">
+						<input type="submit" name="" value="" placeholder="/api/'keyword'" />
+						<button id="keyword-btn" type="button">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</button>
+					</form>
+					<div class="result"></div>
+				</section>
+			</main>
+			<section class="documentation">
+				<h1>Documentation</h1>
+			</section>
+		</div>
+	</body>
+	<script src="js/main.js"></script>
 </html>
