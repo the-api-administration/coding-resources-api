@@ -69,6 +69,11 @@ const resources = [
 		url: 'https://css-tricks.com/a-complete-guide-to-css-media-queries/',
 		keywords: ['css', 'media queries', 'responsive web design', 'responsive']
 	},
+	{
+		name: 'A Complete Guide to Grid',
+		url: 'https://css-tricks.com/snippets/css/complete-guide-grid/',
+		keywords: ['css', 'css grid', 'grid']
+	}
 ];
 
 exports.resources = resources;
