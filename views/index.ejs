@@ -8,6 +8,10 @@
 			content="width=device-width, initial-scale=1.0"
 		/>
 		<title>Resources API</title>
+
+		<!-- ICON -->
+		<link rel="icon" href="assets/logo.svg" />
+
 		<!-- STYLESHEETS -->
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -38,16 +42,17 @@
 				<section class="api-test">
 					<form action="">
 						<input
-							type="submit"
+							type="text"
 							name=""
 							value=""
 							placeholder="/api/'keyword'"
 						/>
-						<button id="keyword-btn" type="button">
+						<button id="keyword-btn" type="submit">
 							<i class="fa-solid fa-magnifying-glass"></i>
 						</button>
 					</form>
 					<div class="result">
+						<ul id="result-list"></ul>
 					</div>
 				</section>
 			</main>
