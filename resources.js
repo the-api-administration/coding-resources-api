@@ -39,6 +39,11 @@ const resources = [
 		url: 'https://learn.shayhowe.com/html-css/',
 		keywords: ['css', 'html'],
 	},
+	{
+		name: 'JavaScript Arrays: Explain Like I\'m Five',
+		url: 'https://sumudusiriwardana.hashnode.dev/javascript-arrays-explain-like-im-five',
+		keywords: ['arrays', 'basics', 'fundamentals', 'javascript'],
+	},
 ];
 
 exports.resources = resources;
