@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap');
 
+/*
+================= Base Styles =================
+*/
+
+ul {
+	margin: 0;
+	list-style: none;
+}
+
+/*
+================= Additional Styles =================
+*/
+
 /* html */
 
 html {
@@ -130,7 +143,7 @@ main {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 
@@ -192,9 +205,20 @@ main {
 
 .result {
 	width: 90%;
-	height: 70%;
+	height: 300px;
 	border: dashed lightgray 2px;
-	border-radius: 25px;
+	/* border-radius: 25px; */
+	overflow-y:	auto;
+	overflow-x: hidden;
+}
+
+.json {
+	display: block;
+	white-space: pre-wrap;
+}
+
+.indent {
+	padding-left: 1rem;
 }
 
 /* documentation */

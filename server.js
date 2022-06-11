@@ -10,10 +10,14 @@ app.use(express.static(__dirname + '/public'));
 app.use('/public', express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {
-	if (resources) {
-		res.render('index.ejs', { resources });
-	} else {
-		console.error('no resources found');
+	try {
+		if (resources) {
+			res.render('index.ejs', { resources });
+		} else {
+			throw new Error('Resources not found.')
+		}
+	} catch (err) {
+		console.error(err);
 	}
 });
 
@@ -23,14 +27,20 @@ app.get('/api', (req, res) => {
 
 app.get('/api/:keyword', (req, res) => {
 	const keyword = req.params.keyword.toLowerCase();
-
+	
 	// filter resources array, return items that match query; tag.
-	const matches = resources.filter((obj) => obj.keywords.includes(keyword));
+	const matches = resources.filter((obj) => obj.keywords.some(str => str.includes(keyword)));
 
-	if (matches.length > 0) {
-		res.json(matches);
-	} else {
-		throw new Error('Resource not found.');
+	try {
+		// if matches were found, render matches.ejs / response with json else throw error
+		if (matches.length) {
+			res.render('matches.ejs', { matches });
+			res.json(matches);
+		} else {
+			throw new Error('No resources found.');
+		}
+	} catch(err) {
+		console.error(err);
 	}
 });
 

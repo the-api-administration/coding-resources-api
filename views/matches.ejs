@@ -52,19 +52,22 @@
 						</button>
 					</form>
 					<div class="result">
-						<ul id="result-list">
-							<% for(let i = 0; i < resources.length; i++) { %>
-								<li>
-									<pre class="json">
-										<code>{<div class="indent">
-												name: <%= resources[i].name %>,
-												url: <%= resources[i].url %>,
-												keywords: [<%= resources[i].keywords %>]</div>
-											}</code>
-									</pre>
-								</li>
-							<% } %>
-						</ul>
+                        <ul id="result-list">
+                            <% for(let i = 0; i < matches.length; i++) { %>
+                                <li>
+                                    <pre class="json">
+                                        <code>
+                                        {
+                                        <div class="indent">
+                                            name: <%= matches[i].name %>,
+                                            url: <%= matches[i].url %>,
+                                            keywords: [<%= matches[i].keywords %>]
+                                        </div>
+                                        }</code>
+                                    </pre>
+                                </li>
+                            <% } %>
+                        </ul>
 					</div>
 				</section>
 			</main>
