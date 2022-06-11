@@ -73,7 +73,12 @@ const resources = [
 		name: 'A Complete Guide to Grid',
 		url: 'https://css-tricks.com/snippets/css/complete-guide-grid/',
 		keywords: ['css', 'css grid', 'grid']
-	}
+	},
+	{
+		name: 'Objects',
+		url: 'https://javascript.info/object',
+		keywords: ['javascript', 'objects']
+	},
 ];
 
 exports.resources = resources;
