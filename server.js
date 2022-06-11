@@ -34,10 +34,10 @@ app.get('/api', (req, res) => {
 
 app.get('/api/:keyword', (req, res) => {
 	const keyword = req.params.keyword.toLowerCase();
-  
+
 	// filter resources array, return items that match query; tag.
 	const matches = resources.filter((obj) => obj.keywords.includes(keyword));
-  
+
 	if (matches.length > 0) {
 		res.json(matches);
 	} else {
@@ -46,7 +46,5 @@ app.get('/api/:keyword', (req, res) => {
 });
 
 app.listen(PORT, () => {
-	console.log(
-		`The 👨‍🏭 server 🚗 is 🏃‍♀️ running 👡 on ⚓ port 🐹 ${PORT}, 🛒 better 💅 go 😝 catch 🙀 it! 🍟`,
-	);
+	console.log(`The 👨‍🏭 server 🚗 is 🏃‍♀️ running 👡 on ⚓ port 🐹 ${PORT}, 🛒 better 💅 go 😝 catch 🙀 it! 🍟`);
 });

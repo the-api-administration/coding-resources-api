@@ -7,9 +7,9 @@ html {
 	color: #141414;
 }
 
-	html * {
-		box-sizing: border-box;
-	}
+html * {
+	box-sizing: border-box;
+}
 
 /* frame */
 
@@ -34,18 +34,18 @@ nav {
 	background-color: lightgrey;
 }
 
-	nav::after {
-		height: 10rem;
-		background-color: transparent;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		padding: 0 5rem;
-	}
+nav::after {
+	height: 10rem;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 5rem;
+}
 
-	nav > img {
-		height: 100px;
-	}
+nav > img {
+	height: 100px;
+}
 
 /* contributors */
 
@@ -63,33 +63,33 @@ nav {
 	color: var(--color);
 }
 
-	.contributors:before {
-		content: '';
-		position: absolute;
-		z-index: -1;
-		background: var(--color);
-		height: 200px;
-		width: 250px;
-		border-radius: 50%;
-		top: 100%;
-		left: 100%;
-		transition: all 0.4s;
-	}
+.contributors:before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	background: var(--color);
+	height: 200px;
+	width: 250px;
+	border-radius: 50%;
+	top: 100%;
+	left: 100%;
+	transition: all 0.4s;
+}
 
-	.contributors:hover {
-		color: #fff;
-		cursor: pointer;
-	}
+.contributors:hover {
+	color: #fff;
+	cursor: pointer;
+}
 
-		.contributors:hover:before {
-			top: -32px;
-			left: -30px;
-		}
+.contributors:hover:before {
+	top: -32px;
+	left: -30px;
+}
 
-		.contributors:active:before {
-			background: #141414;
-			transition: background 0s;
-		}
+.contributors:active:before {
+	background: #141414;
+	transition: background 0s;
+}
 
 /* main */
 
@@ -108,20 +108,20 @@ main {
 	justify-content: center;
 }
 
-	.description > h1 {
-		width: 70%;
-		font-size: 2.5rem;
-		font-weight: 800;
-		margin: 0;
-		display: inline;
-	}
+.description > h1 {
+	width: 70%;
+	font-size: 2.5rem;
+	font-weight: 800;
+	margin: 0;
+	display: inline;
+}
 
-	.description > p {
-		font-size: 2.5rem;
-		width: 70%;
-		margin: 1rem 0;
-		display: inline;
-	}
+.description > p {
+	font-size: 2.5rem;
+	width: 70%;
+	margin: 1rem 0;
+	display: inline;
+}
 
 /* api-test */
 
@@ -134,60 +134,60 @@ main {
 	align-items: center;
 }
 
-	.api-test form {
-		width: 100%;
-		height: 3.5rem;
-		display: flex;
-		justify-content: center;
-	}
+.api-test form {
+	width: 100%;
+	height: 3.5rem;
+	display: flex;
+	justify-content: center;
+}
 
-		.api-test form input {
-			width: 65%;
+.api-test form input {
+	width: 65%;
 
-			padding: 0 0;
-			border-radius: 15px 0px 0px 15px;
-			font-size: 0.8rem;
-			padding-left: 1rem;
-			transition: width 500ms ease;
-			border: solid 2px #141414;
-			font-size: 1rem;
-			font-weight: 600;
-		}
+	padding: 0 0;
+	border-radius: 15px 0px 0px 15px;
+	font-size: 0.8rem;
+	padding-left: 1rem;
+	transition: width 500ms ease;
+	border: solid 2px #141414;
+	font-size: 1rem;
+	font-weight: 600;
+}
 
-			.api-test form input::placeholder {
-				font-size: 1rem;
-				color: #afafaf;
-				font-weight: 600;
-			}
+.api-test form input::placeholder {
+	font-size: 1rem;
+	color: #afafaf;
+	font-weight: 600;
+}
 
-			.api-test form input:hover {
-				width: 70%;
-			}
+.api-test form input:hover {
+	width: 70%;
+}
 
-			.api-test form input:focus {
-				outline: none;
-			}
+.api-test form input:focus {
+	outline: none;
+}
 
-		.api-test form button {
-			width: 10%;
-			background-color: #141414;
-			border: solid 2px #141414;
-			border-radius: 0 15px 15px 0;
-			font-size: 20px;
-		}
+.api-test form button {
+	width: 10%;
+	background-color: #141414;
+	border: solid 2px #141414;
+	border-radius: 0 15px 15px 0;
+	font-size: 20px;
+}
 
-			.api-test form button i {
-				color: lightgray;
-				transition: 0.3s;
-			}
+.api-test form button i {
+	color: lightgray;
+	transition: 0.3s;
+}
 
-			.api-test form button:hover {
-				cursor: pointer;
-			}
+.api-test form button:hover {
+	cursor: pointer;
+}
 
-				.api-test form button:hover > i {
-					color: #fff;
-				}
+.api-test form button:hover > i {
+	color: #fff;
+}
 /* result */
 
 .result {
