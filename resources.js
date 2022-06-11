@@ -19,6 +19,16 @@ const resources = [
 		url: 'https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods',
 		keywords: ['string methods', 'javascript'],
 	},
+	{
+		name: 'The JavaScript Way',
+		url: 'https://github.com/thejsway/thejsway',
+		keywords: ['javascript'],
+	},
+	{
+		name: 'First Timers Only: Beginner Guide to Open Source',
+		url: 'https://www.firsttimersonly.com/',
+		keywords: ['open source'],
+	},
 ];
 
 exports.resources = resources;
