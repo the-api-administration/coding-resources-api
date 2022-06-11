@@ -3,12 +3,18 @@ const app = express();
 const cors = require('cors');
 const { resources } = require("./resources");
 const PORT = process.env.PORT || 8000;
+
+app.set('view engine', 'ejs')
 app.use(cors());
 app.use(express.static(__dirname + '/public'));
 app.use('/public', express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {
-	res.sendFile(__dirname + '/index.html');
+	if (resources) {
+		res.render('index.ejs', { resources });
+	} else {
+		console.error('no resources found');
+	}
 });
 
 app.get('/api', (req, res) => {

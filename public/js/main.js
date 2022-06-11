@@ -7,6 +7,8 @@ async function fetchResources() {
 	resources = data;
 }
 
-document.getElementById('keyword-btn').addEventListener('click', () => {
+document.getElementById('keyword-btn').addEventListener('click', async () => {
 	const keyword = document.querySelector('input').value;
+	const matches = await resources.filter((obj) => obj.keywords.some(str => str.includes(keyword)));
+	const list = document.getElementById('result-list');
 });
