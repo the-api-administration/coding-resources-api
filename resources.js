@@ -39,6 +39,16 @@ const resources = [
 		url: 'https://learn.shayhowe.com/html-css/',
 		keywords: ['css', 'html'],
 	},
+	{
+		name: 'CSS-Tricks',
+		url: 'https://css-tricks.com/',
+		keywords: ['css'],
+	},
+	{
+		name: 'All About Floats',
+		url: 'https://css-tricks.com/all-about-floats/',
+		keywords: ['css', 'floats']
+	},
 ];
 
 exports.resources = resources;
