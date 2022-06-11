@@ -29,6 +29,16 @@ const resources = [
 		url: 'https://www.firsttimersonly.com/',
 		keywords: ['open source'],
 	},
+	{
+		name: 'A Complete Guide to Flexbox',
+		url: 'https://css-tricks.com/snippets/css/a-guide-to-flexbox/',
+		keywords: ['css', 'flexbox'],
+	},
+	{
+		name: 'Learn to Code HTML & CSS',
+		url: 'https://learn.shayhowe.com/html-css/',
+		keywords: ['css', 'html'],
+	},
 ];
 
 exports.resources = resources;
