@@ -59,6 +59,11 @@ const resources = [
 		url: 'https://medium.com/@zac_heisey/objects-vs-arrays-42601ff79421',
 		keywords: ['arrays', 'basics', 'fundamentals', 'javascript', 'objects'],
 	},
+	{
+		name: 'Flexbex Zombies',
+		url: 'https://mastery.games/flexboxzombies/',
+		keywords: ['css', 'flexbox'],
+	},
 ];
 
 exports.resources = resources;
