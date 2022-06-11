@@ -19,7 +19,7 @@ app.get('/api/:keyword', (req, res) => {
 	const keyword = req.params.keyword.toLowerCase();
 
 	// filter resources array, return items that match query; tag.
-	const matches = resources.filter((obj) => obj.keywords.includes(keyword));
+	const matches = resources.filter((obj) => obj.keywords.some(str => str.includes(keyword)));
 
 	if (matches.length > 0) {
 		res.json(matches);
