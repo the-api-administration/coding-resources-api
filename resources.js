@@ -44,6 +44,11 @@ const resources = [
 		url: 'https://sumudusiriwardana.hashnode.dev/javascript-arrays-explain-like-im-five',
 		keywords: ['arrays', 'basics', 'fundamentals', 'javascript'],
 	},
+	{
+		name: 'Objects vs. Arrays',
+		url: 'https://medium.com/@zac_heisey/objects-vs-arrays-42601ff79421',
+		keywords: ['arrays', 'basics', 'fundamentals', 'javascript', 'objects'],
+	},
 ];
 
 exports.resources = resources;
