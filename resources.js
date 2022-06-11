@@ -64,6 +64,11 @@ const resources = [
 		url: 'https://mastery.games/flexboxzombies/',
 		keywords: ['css', 'flexbox'],
 	},
+	{
+		name: 'A Complete Guide to CSS Media Queries',
+		url: 'https://css-tricks.com/a-complete-guide-to-css-media-queries/',
+		keywords: ['css', 'media queries', 'responsive web design', 'responsive']
+	},
 ];
 
 exports.resources = resources;
