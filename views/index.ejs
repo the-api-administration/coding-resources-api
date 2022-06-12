@@ -47,12 +47,23 @@
 							value=""
 							placeholder="/api/'keyword'"
 						/>
-						<button id="keyword-btn" type="submit">
+						<button id="keyword-btn" type="button">
 							<i class="fa-solid fa-magnifying-glass"></i>
 						</button>
+						<button type="submit" style='display: none;'></button>
 					</form>
 					<div class="result">
-						<ul id="result-list"></ul>
+						<div class='scroll-container'>
+							<ul id="result-list">
+								<% for(let i = 0; i < resources.length; i++) { %>
+									<li>
+										<pre class="json">
+											<code>{<div class="indent"><br>name: <%= resources[i].name %>,<br>url: <%= resources[i].url %>,<br class="middle-br">keywords: [<%= resources[i].keywords.map(keyword => `'${keyword}'`).join(", ") %>]</div><br>}</code>
+										</pre>
+									</li>
+								<% } %>
+							</ul>
+						</div>
 					</div>
 				</section>
 			</main>

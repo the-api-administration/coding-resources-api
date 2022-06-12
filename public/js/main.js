@@ -1,14 +1,31 @@
-let resources;
-fetchResources();
+const btn = document.getElementById('keyword-btn');
+btn.addEventListener('click', getMatches);
 
-async function fetchResources() {
-	const response = await fetch(`/api/`);
-	const data = await response.json();
-	resources = data;
+async function getMatches() {
+	const keyword = document.querySelector('input').value;
+
+	try {
+		const res = await fetch('/api');
+		const data = await res.json();
+		const matches = data.filter(resource => resource.keywords.some(str => str.includes(keyword)));
+		renderMatches(matches);
+	} catch(err) {
+		console.error(err);
+	}
 }
 
-document.getElementById('keyword-btn').addEventListener('click', async () => {
-	const keyword = document.querySelector('input').value;
-	const matches = await resources.filter((obj) => obj.keywords.some(str => str.includes(keyword)));
+function renderMatches(matches) {
 	const list = document.getElementById('result-list');
-});
+	list.innerHTML = '';
+
+	matches.forEach(match => {
+		const li = document.createElement('li');
+
+		li.innerHTML = `
+			<pre class="json"><code>{<div class="indent"><br>name: ${match.name},<br>url: ${match.url},<br class="middle-br">keywords: [${match.keywords.map(keyword => `'${keyword}'`).join(", ")}]</div><br>}</code>
+			</pre>
+		`;
+
+		list.appendChild(li);
+	});
+}
