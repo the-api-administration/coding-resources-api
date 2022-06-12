@@ -1,21 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap');
+
+/*
+================= Base Styles =================
+*/
+
+ul {
+	margin: 0;
+	list-style: none;
+}
+
+.middle-br {
+	margin: .5rem 0;
+}
+
+/*
+================= Additional Styles =================
+*/
+
+/* html */
+
+html {
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(30, 30, 30);
+}
+
 html * {
 	box-sizing: border-box;
 }
 
-html {
-	font-family: 'Montserrat', sans-serif;
-	color: #141414;
-}
+/* frame */
 
-div.frame {
+.frame {
 	padding: 0;
 	margin: 0;
-	border: solid 8px #141414;
+	border: solid 8px rgb(30, 30, 30);
 	margin: 2rem;
 	border-radius: 4rem;
 	overflow: hidden;
 }
+
+/* nav */
 
 nav {
 	height: 10rem;
@@ -40,8 +64,11 @@ nav > img {
 	height: 100px;
 }
 
-button.contributors {
-	--color: #141414;
+/* contributors */
+
+.contributors {
+	--color: rgb(30, 30, 30);
+	background-color: #fff;
 	position: relative;
 	overflow: hidden;
 	border: 3px solid var(--color);
@@ -54,7 +81,7 @@ button.contributors {
 	color: var(--color);
 }
 
-button.contributors:before {
+.contributors:before {
 	content: '';
 	position: absolute;
 	z-index: -1;
@@ -62,122 +89,167 @@ button.contributors:before {
 	height: 200px;
 	width: 250px;
 	border-radius: 50%;
-}
-
-button.contributors:hover {
-	color: #fff;
-	cursor: pointer;
-}
-
-button.contributors:before {
 	top: 100%;
 	left: 100%;
 	transition: all 0.4s;
 }
 
-button.contributors:hover:before {
+.contributors:hover {
+	color: #fff;
+	cursor: pointer;
+}
+
+.contributors:hover:before {
 	top: -32px;
 	left: -30px;
 }
 
-button.contributors:active:before {
-	background: #141414;
+.contributors:active:before {
+	background: rgb(30, 30, 30);
 	transition: background 0s;
 }
+
+/* main */
 
 main {
 	display: flex;
 	padding: 2rem;
 }
 
-main > section.description {
+/* description */
+
+.description {
 	width: 50%;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
 
-section.description > h1 {
+.description > h1 {
 	width: 70%;
 	font-size: 2.5rem;
-	font-weight: 400;
-	margin: 0;
-}
-
-section.description > h1 > span {
 	font-weight: 800;
+	margin: 0;
+	display: inline;
 }
 
-section.api-test {
+.description > p {
+	font-size: 2.5rem;
+	width: 70%;
+	margin: 1rem 0;
+	display: inline;
+}
+
+/* api-test */
+
+.api-test {
 	width: 50%;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 
-section.api-test form {
+.api-test form {
 	width: 100%;
 	height: 3.5rem;
 	display: flex;
 	justify-content: center;
 }
 
-section.api-test form input {
+.api-test form input {
 	width: 65%;
-
 	padding: 0 0;
 	border-radius: 15px 0px 0px 15px;
 	font-size: 0.8rem;
 	padding-left: 1rem;
 	transition: width 500ms ease;
-	border: solid 2px #141414;
+	border: solid 3px rgb(30, 30, 30);
 	font-size: 1rem;
 	font-weight: 600;
 }
 
-section.api-test form input::placeholder {
+.api-test form input::placeholder {
 	font-size: 1rem;
 	color: #afafaf;
 	font-weight: 600;
 }
 
-section.api-test form input:hover {
+.api-test form input:hover {
 	width: 70%;
 }
 
-section.api-test form input:focus {
+.api-test form input:focus {
 	outline: none;
 }
 
-section.api-test form button {
+.api-test form button {
 	width: 10%;
-	background-color: #141414;
-	border: solid 2px #141414;
+	background-color: rgb(30, 30, 30);
+	border: solid 2px rgb(30, 30, 30);
 	border-radius: 0 15px 15px 0;
 	font-size: 20px;
 }
-section.api-test form button i {
+
+.api-test form button i {
 	color: lightgray;
 	transition: 0.3s;
 }
-section.api-test form button:hover {
+
+.api-test form button:hover {
 	cursor: pointer;
 }
 
-section.api-test form button:hover > i {
+.api-test form button:hover > i {
 	color: #fff;
 }
+/* result */
 
-div.result {
+.result {
+	overflow: hidden;
+	border-radius: 25px;
 	width: 90%;
-	height: 70%;
+}
+	
+
+.scroll-container {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	width: 100%;
+	height: 300px;
 	border: dashed lightgray 2px;
 	border-radius: 25px;
 }
 
-section.documentation {
+.scroll-container::-webkit-scrollbar {
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: rgb(177, 177, 177);
+}
+
+.scroll-container::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: #dbdbdb;
+}
+
+.json {
+	display: block;
+	white-space: pre-wrap;
+}
+
+.indent {
+	padding-left: 1rem;
+}
+
+/* documentation */
+
+.documentation {
 	display: flex;
 	align-items: center;
 	justify-content: center;
