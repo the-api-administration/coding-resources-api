@@ -9,6 +9,10 @@ ul {
 	list-style: none;
 }
 
+.middle-br {
+	margin: .5rem 0;
+}
+
 /*
 ================= Additional Styles =================
 */
