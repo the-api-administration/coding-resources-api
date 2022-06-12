@@ -61,7 +61,7 @@
 											{<div class="indent">
 												name: <%= resources[i].name %>,
 												url: <%= resources[i].url %>,
-												keywords: [<%= resources[i].keywords %>]</div>
+												keywords: [<%= resources[i].keywords.map(resource => `'${resource}'`).join(", ") %>]</div>
 											}</code>
 									</pre>
 								</li>
