@@ -58,7 +58,7 @@
 								<% for(let i = 0; i < resources.length; i++) { %>
 									<li>
 										<pre class="json">
-											<code>{<div class="indent"><br>name: <%= resources[i].name %>,<br>url: <%= resources[i].url %>,<br class="middle-br">keywords: [<%= resources[i].keywords.map(resource => `'${resource}'`).join(", ") %>]</div><br>}</code>
+											<code>{<div class="indent"><br>name: <%= resources[i].name %>,<br>url: <%= resources[i].url %>,<br class="middle-br">keywords: [<%= resources[i].keywords.map(keyword => `'${keyword}'`).join(", ") %>]</div><br>}</code>
 										</pre>
 									</li>
 								<% } %>
