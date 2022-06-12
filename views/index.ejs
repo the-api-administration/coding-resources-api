@@ -55,10 +55,13 @@
 					<div class="result">
 						<div class='scroll-container'>
 							<ul id="result-list">
+								<!-- Loop through resources array and render each object to the DOM -->
 								<% for(let i = 0; i < resources.length; i++) { %>
 									<li>
+										<!-- JSON Format for DOM rendering -->
 										<pre class="json">
-											<code>{<div class="indent"><br>name: <%= resources[i].name %>,<br>url: <%= resources[i].url %>,<br class="middle-br">keywords: [<%= resources[i].keywords.map(keyword => `'${keyword}'`).join(", ") %>]</div><br>}</code>
+											<!-- Add indentation, line break and quotes around each key's value -->
+											<code>{<div class="indent"><br>name: '<%= resources[i].name %>',<br>url: '<%= resources[i].url %>',<br class="middle-br">keywords: [<%= resources[i].keywords.map(keyword => `'${keyword}'`).join(", ") %>]</div><br>}</code>
 										</pre>
 									</li>
 								<% } %>

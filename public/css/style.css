@@ -6,6 +6,7 @@
 
 ul {
 	margin: 0;
+	padding: 0 1rem;
 	list-style: none;
 }
 
@@ -212,7 +213,6 @@ main {
 	border-radius: 25px;
 	width: 90%;
 }
-	
 
 .scroll-container {
 	overflow-y: scroll;
