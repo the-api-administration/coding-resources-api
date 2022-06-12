@@ -59,10 +59,8 @@
 								<% for(let i = 0; i < resources.length; i++) { %>
 									<li>
 										<!-- JSON Format for DOM rendering -->
-										<pre class="json">
-											<!-- Add indentation, line break and quotes around each key's value -->
-											<code>{<div class="indent"><br>name: '<%= resources[i].name %>',<br>url: '<%= resources[i].url %>',<br class="middle-br">keywords: [<%= resources[i].keywords.map(keyword => `'${keyword}'`).join(", ") %>]</div><br>}</code>
-										</pre>
+										<!-- Add indentation, line break and quotes around each key's value -->
+										<pre class="json"><code>{<div class="indent"><br>name: '<%= resources[i].name %>',<br>url: <a href=<%= resources[i].url %>>'<%= resources[i].url %>'</a>,<br class="middle-br">keywords: [<%= resources[i].keywords.map(keyword => `'${keyword}'`).join(", ") %>]</div><br>},</code></pre>
 									</li>
 								<% } %>
 							</ul>

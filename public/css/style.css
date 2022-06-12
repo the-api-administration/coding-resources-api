@@ -5,13 +5,13 @@
 */
 
 ul {
-	margin: 0;
-	padding: 0 1rem;
+	margin: 1.5rem 2.5rem;
 	list-style: none;
+	padding: 0;
 }
 
-.middle-br {
-	margin: .5rem 0;
+pre {
+	margin: 0;
 }
 
 /*
@@ -244,7 +244,7 @@ main {
 }
 
 .indent {
-	padding-left: 1rem;
+	padding-left: 2rem;
 }
 
 /* documentation */
