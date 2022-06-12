@@ -245,6 +245,8 @@ main {
 
 .indent {
 	padding-left: 2rem;
+	margin: -1rem auto;
+	line-height: 1.5;
 }
 
 /* documentation */
