@@ -119,7 +119,7 @@ nav > img {
 
 main {
 	display: flex;
-	padding: 2rem;
+	padding: 1.5rem;
 }
 
 /* description */
@@ -133,18 +133,17 @@ main {
 }
 
 .description > h1 {
-	width: 70%;
+	width: 80%;
 	font-size: 2.5rem;
 	font-weight: 800;
 	margin: 0;
-	display: inline;
 }
 
 .description > p {
-	font-size: 2.5rem;
-	width: 70%;
-	margin: 1rem 0;
-	display: inline;
+	font-size: 2rem;
+	width: 80%;
+	margin-top: 1rem;
+	margin-bottom: 0;
 }
 
 /* api-test */
@@ -152,10 +151,9 @@ main {
 .api-test {
 	width: 50%;
 	display: flex;
-	flex-wrap: wrap;
 	flex-direction: column;
-	justify-content: space-around;
 	align-items: center;
+	justify-content: space-around;
 }
 
 .api-test form {
@@ -214,9 +212,15 @@ main {
 /* result */
 
 .result {
+	width: 80%;
 	overflow: hidden;
 	border-radius: 25px;
-	width: 90%;
+}
+
+@media all and (min-width: 1500px) {
+	.result {
+		margin-top: 2rem;
+	}
 }
 
 .scroll-container {
