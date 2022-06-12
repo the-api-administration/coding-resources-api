@@ -354,3 +354,33 @@ table.darkTable #keywords{
 #name, #url, #keywords {
 	border-right: 2px solid lightgray;
 }
+
+.endpoints {
+	margin: 3rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.endpoints h3 {
+	font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 3rem;
+}
+
+.url, .js-fetch {
+	text-align: center;
+}
+
+.url code, .js-fetch code {
+	font-size: 1.2rem;
+	background: #fff;
+	padding: 0.8rem 1.2rem;
+	border-radius: 15px;
+}
+
+.endpoints span {
+	color: #F7BF50;
+	font-weight: 700;
+}
