@@ -2,7 +2,7 @@ const btn = document.getElementById('keyword-btn');
 btn.addEventListener('click', getMatches);
 
 async function getMatches() {
-	const keyword = document.querySelector('input').value;
+	const keyword = document.querySelector('input').value.toLowerCase().trim();
 
 	try {
 		const res = await fetch('/api');
