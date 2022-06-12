@@ -62,7 +62,7 @@
 											<div class="indent">
 												name: <%= matches[i].name %>,
 												url: <%= matches[i].url %>,
-												keywords: [<%= matches[i].keywords %>]
+												keywords: [<%= matches[i].keywords.map(resource => `'${resource}'`).join(", ") %>]
 											</div>
 											}</code>
 										</pre>
