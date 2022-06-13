@@ -114,6 +114,13 @@ const resources = [
 		url: 'https://github.com/alecortega/portfolio-template',
 		keywords: ['markdown', 'frontend', 'documentation']
 	},
+	{
+		name: 'Code Driven Animation Editor',
+		url: 'https://www.timelinecss.io/',
+		keywords: ['css animations', 'css', 'animations', 'editor', 'visuals']
+	},
+
+
 ];
 
 exports.resources = resources;
