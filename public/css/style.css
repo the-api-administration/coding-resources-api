@@ -222,7 +222,7 @@ main {
 	border-radius: 25px;
 }
 
-@media all and (min-width: 1500px) {
+@media all and (min-width: 1280px) {
 	.result {
 		margin-top: 2rem;
 	}
@@ -425,6 +425,18 @@ table.darkTable #keywords{
 	margin: 3rem 15rem;
 	display: flex;
 	flex-direction: row;
+}
+
+@media all and (max-width: 1790px) {
+	.contributors {
+		margin: 3rem 11rem;
+	}
+}
+
+@media all and (max-width: 1440px) {
+	.contributors {
+		margin: 3rem 3rem;
+	}
 }
 
 .contributors .section {
