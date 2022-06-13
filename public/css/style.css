@@ -124,6 +124,7 @@ nav > img {
 main {
 	display: flex;
 	padding: 1.5rem;
+	margin-bottom: 2rem;
 }
 
 /* description */
@@ -266,7 +267,16 @@ main {
 
 .documentation {
 	padding: 3rem;
+	padding-bottom: 2rem;
 	background-color: lightgray;
+}
+
+h4 {
+	font-size: 0.8rem;
+	margin: -1rem;
+	margin-bottom: 1rem;
+	font-weight: 500;
+	padding-left: 2rem;
 }
 
 h2 {
@@ -363,8 +373,8 @@ table.darkTable #keywords{
 
 .endpoints {
 	margin: 3rem 0;
+	gap: 5rem;
 	display: flex;
-	align-items: center;
 	justify-content: space-around;
 }
 
@@ -372,16 +382,30 @@ table.darkTable #keywords{
 	font-size: 1rem;
     font-weight: 500;
     margin: 0;
-    margin-bottom: 3rem;
 }
 
 .url, .js-fetch {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	width: 50%;
+}
+
+.js-fetch h3 {
 	text-align: center;
 }
 
 .url code, .js-fetch code {
 	font-size: 1.2rem;
 	background: #fff;
+	padding: 0.8rem 1.2rem;
+	border-radius: 15px;
+}
+
+.js-fetch code {
+	color: white;
+	font-size: 1.2rem;
+	background: #979797;
 	padding: 0.8rem 1.2rem;
 	border-radius: 15px;
 }
@@ -394,7 +418,7 @@ table.darkTable #keywords{
 /* Contributors */
 
 #contributors-title {
-	margin-top: 3rem;
+	padding-top: 3rem;
 }
 
 .contributors {
