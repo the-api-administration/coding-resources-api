@@ -79,6 +79,11 @@ const resources = [
 		url: 'https://javascript.info/object',
 		keywords: ['javascript', 'objects']
 	},
+	{
+		name: "Crypto Zombies",
+		url: "https://cryptozombies.io",
+		keywords: ["crypto", "web3", "blockchain"]
+	}
 ];
 
 exports.resources = resources;
