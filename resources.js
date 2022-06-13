@@ -79,6 +79,16 @@ const resources = [
 		url: 'https://javascript.info/object',
 		keywords: ['javascript', 'objects']
 	},
+	{
+		name: 'Font Awesome',
+		url: 'https://faicons.com/',
+		keywords: ['icons', 'frontend']
+	},
+	{
+		name: 'Frontend Project README template',
+		url: 'https://github.com/alecortega/portfolio-template',
+		keywords: ['markdown', 'frontend', 'documentation']
+	},
 ];
 
 exports.resources = resources;
