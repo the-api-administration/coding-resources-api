@@ -80,6 +80,21 @@ const resources = [
 		keywords: ['javascript', 'objects']
 	},
 	{
+		name: 'CORS Proxy',
+		url: 'https://codetabs.com/cors-proxy/cors-proxy.html',
+		keywords: ['cors', 'proxy', 'api', 'errors']
+	},
+	{
+		name: 'How to write good commit messages',
+		url: 'https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/',
+		keywords: ['git', 'commit', 'version control', 'command line']
+	},
+	{
+		name: 'Grind 75 questions',
+		url: 'https://www.techinterviewhandbook.org/grind75',
+		keywords: ['interview', 'job search', 'coding challenges', 'leet code']
+	},
+  {
 		name: 'Font Awesome',
 		url: 'https://faicons.com/',
 		keywords: ['icons', 'frontend']
