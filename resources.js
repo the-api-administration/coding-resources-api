@@ -115,6 +115,26 @@ const resources = [
 		keywords: ['markdown', 'frontend', 'documentation']
 	},
 	{
+		name: 'CSS Diner',
+		url: 'https://flukeout.github.io/',
+		keywords: ['css']
+	},
+	{
+		name: 'Flexbox Froggy',
+		url: 'https://flexboxfroggy.com/',
+		keywords: ['css', 'flexbox']
+	},
+	{
+		name: 'Learn Git Branching',
+		url: 'https://learngitbranching.js.org/',
+		keywords: ['git', 'version control']
+	},
+	{
+		name: 'What the Flexbox',
+		url: 'https://flexbox.io/',
+		keywords: ['css', 'flexbox']	
+	},
+	{
 		name: 'Code Driven Animation Editor',
 		url: 'https://www.timelinecss.io/',
 		keywords: ['css animations', 'css', 'animations', 'editor', 'visuals']
@@ -134,6 +154,7 @@ const resources = [
 		url: 'https://undraw.co',
 		keywords: ['open-source illustrations', 'svg', 'images', 'design', 'graphics', 'art', 'vectors', 'minimal', 'free', 'modern', 'png', 'interface', 'open-source']
 	},
+<<<<<<< HEAD
 	{
 		name: 'DevDocs',
 		url: 'https://devdocs.io',
@@ -141,6 +162,8 @@ const resources = [
 	},
 
 
+=======
+>>>>>>> 5e3ce434db88dc0382a19c9104a7f898f263b220
 ];
 
 exports.resources = resources;
