@@ -429,6 +429,7 @@ table.darkTable #keywords{
 	margin: 3rem 15rem;
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 }
 
 @media all and (max-width: 1790px) {
@@ -445,7 +446,7 @@ table.darkTable #keywords{
 
 .contributors .section {
 	padding: 0 2rem;
-	width: 425px;
+	width: 435px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
