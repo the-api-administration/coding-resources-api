@@ -114,6 +114,26 @@ const resources = [
 		url: 'https://github.com/alecortega/portfolio-template',
 		keywords: ['markdown', 'frontend', 'documentation']
 	},
+	{
+		name: 'CSS Diner',
+		url: 'https://flukeout.github.io/',
+		keywords: ['css']
+	},
+	{
+		name: 'Flexbox Froggy',
+		url: 'https://flexboxfroggy.com/',
+		keywords: ['css', 'flexbox']
+	},
+	{
+		name: 'Learn Git Branching',
+		url: 'https://learngitbranching.js.org/',
+		keywords: ['git', 'version control']
+	},
+	{
+		name: 'What the Flexbox',
+		url: 'https://flexbox.io/',
+		keywords: ['css', 'flexbox']	
+	},
 ];
 
 exports.resources = resources;
