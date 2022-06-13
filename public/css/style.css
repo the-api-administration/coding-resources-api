@@ -17,6 +17,11 @@ pre {
 a {
 	font-weight: 700;
 	text-decoration: none;
+	color: #4c8bf5;
+}
+
+a:hover {
+	color: #3670d5;
 }
 
 html {
@@ -222,7 +227,7 @@ main {
 	border-radius: 25px;
 }
 
-@media all and (min-width: 1500px) {
+@media all and (min-width: 1280px) {
 	.result {
 		margin-top: 2rem;
 	}
@@ -310,7 +315,6 @@ table.darkTable {
 	text-align: center;
 	border-collapse: collapse;
 	border-radius: 15px;
-
 }
 
 table.darkTable td, table.darkTable th {
@@ -425,11 +429,24 @@ table.darkTable #keywords{
 	margin: 3rem 15rem;
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
+}
+
+@media all and (max-width: 1790px) {
+	.contributors {
+		margin: 3rem 11rem;
+	}
+}
+
+@media all and (max-width: 1441px) {
+	.contributors {
+		margin: 3rem 3rem;
+	}
 }
 
 .contributors .section {
 	padding: 0 2rem;
-	width: 33.3333%;
+	width: 435px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

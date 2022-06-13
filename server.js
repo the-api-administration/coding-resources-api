@@ -32,7 +32,7 @@ app.get('/api/:keyword', (req, res) => {
 	const matches = resources.filter((obj) => obj.keywords.some(str => str.includes(keyword)));
 
 	try {
-		// if matches were found respond with json else throw error
+		// if matches were found respond with json
 		if (matches.length) {
 			res.json(matches);
 		} else {
