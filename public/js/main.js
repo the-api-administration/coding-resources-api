@@ -1,3 +1,13 @@
+const scrollBtn = document.getElementById('contributors')
+const targetScroll = document.getElementById('contributors-title')
+const elemRect = targetScroll.getBoundingClientRect()
+scrollBtn.addEventListener("click", function () {
+	window.scrollTo({
+		top: elemRect.top,
+		left: 0,
+	});
+});
+
 const btn = document.getElementById('keyword-btn');
 btn.addEventListener('click', getMatches);
 
