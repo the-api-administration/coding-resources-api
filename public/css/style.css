@@ -328,8 +328,8 @@ table.darkTable tr:nth-child(even) {
 }
 
 table.darkTable thead {
-	background: #000000;
-	border-bottom: 3px solid #000000;
+	background: #1E1E1E;
+	border-bottom: 3px solid #1E1E1E;
 
 }
 
@@ -415,7 +415,7 @@ table.darkTable #keywords{
 	font-weight: 700;
 }
 
-/* Contributors */
+/* Contributor cards */
 
 #contributors-title {
 	padding-top: 3rem;
@@ -482,7 +482,9 @@ table.darkTable #keywords{
 	gap: 10px;
 }
 .cont-info h4 {
-	font-size: 1.8rem;
+	color: #7a7a7a;
+	font-size: 1.7rem;
+	font-weight: 700;
 }
 
 .icons {
@@ -569,6 +571,30 @@ table.darkTable #keywords{
 
 #dana i{
 	color: #2de6e2;
+}
+
+/* Footer */
+
+footer {
+	background-color: lightgray;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding-top: 2rem;
+}
+
+footer h2 {
+	font-weight: 500;
+}
+
+footer i {
+	font-size: 2rem;
+}
+
+hr {
+	border: #979797 solid 1px;
+	width: 80% ;
 }
 
 
