@@ -119,6 +119,21 @@ const resources = [
 		url: 'https://www.timelinecss.io/',
 		keywords: ['css animations', 'css', 'animations', 'editor', 'visuals']
 	},
+	{
+		name: 'Simple Icons',
+		url: 'https://simpleicons.org',
+		keywords: ['free', 'svg icons', 'svg', 'icons', 'popular brands']
+	},
+	{
+		name: 'JavaScript Visualizer 9000',
+		url: 'https://www.jsv9000.app',
+		keywords: ['javaScript', 'call stack', 'event loop', 'microtask queue', 'task queue']
+	},
+	{
+		name: 'unDraw',
+		url: 'https://undraw.co',
+		keywords: ['open-source illustrations', 'svg', 'images', 'design', 'graphics', 'art', 'vectors', 'minimal', 'free', 'modern', 'png', 'interface', 'open-source']
+	},
 
 
 ];
