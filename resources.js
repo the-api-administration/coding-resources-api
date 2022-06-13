@@ -154,6 +154,11 @@ const resources = [
 		url: 'https://undraw.co',
 		keywords: ['open-source illustrations', 'svg', 'images', 'design', 'graphics', 'art', 'vectors', 'minimal', 'free', 'modern', 'png', 'interface', 'open-source']
 	},
+	{
+		name: 'Unsplash',
+		url: 'https://unsplash.com/',
+		keywords: ['images', 'photos', 'frontend', 'free', 'photography']
+	},
 ];
 
 exports.resources = resources;
