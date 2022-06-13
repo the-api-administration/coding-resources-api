@@ -80,6 +80,16 @@ const resources = [
 		keywords: ['javascript', 'objects']
 	},
 	{
+		name: 'Crypto Zombies',
+		url: "https://cryptozombies.io",
+		keywords: ["crypto", "web3", "blockchain"]
+	},
+	{
+		name: 'How to make your first pull request on GitHub',
+		url: "https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/",
+		keywords: ["open source", "git"]
+	},
+  {
 		name: 'CORS Proxy',
 		url: 'https://codetabs.com/cors-proxy/cors-proxy.html',
 		keywords: ['cors', 'proxy', 'api', 'errors']
