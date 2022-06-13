@@ -93,7 +93,17 @@ const resources = [
 		name: 'Grind 75 questions',
 		url: 'https://www.techinterviewhandbook.org/grind75',
 		keywords: ['interview', 'job search', 'coding challenges', 'leet code']
-	}
+	},
+  {
+		name: 'Font Awesome',
+		url: 'https://faicons.com/',
+		keywords: ['icons', 'frontend']
+	},
+	{
+		name: 'Frontend Project README template',
+		url: 'https://github.com/alecortega/portfolio-template',
+		keywords: ['markdown', 'frontend', 'documentation']
+	},
 ];
 
 exports.resources = resources;
