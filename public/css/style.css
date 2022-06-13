@@ -17,6 +17,11 @@ pre {
 a {
 	font-weight: 700;
 	text-decoration: none;
+	color: #4c8bf5;
+}
+
+a:hover {
+	color: #3670d5;
 }
 
 html {
@@ -310,7 +315,6 @@ table.darkTable {
 	text-align: center;
 	border-collapse: collapse;
 	border-radius: 15px;
-
 }
 
 table.darkTable td, table.darkTable th {
