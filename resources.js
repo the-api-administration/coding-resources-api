@@ -80,15 +80,40 @@ const resources = [
 		keywords: ['javascript', 'objects']
 	},
 	{
-		name: "Crypto Zombies",
+		name: 'Crypto Zombies',
 		url: "https://cryptozombies.io",
 		keywords: ["crypto", "web3", "blockchain"]
 	},
 	{
-		name: "How to make your first pull request on GitHub",
+		name: 'How to make your first pull request on GitHub',
 		url: "https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/",
 		keywords: ["open source", "git"]
-	}
+	},
+  {
+		name: 'CORS Proxy',
+		url: 'https://codetabs.com/cors-proxy/cors-proxy.html',
+		keywords: ['cors', 'proxy', 'api', 'errors']
+	},
+	{
+		name: 'How to write good commit messages',
+		url: 'https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/',
+		keywords: ['git', 'commit', 'version control', 'command line']
+	},
+	{
+		name: 'Grind 75 questions',
+		url: 'https://www.techinterviewhandbook.org/grind75',
+		keywords: ['interview', 'job search', 'coding challenges', 'leet code']
+	},
+  {
+		name: 'Font Awesome',
+		url: 'https://faicons.com/',
+		keywords: ['icons', 'frontend']
+	},
+	{
+		name: 'Frontend Project README template',
+		url: 'https://github.com/alecortega/portfolio-template',
+		keywords: ['markdown', 'frontend', 'documentation']
+	},
 ];
 
 exports.resources = resources;
