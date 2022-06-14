@@ -200,6 +200,11 @@ const resources = [
 		url: 'https://github.com/poteto/hiring-without-whiteboards',
 		keywords: ['job search', 'interview', 'companies']
 	},
+	{
+		name: 'Eloquent JavaScript',
+		url: 'https://eloquentjavascript.net/',
+		keywords: ['javascript', 'books', 'exercises', 'node', 'browser']
+	},
 ];
 
 exports.resources = resources;
