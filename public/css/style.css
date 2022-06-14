@@ -614,6 +614,10 @@ hr {
 	width: 80% ;
 }
 
+/* MOBILE RESPONSIVESS */
+
+/* Contributors */
+
 @media all and (max-width: 500px) {
     .frame {
         margin: 0;
@@ -624,8 +628,11 @@ hr {
     .contributors {
         width: 100%;
         margin: 0;
+		margin-bottom: 3rem;
         padding: 0;
         flex-direction: column;
+		display: flex;
+		align-items: center;
     }
 
 	.contributors .section {
@@ -640,8 +647,12 @@ hr {
 
     .card {
         width: 350px;
-        padding: 0;
+        padding-left: 1rem;
         margin: 0;
-        margin-top: 1rem;
+        margin-top: 1rem;	
+    }
+
+	.card h4 {
+        font-size: 1.5rem;
     }
 }
