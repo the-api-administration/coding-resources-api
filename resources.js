@@ -190,6 +190,11 @@ const resources = [
 		url: 'https://huemint.com/',
 		keywords: ['color', 'palette', 'color palette', 'color generator', 'hex codes', 'color accents', 'gradients']
 	},
+	{
+		name: 'Hiring Without Whiteboards',
+		url: 'https://github.com/poteto/hiring-without-whiteboards',
+		keywords: ['job search', 'interview', 'companies']
+	},
 ];
 
 exports.resources = resources;
