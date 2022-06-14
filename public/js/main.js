@@ -16,10 +16,6 @@ input.addEventListener('keydown', (e) => {
 		//stop browser from refreshing
 		e.preventDefault()
 		getMatches()
-		//reset search bar to empty
-		document.querySelector('input').value = ''
-		//scroll back to the top
-		scrollContainer.scrollTop = 0
 	}
 });
 
@@ -44,6 +40,10 @@ async function getMatches() {
 	} catch (err) {
 		console.error(err);
 	}
+	//reset search bar to empty
+	document.querySelector('input').value = ''
+	//scroll back to the top
+	scrollContainer.scrollTop = 0
 }
 
 /**
