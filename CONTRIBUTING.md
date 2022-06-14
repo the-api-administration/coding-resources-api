@@ -10,7 +10,7 @@ Contributions are what make the open source community such an amazing place to l
 
 ## Understanding Coding-Resources-API branch structure
 ## Permanent Branches
-### Main
+## Main
 - This branch is reserved for tested versions of our code-base. Do not make a PR directly into this branch, as we require testing before we can confirm any feature.
 
 
