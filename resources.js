@@ -229,6 +229,28 @@ const resources = [
 		url: 'https://tinypng.com',
 		keywords: ['image compressor', 'image', 'fast', 'efficient', 'jpeg', 'png', 'webp', 'smaller images', 'transparent image', 'faster website', 'optimized', 'seo', 'seo ranking', 'lighthouse', 'compression algorithm', 'shrink']
 	},
+	{
+		name: 'Nerdy Data',
+		url: 'https://www.nerdydata.com',
+		keywords: ['search engine', 'source-code', 'tech stack', 'code', 'companies', 'leads', 'integrations', 'api access', 'domain', 'domain lookup', 'seo', 'google analytics', 'images', 'badges', 'websites', 'competitors']
+	},
+	{
+		name: 'Coolors',
+		url: 'https://coolors.co/palettes/trending',
+		keywords: ['color', 'color palettes', 'topics', 'styles', 'hex', 'hex values', 'color schemes', 'color combinations', 'design', 'free', 'css', 'generator']
+	},
+	{
+		name: 'Name Cheap Logo Maker',
+		url: 'https://www.namecheap.com/logo-maker/',
+		keywords: ['logo', 'logo maker', 'free', 'creator', 'business', 'branding']
+	},
+	{
+		name: '',
+		url: '',
+		keywords: ['']
+	},
+
+
 
 
 ];
