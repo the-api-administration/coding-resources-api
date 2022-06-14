@@ -310,6 +310,17 @@ const resources = [
 		url: 'https://www.freepik.com/',
 		keywords: ['vectors', 'illustrations', 'photos', 'templates', 'fonts', 'mockups', 'backgrounds', 'text effects']
 	},
+	{
+		name: 'What to Include in Your Web Design Contract + Free Template',
+		url: 'https://elementor.com/blog/web-design-contract/',
+		keywords: ['freelance', 'contract', 'template', 'web design']
+	},
+	{
+		name: 'Bonsai',
+		url: 'https://www.hellobonsai.com/',
+		keywords: ['freelance', 'contract', 'templates', 'web design', 'accounting', 'invoices', 'business suite' ]
+	},
+	
 	
 			   
 	// 	Resource Format - please follow the styling below.
