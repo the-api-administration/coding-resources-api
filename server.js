@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const { resources } = require("./resources");
+const { response } = require('express');
+const e = require('express');
 const PORT = process.env.PORT || 8000;
 
 app.set('view engine', 'ejs')
@@ -31,15 +33,14 @@ app.get('/api/:keyword', (req, res) => {
 	// filter resources array, return items that match query; tag.
 	const matches = resources.filter((obj) => obj.keywords.some(str => str.includes(keyword)));
 
-	try {
-		// if matches were found respond with json
-		if (matches.length) {
-			res.json(matches);
-		} else {
-			throw new Error('No resources found.');
-		}
-	} catch(err) {
-		console.error(err);
+	// if matches were found, respond with matches array in JSON format
+	if (matches.length) {
+		res.json(matches);
+	} else {
+		// respond with status 404, no matches were found
+		res.status(404).json({
+			error: `No resources were found with the ${keyword} keyword.`
+		});
 	}
 });
 
