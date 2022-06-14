@@ -41,6 +41,11 @@ const resources = [
 		keywords: ['css', 'html'],
 	},
 	{
+		name: 'Learn to Code Advanced HTML & CSS',
+		url: 'https://learn.shayhowe.com/advanced-html-css/',
+		keywords: ['css', 'html', 'advanced'],
+	},
+	{
 		name: 'CSS-Tricks',
 		url: 'https://css-tricks.com/',
 		keywords: ['css'],
