@@ -265,9 +265,24 @@ const resources = [
 		keywords: ['metadata', 'metatags', 'thumbnails', 'social media']
 	},
 	{
-		name: 'Learn CSS Layouts',
-		url: 'https://learnlayout.com/',
-		keywords: ['CSS', 'Layouts', 'HTML', 'display']
+		name: 'HTML Cheat Sheet',
+		url: 'https://htmlcheatsheet.com/',
+		keywords: ['HTML', 'cheat sheet', 'tags']
+	},
+	{
+		name: 'CSS Cheat Sheet',
+		url: 'https://htmlcheatsheet.com/css/',
+		keywords: ['CSS', 'cheat sheet', 'box model', 'selectors', 'color picker']
+	},
+	{
+		name: 'JS "JavaScript" Cheat Sheet',
+		url: 'https://htmlcheatsheet.com/js/',
+		keywords: ['JS', 'Javascript', 'cheat sheet', 'conditionals', 'loops', 'variables', 'dates', 'events', 'functions', 'regex', 'json', 'promises', 'arrays']
+	},
+	{
+		name: 'SEO Cheat Sheet',
+		url: 'https://htmlcheatsheet.com/seo/',
+		keywords: ['SEO', 'cheat sheet']
 	},
 	// 	Resource Format - please follow the styling below.
 	// 	{
