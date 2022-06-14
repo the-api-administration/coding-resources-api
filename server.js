@@ -10,14 +10,13 @@ app.use(express.static(__dirname + '/public'));
 app.use('/public', express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {
-	try {
-		if (resources) {
-			res.render('index.ejs', { resources });
-		} else {
-			throw new Error('Resources not found.')
-		}
-	} catch (err) {
-		console.error(err);
+	if (resources) {
+		res.render('index.ejs', { resources });
+	} else {
+		// respond with status 500 if the resources array could not be loaded from resources.js
+		res.status(500).json({
+			error: 'Resources were not able to be loaded from "resources.js."'
+		});
 	}
 });
 
