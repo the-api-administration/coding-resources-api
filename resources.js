@@ -180,6 +180,11 @@ const resources = [
 		url: 'https://pythontutor.com/visualize.html#mode=edit',
 		keywords: ['code', 'visualize','python', 'javascript', 'c', 'c++', 'javascript', 'java', 'visualize execution', 'coding tutor', 'debug','supplement', 'recursion', 'execution', 'frames', 'objects', 'steps']
 	},
+	{
+		name: 'Dev Locator',
+		url: 'https://dev-locator.netlify.app/',
+		keywords: ['job search', 'networking', 'location', 'git', 'github']
+	},
 ];
 
 exports.resources = resources;
