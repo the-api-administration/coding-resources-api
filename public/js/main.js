@@ -1,3 +1,13 @@
+const scrollBtn = document.getElementById('contributors')
+const targetScroll = document.getElementById('contributors-title')
+const elemRect = targetScroll.getBoundingClientRect()
+scrollBtn.addEventListener("click", function () {
+	window.scrollTo({
+		top: elemRect.top,
+		left: 0,
+	});
+});
+
 const btn = document.getElementById('keyword-btn');
 btn.addEventListener('click', getMatches);
 
@@ -30,14 +40,20 @@ function renderMatches(matches) {
 	list.innerHTML = '';
 
 	// For every match found, render the objects to the DOM in JSON format
-	matches.forEach(match => {
+	if(matches.length > 0) {
+		matches.forEach(match => {
+			const li = document.createElement('li');
+
+			// Create an element that looks like a JSON object for every match
+			li.innerHTML = `
+				<pre class="json"><code>{<div class="indent"><br>name: '${match.name}',<br>url: <a href="${match.url}" target="_blank">'${match.url}',</a><br class="middle-br">keywords: [${match.keywords.map(keyword => `'${keyword}'`).join(", ")}]<br></div>},</code></pre>
+			`;
+
+			list.appendChild(li);
+		});
+	} else {
 		const li = document.createElement('li');
-
-		// Create an element that looks like a JSON object for every match
-		li.innerHTML = `
-			<pre class="json"><code>{<div class="indent"><br>name: '${match.name}',<br>url: <a href="${match.url}" target="_blank">'${match.url}',</a><br class="middle-br">keywords: [${match.keywords.map(keyword => `'${keyword}'`).join(", ")}]<br></div>},</code></pre>
-		`;
-
+		li.innerText = 'No matches were found.';
 		list.appendChild(li);
-	});
+	}
 }
