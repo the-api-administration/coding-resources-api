@@ -13,17 +13,11 @@ input.addEventListener('keydown', (e) => {
 	if (e.key === 'Enter') {
 		//stop browser from refreshing
 		e.preventDefault()
-		searchOnEnterPress()
+		getMatches()
 		//reset search bar to empty
 		document.querySelector('input').value = ''
 	}
 });
-
-function searchOnEnterPress() {
-	//if enter key is pressed, search
-	console.log('focused')
-	getMatches()
-}
 
 
 const btn = document.getElementById('keyword-btn');
