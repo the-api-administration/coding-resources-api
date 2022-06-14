@@ -292,9 +292,15 @@ const resources = [
 	},
 	{
 		name: 'Centering in CSS',
-		url: 'https://ishadeed.com/article/learn-css-centering/#:~:text=To%20center%20an%20inline%20element,is%20text%2Dalign%3A%20center%20.&text=For%20multiple%20inline%20elements%2C%20the,using%20text%2Dalign%3A%20center%20',
-		keywords: ['CSS', 'center', 'align']
+		url: 'https://ishadeed.com/article/learn-css-centering/',
+		keywords: ['CSS', 'center', 'align', 'guide']
 	},
+	{
+		name: 'MeyerWeb',
+		url: 'https://meyerweb.com/',
+		keywords: ['CSS', 'center', 'align', 'guide', 'flexbox', 'tools', 'color blender']
+	},
+			   
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
