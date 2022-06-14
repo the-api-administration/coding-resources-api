@@ -104,7 +104,7 @@ See the [open issues](https://github.com/the-api-administration/coding-resources
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-Please visit: https://github.com/the-api-administration/coding-resources-api/blob/main/CONTRIBUTING.md before making a contribution to our project. Thank you!
+Please visit <a href="https://github.com/the-api-administration/coding-resources-api/blob/main/CONTRIBUTING.md">`CONTRIBUTING.md`</a> to read about our guidelines before making a contribution to our project. Thank you!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
