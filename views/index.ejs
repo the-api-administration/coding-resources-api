@@ -60,7 +60,7 @@
 									<li>
 										<!-- JSON Format for DOM rendering -->
 										<!-- Add indentation, line break and quotes around each key's value -->
-										<pre class="json"><code>{<div class="indent"><br><h2>name: '<%= resources[i].name %>',</h2><br><h3>url: <a href=<%= resources[i].url %> target="_blank">'<%= resources[i].url %>',</a></h3><br class="middle-br"><h5 class="text-truncate">keywords: [<%= resources[i].keywords.map(keyword => `'${keyword}'`).join(", ") %>]</h5><br></div>},</code></pre>
+										<pre class="json"><code>{<div class="indent"><br><h2>name: '<%= resources[i].name %>',</h2><br><h3>url: '<a href=<%= resources[i].url %> target="_blank"><%= resources[i].url %></a>',</h3><br class="middle-br"><h5 class="text-truncate">keywords: [<%= resources[i].keywords.map(keyword => `'${keyword}'`).join(", ") %>]</h5><br></div>},</code></pre>
 									</li>
 								<% } %>
 							</ul>
