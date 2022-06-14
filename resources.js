@@ -8,11 +8,13 @@ const resources = [
 	{
 		name: 'Javascript.info - Arrays',
 		url: 'https://javascript.info/array',
+		description: 'An informative article on arrays',
 		keywords: ['arrays', 'javascript'],
 	},
 	{
 		name: 'Building a Simple CRUD App with Node, Express, and MongoDB',
 		url: 'https://zellwk.com/blog/crud-express-mongodb/',
+		description: 'A comprehensive tutorial on how to build a CRUD app with Node, Express and MongoDB',
 		keywords: ['mongodb', 'express', 'node', 'backend', 'javascript'],
 	},
 	{
