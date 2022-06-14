@@ -213,7 +213,12 @@ const resources = [
 	{
 		name: 'Figma',
 		url: 'https://www.figma.com/',
-		keywords: ['design', 'web design', 'diagram', 'graphics editor', 'vector', 'user interface', 'user experience', 'wireframe', 'mockup']
+		keywords: ['design', 'web design', 'diagram', 'graphics editor', 'vector', 'user interface', 'user experience', 'wireframe', 'mockup', 'frontend']
+	},
+	{
+		name: 'Template Freebies',
+		url: 'https://www.templatefreebies.com/',
+		keywords: ['design', 'web design', 'diagram', 'graphics editor', 'vector', 'user interface', 'user experience', 'wireframe', 'mockup', 'figma', 'frontend', 'templates', 'free']
 	},
 ];
 
