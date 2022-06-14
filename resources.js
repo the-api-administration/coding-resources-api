@@ -325,6 +325,11 @@ const resources = [
 		url: 'https://www.hellosign.com/',
 		keywords: ['electronic signatures', 'contract', 'legally binding' ]
 	},
+	{
+		name: 'Proposify',
+		url: 'https://templates.proposify.com/login',
+		keywords: ['proposals', 'contract', 'templates', 'signatures' ]
+	},
 	
 	
 			   
