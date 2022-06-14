@@ -255,9 +255,9 @@ const resources = [
 		keywords: ['page speed', 'web page', 'speed', 'load time', 'browser request', 'seo', 'optimization']
 	},
 	{
-		name: '',
-		url: '',
-		keywords: ['']
+		name: 'Cloud Convert',
+		url: 'https://cloudconvert.com/jpg-to-webp',
+		keywords: ['jpg', 'webp', 'converter', 'heic', 'formats', 'high-quality', 'api']
 	},
 	{
 		name: '',
