@@ -272,15 +272,19 @@ main {
 
 .indent {
 	padding-left: 2rem;
-	margin-top: -2rem;
-	line-height: 2;
-	font-size: 1em;
+	margin-top: -.8rem;
 }
 
+
 .indent * {
-	line-height: 2;
+	line-height: 1;
 	font-size: 1em;
 	margin: 0;
+	text-align: left;
+	font-weight: 400;
+}
+.indent a {
+	font-weight: 700;
 }
 
 /* documentation */
