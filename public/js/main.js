@@ -39,8 +39,9 @@ function renderMatches(matches) {
 	const list = document.getElementById('result-list');
 	list.innerHTML = '';
 
-	// For every match found, render the objects to the DOM in JSON format
-	if(matches.length > 0) {
+	// If matches exist, render each match to the DOM
+	if(matches.length) {
+		// For every match found, render the objects to the DOM in JSON format
 		matches.forEach(match => {
 			const li = document.createElement('li');
 
@@ -52,6 +53,7 @@ function renderMatches(matches) {
 			list.appendChild(li);
 		});
 	} else {
+		// Display "No matches were found" in result-list <ul> in the DOM
 		const li = document.createElement('li');
 		li.innerText = 'No matches were found.';
 		list.appendChild(li);
