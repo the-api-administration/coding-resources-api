@@ -89,7 +89,7 @@ const resources = [
 		url: "https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/",
 		keywords: ["open source", "git"]
 	},
-  {
+	{
 		name: 'CORS Proxy',
 		url: 'https://codetabs.com/cors-proxy/cors-proxy.html',
 		keywords: ['cors', 'proxy', 'api', 'errors']
@@ -104,7 +104,7 @@ const resources = [
 		url: 'https://www.techinterviewhandbook.org/grind75',
 		keywords: ['interview', 'job search', 'coding challenges', 'leet code']
 	},
-  {
+	{
 		name: 'Font Awesome',
 		url: 'https://faicons.com/',
 		keywords: ['icons', 'frontend']
@@ -132,7 +132,7 @@ const resources = [
 	{
 		name: 'What the Flexbox',
 		url: 'https://flexbox.io/',
-		keywords: ['css', 'flexbox']	
+		keywords: ['css', 'flexbox']
 	},
 	{
 		name: 'Code Driven Animation Editor',
@@ -157,7 +157,7 @@ const resources = [
 	{
 		name: 'DevDocs',
 		url: 'https://devdocs.io',
-		keywords: ['api documentation', 'free', 'open-source', 'developer tools', 'interface', 'offline', 'css', 'html', 'http', 'javascript', 'web apis', 'angular', 'angularjs', 'ansible', 'apache http server', 'apache pig', 'async', 'babel', 'backbone.js','bash', 'bluebird', 'bootstrap', 'bottle', 'bower', 'c', 'c++', 'cakephp', 'chai', 'chef', 'clojure', 'cmake', 'codeception', 'codeceptjs', 'codeigniter', 'coffeescript', 'composer','cordova', 'crystal','cypress','d','d3.js', 'dart', 'deno', 'django', 'django rest framework', 'docker', 'dojo', 'drupal', 'eigen3', 'electron', 'elisp', 'elixir', 'ember.js', 'enzyme', 'erlang', 'esbuild', 'eslint', 'express', 'falcon', 'fish', 'flask', 'flow', 'gcc', 'git', 'gnu fortran', 'gnu make', 'gnucobol','gnuplot', 'go', 'godot', 'graphite', 'groovy', 'grunt', 'gtk', 'handlebars', 'haproxy', 'haskell', 'haxe', 'homebrew', 'i3', 'immutable.js', 'influxdata', 'jasmine', 'jekyll', 'jest', 'jinja', 'jq', 'jquery', 'jquery mobile', 'jquery ui', 'jsdoc', 'julia', 'knockout.js', 'koa', 'kotlin', 'kubectl', 'kubernetes', 'laravel', 'latex', 'leaflet', 'less', 'liquid', 'lodash', 'lua', 'love', 'mariadb', 'marionette.js', 'markdown', 'matplotlib', 'meteor', 'mocha', 'modernizr', 'moment.js', 'mongoose', 'nginx', 'nginx lua module', 'nim', 'nix', 'node.js', 'nokogiri', 'npm', 'numpy', 'ocaml', 'octave', 'openjdk', 'opentsdb', 'padrino', 'pandas', 'perl', 'phalcon', 'phaser', 'phoenix', 'php', 'phpunit', 'pointcloudlibrary', 'pony', 'postgresql', 'prettier', 'pug', 'puppeteer', 'pygame', 'python', 'pytorch', 'q', 'qt', 'r', 'ramda', 'react', 'reactbootstrap', 'react native', 'react router', 'reactivex', 'redis', 'redux', 'relay', 'requirejs', 'rethinkdb', 'ruby', 'ruby minitest', 'ruby on rails', 'rust', 'rxjs', 'saltstack', 'sass', 'scala', 'scikit-image', 'scikit-learn', 'sequelize', 'sinon.js', 'socket.io', 'spring boot', 'sqlite', 'statsmodels', 'support tables', 'svg', 'symfony', 'tailwind css', 'tcl tk', 'tensorflow', 'tensorflow c++', 'terraform' , 'trio', 'twig', 'typescript', 'underscore.js', 'vagrant', 'vite', 'vue router', 'vue.js', 'vuex', 'vulkan', 'web extensions', 'webpack', 'werkzeug', 'wordpress', 'xslt & xpath', 'yarn', 'yii']
+		keywords: ['api documentation', 'free', 'open-source', 'developer tools', 'interface', 'offline', 'css', 'html', 'http', 'javascript', 'web apis', 'angular', 'angularjs', 'ansible', 'apache http server', 'apache pig', 'async', 'babel', 'backbone.js', 'bash', 'bluebird', 'bootstrap', 'bottle', 'bower', 'c', 'c++', 'cakephp', 'chai', 'chef', 'clojure', 'cmake', 'codeception', 'codeceptjs', 'codeigniter', 'coffeescript', 'composer', 'cordova', 'crystal', 'cypress', 'd', 'd3.js', 'dart', 'deno', 'django', 'django rest framework', 'docker', 'dojo', 'drupal', 'eigen3', 'electron', 'elisp', 'elixir', 'ember.js', 'enzyme', 'erlang', 'esbuild', 'eslint', 'express', 'falcon', 'fish', 'flask', 'flow', 'gcc', 'git', 'gnu fortran', 'gnu make', 'gnucobol', 'gnuplot', 'go', 'godot', 'graphite', 'groovy', 'grunt', 'gtk', 'handlebars', 'haproxy', 'haskell', 'haxe', 'homebrew', 'i3', 'immutable.js', 'influxdata', 'jasmine', 'jekyll', 'jest', 'jinja', 'jq', 'jquery', 'jquery mobile', 'jquery ui', 'jsdoc', 'julia', 'knockout.js', 'koa', 'kotlin', 'kubectl', 'kubernetes', 'laravel', 'latex', 'leaflet', 'less', 'liquid', 'lodash', 'lua', 'love', 'mariadb', 'marionette.js', 'markdown', 'matplotlib', 'meteor', 'mocha', 'modernizr', 'moment.js', 'mongoose', 'nginx', 'nginx lua module', 'nim', 'nix', 'node.js', 'nokogiri', 'npm', 'numpy', 'ocaml', 'octave', 'openjdk', 'opentsdb', 'padrino', 'pandas', 'perl', 'phalcon', 'phaser', 'phoenix', 'php', 'phpunit', 'pointcloudlibrary', 'pony', 'postgresql', 'prettier', 'pug', 'puppeteer', 'pygame', 'python', 'pytorch', 'q', 'qt', 'r', 'ramda', 'react', 'reactbootstrap', 'react native', 'react router', 'reactivex', 'redis', 'redux', 'relay', 'requirejs', 'rethinkdb', 'ruby', 'ruby minitest', 'ruby on rails', 'rust', 'rxjs', 'saltstack', 'sass', 'scala', 'scikit-image', 'scikit-learn', 'sequelize', 'sinon.js', 'socket.io', 'spring boot', 'sqlite', 'statsmodels', 'support tables', 'svg', 'symfony', 'tailwind css', 'tcl tk', 'tensorflow', 'tensorflow c++', 'terraform', 'trio', 'twig', 'typescript', 'underscore.js', 'vagrant', 'vite', 'vue router', 'vue.js', 'vuex', 'vulkan', 'web extensions', 'webpack', 'werkzeug', 'wordpress', 'xslt & xpath', 'yarn', 'yii']
 	},
 	{
 		name: 'Picular',
@@ -172,7 +172,7 @@ const resources = [
 	{
 		name: 'Python Tutor: Visualize Code in Python, JavaScript, C, C++, and Java',
 		url: 'https://pythontutor.com/visualize.html#mode=edit',
-		keywords: ['code', 'visualize','python', 'javascript', 'c', 'c++', 'javascript', 'java', 'visualize execution', 'coding tutor', 'debug','supplement', 'recursion', 'execution', 'frames', 'objects', 'steps']
+		keywords: ['code', 'visualize', 'python', 'javascript', 'c', 'c++', 'javascript', 'java', 'visualize execution', 'coding tutor', 'debug', 'supplement', 'recursion', 'execution', 'frames', 'objects', 'steps']
 	},
 	{
 		name: 'Unscreen',
@@ -217,7 +217,7 @@ const resources = [
 	{
 		name: 'Oh My Posh',
 		url: 'https://ohmyposh.dev',
-		keywords: ['theme engine', 'shell', 'color', 'terminal', 'prompt', 'render', 'customizable', 'theme', 'powershell', 'windows', 'macos','linux', 'fonts', 'console', 'full color set', 'prompt string', 'function', 'variable']
+		keywords: ['theme engine', 'shell', 'color', 'terminal', 'prompt', 'render', 'customizable', 'theme', 'powershell', 'windows', 'macos', 'linux', 'fonts', 'console', 'full color set', 'prompt string', 'function', 'variable']
 	},
 	{
 		name: 'Compressor',
@@ -259,11 +259,11 @@ const resources = [
 		url: 'https://cloudconvert.com/jpg-to-webp',
 		keywords: ['jpg', 'webp', 'converter', 'heic', 'formats', 'high-quality', 'api']
 	},
-// 	{
-// 		name: '',
-// 		url: '',
-// 		keywords: ['']
-// 	},
+	// 	{
+	// 		name: '',
+	// 		url: '',
+	// 		keywords: ['']
+	// 	},
 
 
 
