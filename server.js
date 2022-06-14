@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 	} else {
 		// respond with status 500 if the resources array could not be loaded from resources.js
 		res.status(500).json({
-			error: 'Resources were not able to be loaded from "resources.js."'
+			error: 'Resources were not able to be loaded from resources.js.'
 		});
 	}
 });
