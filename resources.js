@@ -298,38 +298,14 @@ const resources = [
 	{
 		name: 'MeyerWeb',
 		url: 'https://meyerweb.com/',
-		keywords: ['CSS', 'center', 'align', 'guide', 'flexbox', 'tools', 'color blender']
-	},
-	{
-		name: 'ShortCut Foo',
-		url: 'https://www.shortcutfoo.com/',
-		keywords: ['game', 'shortcuts', 'vim', 'vscode', 'sublime', 'emacs', 'visual studio', 'excel', 'command line', 'photoshop', 'git']
+		keywords: ['CSS', 'center', 'align', 'flexbox', 'color blender']
 	},
 	{
 		name: 'Free Pik',
 		url: 'https://www.freepik.com/',
-		keywords: ['vectors', 'illustrations', 'photos', 'templates', 'fonts', 'mockups', 'backgrounds', 'text effects']
+		keywords: ['vectors', 'illustrations', 'photos', 'templates', 'fonts', 'mockups', 'backgrounds', 'text effects', 'wireframe']
 	},
-	{
-		name: 'What to Include in Your Web Design Contract + Free Template',
-		url: 'https://elementor.com/blog/web-design-contract/',
-		keywords: ['freelance', 'contract', 'template', 'web design']
-	},
-	{
-		name: 'Bonsai',
-		url: 'https://www.hellobonsai.com/',
-		keywords: ['freelance', 'contract', 'templates', 'web design', 'accounting', 'invoices', 'business suite' ]
-	},
-	{
-		name: 'Hello Sign',
-		url: 'https://www.hellosign.com/',
-		keywords: ['electronic signatures', 'contract', 'legally binding' ]
-	},
-	{
-		name: 'Proposify',
-		url: 'https://templates.proposify.com/login',
-		keywords: ['proposals', 'contract', 'templates', 'signatures' ]
-	},
+
 	
 	
 			   
