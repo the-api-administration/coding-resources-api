@@ -2,8 +2,6 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const { resources } = require("./resources");
-const { response } = require('express');
-const e = require('express');
 const PORT = process.env.PORT || 8000;
 
 app.set('view engine', 'ejs')
