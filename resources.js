@@ -210,6 +210,11 @@ const resources = [
 		url: 'https://www.postman.com/',
 		keywords: ['api', 'api building', 'testing', 'test cases', 'collaborate']
 	},
+	{
+		name: 'Figma',
+		url: 'https://www.figma.com/',
+		keywords: ['design', 'web design', 'diagram', 'graphics editor', 'vector', 'user interface', 'user experience', 'wireframe', 'mockup']
+	},
 ];
 
 exports.resources = resources;
