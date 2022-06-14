@@ -285,6 +285,52 @@ const resources = [
 		url: 'https://htmlcheatsheet.com/seo/',
 		keywords: ['SEO', 'cheat sheet']
 	},
+	{
+		name: '30 Days of Node',
+		url: 'https://www.nodejsera.com/nodejs-tutorial-day1-thebeginning.html',
+		keywords: ['node', 'nodejs']
+	}, 
+	{
+		name: 'John Smilga - React Projects Github Repo',
+		url: 'https://github.com/john-smilga/react-projects', 
+		keywords: ['react', 'reactjs', 'hooks', 'projects', 'tutorial']
+	},
+	{
+		name: 'Traversy Media - Youtube',
+		url: 'https://www.youtube.com/c/TraversyMedia',
+		keywords: ['fullstack', 'nodejs', 'node', 'react', 'reactjs', 'crash course', 'tutorial', 'graphql', 'html', 'css', 'javascript', 'web development', 'python', 'flask']
+	}, 
+	{
+		name: 'Traversy Media - Github',
+		url: 'https://github.com/bradtraversy',
+		keywords: ['fullstack', 'nodejs', 'node', 'react', 'reactjs', 'crash course', 'tutorial', 'graphql', 'html', 'css', 'javascript', 'web development', 'python', 'flask']
+	}, 
+	{
+		name: '50 Projects in 50 Days - HTML, CSS, JS',
+		url: 'https://github.com/bradtraversy/50projects50days',
+		keywords: ['html', 'css', 'javascript', 'js', 'projects', 'tutorial']
+	}, 
+	{
+		name: '10 Hours 10 Projects - Florin Pop', 
+		url: 'https://www.youtube.com/watch?v=dtKciwk_si4&list=PLgBH1CvjOA636I8hnHSyuOnX341XQrBth', 
+		keywords: ['projects', 'tutorial', 'html', 'css', 'js', 'javascript', 'coding challenge']
+	}, 
+	{
+		name: 'The Net Ninja - Youtube', 
+		url: 'https://www.youtube.com/c/TheNetNinja', 
+		keywords: ['web development', 'full stack', 'javascript', 'js', 'nodejs', 'node', 'flutter', 'vue', 'html', 'css', 'typescript', 'react', 'next', 'nextjs', 'laravel']
+	}, 
+	{
+		name: 'w3schools',
+		url: 'https://www.w3schools.com/',
+		keywords: ['html', 'css', 'javascript', 'python', 'sql', 'php', 'java', 'c', 'r', 'kotlin', 'json', 'angularjs', 'sass', 'icons', 'svg', 'canvas', 'pandas', 'git', 'scipy', 'go']
+	}, 
+	{
+		name: 'Web Dev Simplified - Youtube',
+		url: 'https://www.youtube.com/c/WebDevSimplified',
+		keywords: ['web development', 'css', 'html', 'javascript', 'js', 'node', 'nodejs', 'react', 'full stack', 'frontend', 'backend']
+	}
+
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
