@@ -285,6 +285,11 @@ const resources = [
 		url: 'https://htmlcheatsheet.com/seo/',
 		keywords: ['SEO', 'cheat sheet']
 	},
+	{
+		name: 'SEO Guide to Lighthouse Performance Metrics',
+		url: 'https://www.searchenginejournal.com/core-web-vitals/technical-seo-lighthouse/',
+		keywords: ['SEO', 'lighthouse', 'performance', 'metrics']
+	},
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
