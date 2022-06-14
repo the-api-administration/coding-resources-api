@@ -259,15 +259,12 @@ const resources = [
 		url: 'https://cloudconvert.com/jpg-to-webp',
 		keywords: ['jpg', 'webp', 'converter', 'heic', 'formats', 'high-quality', 'api']
 	},
+	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
 	// 		url: '',
 	// 		keywords: ['']
 	// 	},
-
-
-
-
 ];
 
 exports.resources = resources;
