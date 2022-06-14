@@ -185,6 +185,11 @@ const resources = [
 		url: 'https://dev-locator.netlify.app/',
 		keywords: ['job search', 'networking', 'location', 'git', 'github']
 	},
+	{
+		name: 'Hue Mint',
+		url: 'https://huemint.com/',
+		keywords: ['color', 'palette', 'color palette', 'color generator', 'hex codes', 'color accents', 'gradients']
+	},
 ];
 
 exports.resources = resources;
