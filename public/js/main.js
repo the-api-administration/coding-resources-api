@@ -7,7 +7,9 @@ scrollBtn.addEventListener("click", function () {
 		left: 0,
 	});
 });
+
 const input = document.querySelector('input')
+const scrollContainer = document.querySelector('.scroll-container')
 //add event listener for when input is focused
 input.addEventListener('keydown', (e) => {
 	if (e.key === 'Enter') {
@@ -16,6 +18,8 @@ input.addEventListener('keydown', (e) => {
 		getMatches()
 		//reset search bar to empty
 		document.querySelector('input').value = ''
+		//scroll back to the top
+		scrollContainer.scrollTop = 0
 	}
 });
 
