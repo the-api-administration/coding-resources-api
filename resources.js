@@ -305,6 +305,11 @@ const resources = [
 		url: 'https://www.shortcutfoo.com/',
 		keywords: ['game', 'shortcuts', 'vim', 'vscode', 'sublime', 'emacs', 'visual studio', 'excel', 'command line', 'photoshop', 'git']
 	},
+	{
+		name: 'Free Pik',
+		url: 'https://www.freepik.com/',
+		keywords: ['vectors', 'illustrations', 'photos', 'templates', 'fonts', 'mockups', 'backgrounds', 'text effects']
+	},
 	
 			   
 	// 	Resource Format - please follow the styling below.
