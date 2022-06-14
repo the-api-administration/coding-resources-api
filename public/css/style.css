@@ -257,15 +257,39 @@ main {
 	background-color: #dbdbdb;
 }
 
-.json {
-	display: block;
-	white-space: pre-wrap;
+.text-truncate {
+	display: inline-block;
+	max-width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.json,
+code {
+	white-space: pre-line;
+}
+
+.indent h4,
+.indent h5,
+.indent h6 {
+	padding: 0;
 }
 
 .indent {
 	padding-left: 2rem;
-	margin-top: -2rem;
-	line-height: 2;
+}
+
+.indent * {
+	line-height: 1.5; /* If this value is changed, make sure it is atleast 1 to avoid clipping when text wraps */
+	font-size: 1em;
+	margin: 0;
+	text-align: left;
+	font-weight: 400;
+}
+
+.indent a {
+	font-weight: 700;
 }
 
 /* documentation */

@@ -63,7 +63,17 @@ function renderMatches(matches) {
 
 			// Create an element that looks like a JSON object for every match
 			li.innerHTML = `
-				<pre class="json"><code>{<div class="indent"><br>name: '${match.name}',<br>url: <a href="${match.url}" target="_blank">'${match.url}',</a><br class="middle-br">keywords: [${match.keywords.map(keyword => `'${keyword}'`).join(", ")}]<br></div>},</code></pre>
+				<pre class="json">
+					<code>
+						{
+							<div class="indent">
+								<h4>name: ${match.name},</h4>
+								<h5>url: '<a href=${match.url} target="_blank">${match.url}</a>',</h5>
+								<h6 class="text-truncate">keywords: [${match.keywords.map(keyword => `'${keyword}'`).join(", ")}]</h6>
+							</div>
+						},
+					</code>
+				</pre>
 			`;
 
 			list.appendChild(li);
