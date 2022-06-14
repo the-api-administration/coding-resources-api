@@ -205,6 +205,11 @@ const resources = [
 		url: 'https://eloquentjavascript.net/',
 		keywords: ['javascript', 'books', 'exercises', 'node', 'browser']
 	},
+	{
+		name: 'Postman',
+		url: 'https://www.postman.com/',
+		keywords: ['api', 'api building', 'testing', 'test cases', 'collaborate']
+	},
 ];
 
 exports.resources = resources;
