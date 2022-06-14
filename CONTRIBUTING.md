@@ -9,18 +9,18 @@ Contributions are what make the open source community such an amazing place to l
 
 
 ## Understanding Coding-Resources-API branch structure
-## Permanent Branches
-## Main
+### Permanent Branches
+#### Main
 - This branch is reserved for tested versions of our code-base. Do not make a PR directly into this branch, as we require testing before we can confirm any feature.
 
 
 
-## Test
+#### Test
 - This branch is used to test a collection of newly added features, which will eventually become a future iteration of our application after thoroughly testing for bugs and code/guideline consistency. If you are interested in creating your own feature, we suggest that you first open an issue here: https://github.com/the-api-administration/coding-resources-api/issues and wait for our team to respond to your message and approve the implementation. If you are interested in taking responsibility for the implementation, please assign yourself to the issue once you submit it, so that our team can note your interest.
 
 
 
-## Resources
+#### Resources
 - This branch is reserved for adding new resources to our resources.js file. When adding a resource, follow these styling guidelines or we will be unable to address your contribution. 
 
   Resource Addition Guidelines:
