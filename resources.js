@@ -195,19 +195,29 @@ const resources = [
 		keywords: ['terminal', 'gpu', 'crdt', 'rust', 'zsh', 'fish', 'bash', 'modern', 'development', 'code editor', 'writing code', 'code', 'commands', 'selections', 'cursor positioning', 'ai', 'shell commands', 'terminal sharing', 'customize', 'cli', 'command line']
 	},
 	{
-		name: 'uiverse.io',
+		name: 'Uiverse',
 		url: 'https://uiverse.io',
 		keywords: ['ui', 'ui elements', 'open-source', 'free', 'button', 'checkbox', 'toggle', 'switches', 'cards', 'loaders', 'inputs', 'css', 'html', 'hover', 'copy paste', 'cssbuttons']
 	},
 	{
-		name: '',
-		url: '',
-		keywords: ['']
+		name: 'Loaders',
+		url: 'https://cssloaders.github.io',
+		keywords: ['css', 'html', 'loader', 'loaders', 'animations', 'speed', 'simplicity', 'spinners', 'styling', 'pseudo elements', 'website', 'frontend']
 	},
 	{
-		name: '',
-		url: '',
-		keywords: ['']
+		name: 'Postman',
+		url: 'https://www.postman.com',
+		keywords: ['api', 'api platform', 'data', 'api lifecycle', 'collaboration', 'design', 'build', 'test', 'iterate', 'documentation', 'workspace', 'rest api', 'accessibility', 'http requests', 'tracking']
+	},
+	{
+		name: 'Screeps',
+		url: 'https://screeps.com',
+		keywords: ['sandbox', 'game', 'open-source', 'ai', 'programming', 'javascript', 'mmo', 'rts', 'player', 'scripting', 'steam', 'multiplayer', 'strategy game', 'colony', 'resources', 'mine', 'units', 'territory']
+	},
+	{
+		name: 'Oh My Posh',
+		url: 'https://ohmyposh.dev',
+		keywords: ['theme engine', 'shell', 'color', 'terminal', 'prompt', 'render', 'customizable', 'theme', 'powershell', 'windows', 'macos','linux', 'fonts', 'console', 'full color set', 'prompt string', 'function', 'variable']
 	},
 
 
