@@ -175,6 +175,7 @@ const resources = [
 		keywords: ['code', 'visualize','python', 'javascript', 'c', 'c++', 'javascript', 'java', 'visualize execution', 'coding tutor', 'debug','supplement', 'recursion', 'execution', 'frames', 'objects', 'steps']
 	},
 
+
 ];
 
 exports.resources = resources;
