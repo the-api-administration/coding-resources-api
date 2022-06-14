@@ -304,11 +304,7 @@ const resources = [
 		name: 'Free Pik',
 		url: 'https://www.freepik.com/',
 		keywords: ['vectors', 'illustrations', 'photos', 'templates', 'fonts', 'mockups', 'backgrounds', 'text effects', 'wireframe']
-	},
-
-	
-	
-			   
+	},			   
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
