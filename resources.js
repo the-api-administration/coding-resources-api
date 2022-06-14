@@ -300,6 +300,12 @@ const resources = [
 		url: 'https://meyerweb.com/',
 		keywords: ['CSS', 'center', 'align', 'guide', 'flexbox', 'tools', 'color blender']
 	},
+	{
+		name: 'ShortCut Foo',
+		url: 'https://www.shortcutfoo.com/',
+		keywords: ['game', 'shortcuts', 'vim', 'vscode', 'sublime', 'emacs', 'visual studio', 'excel', 'command line', 'photoshop', 'git']
+	},
+	
 			   
 	// 	Resource Format - please follow the styling below.
 	// 	{
