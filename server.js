@@ -2,8 +2,6 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const { resources } = require("./resources");
-const { response } = require('express');
-const e = require('express');
 const PORT = process.env.PORT || 8000;
 
 app.set('view engine', 'ejs')
@@ -31,7 +29,7 @@ app.get('/api/:keyword', (req, res) => {
 	const keyword = req.params.keyword.toLowerCase();
 	
 	// filter resources array, return items that match query; tag.
-	const matches = resources.filter((obj) => obj.keywords.some(str => str.includes(keyword)));
+	const matches = resources.filter((obj) => obj.keywords.some(str => str.toLowerCase().includes(keyword)));
 
 	// if matches were found, respond with matches array in JSON format
 	if (matches.length) {
