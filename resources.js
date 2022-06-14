@@ -264,6 +264,11 @@ const resources = [
 		url: 'https://nickcarmont8.medium.com/how-to-add-a-website-thumbnail-for-sharing-your-html-site-on-social-media-facebook-linkedin-12813f8d2618',
 		keywords: ['metadata', 'metatags', 'thumbnails', 'social media']
 	},
+	{
+		name: 'Learn CSS Layouts',
+		url: 'https://learnlayout.com/',
+		keywords: ['CSS', 'Layouts', 'HTML', 'display']
+	},
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
