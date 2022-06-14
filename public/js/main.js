@@ -8,6 +8,18 @@ scrollBtn.addEventListener("click", function () {
 	});
 });
 
+const input = document.querySelector('input')
+const scrollContainer = document.querySelector('.scroll-container')
+//add event listener for when input is focused
+input.addEventListener('keydown', (e) => {
+	if (e.key === 'Enter') {
+		//stop browser from refreshing
+		e.preventDefault()
+		getMatches()
+	}
+});
+
+
 const btn = document.getElementById('keyword-btn');
 btn.addEventListener('click', getMatches);
 
@@ -28,6 +40,10 @@ async function getMatches() {
 	} catch (err) {
 		console.error(err);
 	}
+	//reset search bar to empty
+	document.querySelector('input').value = ''
+	//scroll back to the top
+	scrollContainer.scrollTop = 0
 }
 
 /**
@@ -40,7 +56,7 @@ function renderMatches(matches) {
 	list.innerHTML = '';
 
 	// For every match found, render the objects to the DOM in JSON format
-	if(matches.length > 0) {
+	if (matches.length > 0) {
 		matches.forEach(match => {
 			const li = document.createElement('li');
 
