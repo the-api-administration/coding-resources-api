@@ -7,6 +7,24 @@ scrollBtn.addEventListener("click", function () {
 		left: 0,
 	});
 });
+const input = document.querySelector('input')
+//add event listener for when input is focused
+input.addEventListener('keydown', (e) => {
+	if (e.key === 'Enter') {
+		//stop browser from refreshing
+		e.preventDefault()
+		searchOnEnterPress()
+		//reset search bar to empty
+		document.querySelector('input').value = ''
+	}
+});
+
+function searchOnEnterPress() {
+	//if enter key is pressed, search
+	console.log('focused')
+	getMatches()
+}
+
 
 const btn = document.getElementById('keyword-btn');
 btn.addEventListener('click', getMatches);
@@ -40,7 +58,7 @@ function renderMatches(matches) {
 	list.innerHTML = '';
 
 	// For every match found, render the objects to the DOM in JSON format
-	if(matches.length > 0) {
+	if (matches.length > 0) {
 		matches.forEach(match => {
 			const li = document.createElement('li');
 
