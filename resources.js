@@ -245,6 +245,21 @@ const resources = [
 		keywords: ['logo', 'logo maker', 'free', 'creator', 'business', 'branding']
 	},
 	{
+		name: 'Unsplash',
+		url: 'https://unsplash.com',
+		keywords: ['images', 'free', 'high-resolution', 'wallpapers', '3d renders', 'textures', 'patterns', 'experimental', 'architecture', 'nature', 'business and work', 'fashion', 'film', 'food', 'drink', 'street photography', 'arts and culture', 'royalty-free', 'stock photo', 'commercial', 'personal projects']
+	},
+	{
+		name: 'Page Speed',
+		url: 'https://pagespeed.web.dev',
+		keywords: ['page speed', 'web page', 'speed', 'load time', 'browser request', 'seo', 'optimization']
+	},
+	{
+		name: '',
+		url: '',
+		keywords: ['']
+	},
+	{
 		name: '',
 		url: '',
 		keywords: ['']
