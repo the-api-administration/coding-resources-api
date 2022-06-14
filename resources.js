@@ -2,6 +2,7 @@ const resources = [
 	{
 		name: 'Oh Shit, Git!',
 		url: 'https://ohshitgit.com/',
+		description: 'A guide to git commands',
 		keywords: ['git', 'version control', 'command line'],
 	},
 	{
@@ -89,7 +90,7 @@ const resources = [
 		url: "https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/",
 		keywords: ["open source", "git"]
 	},
-	{
+  {
 		name: 'CORS Proxy',
 		url: 'https://codetabs.com/cors-proxy/cors-proxy.html',
 		keywords: ['cors', 'proxy', 'api', 'errors']
@@ -104,7 +105,7 @@ const resources = [
 		url: 'https://www.techinterviewhandbook.org/grind75',
 		keywords: ['interview', 'job search', 'coding challenges', 'leet code']
 	},
-	{
+  {
 		name: 'Font Awesome',
 		url: 'https://faicons.com/',
 		keywords: ['icons', 'frontend']
@@ -132,7 +133,7 @@ const resources = [
 	{
 		name: 'What the Flexbox',
 		url: 'https://flexbox.io/',
-		keywords: ['css', 'flexbox']
+		keywords: ['css', 'flexbox']	
 	},
 	{
 		name: 'Code Driven Animation Editor',
@@ -157,7 +158,7 @@ const resources = [
 	{
 		name: 'DevDocs',
 		url: 'https://devdocs.io',
-		keywords: ['api documentation', 'free', 'open-source', 'developer tools', 'interface', 'offline', 'css', 'html', 'http', 'javascript', 'web apis', 'angular', 'angularjs', 'ansible', 'apache http server', 'apache pig', 'async', 'babel', 'backbone.js', 'bash', 'bluebird', 'bootstrap', 'bottle', 'bower', 'c', 'c++', 'cakephp', 'chai', 'chef', 'clojure', 'cmake', 'codeception', 'codeceptjs', 'codeigniter', 'coffeescript', 'composer', 'cordova', 'crystal', 'cypress', 'd', 'd3.js', 'dart', 'deno', 'django', 'django rest framework', 'docker', 'dojo', 'drupal', 'eigen3', 'electron', 'elisp', 'elixir', 'ember.js', 'enzyme', 'erlang', 'esbuild', 'eslint', 'express', 'falcon', 'fish', 'flask', 'flow', 'gcc', 'git', 'gnu fortran', 'gnu make', 'gnucobol', 'gnuplot', 'go', 'godot', 'graphite', 'groovy', 'grunt', 'gtk', 'handlebars', 'haproxy', 'haskell', 'haxe', 'homebrew', 'i3', 'immutable.js', 'influxdata', 'jasmine', 'jekyll', 'jest', 'jinja', 'jq', 'jquery', 'jquery mobile', 'jquery ui', 'jsdoc', 'julia', 'knockout.js', 'koa', 'kotlin', 'kubectl', 'kubernetes', 'laravel', 'latex', 'leaflet', 'less', 'liquid', 'lodash', 'lua', 'love', 'mariadb', 'marionette.js', 'markdown', 'matplotlib', 'meteor', 'mocha', 'modernizr', 'moment.js', 'mongoose', 'nginx', 'nginx lua module', 'nim', 'nix', 'node.js', 'nokogiri', 'npm', 'numpy', 'ocaml', 'octave', 'openjdk', 'opentsdb', 'padrino', 'pandas', 'perl', 'phalcon', 'phaser', 'phoenix', 'php', 'phpunit', 'pointcloudlibrary', 'pony', 'postgresql', 'prettier', 'pug', 'puppeteer', 'pygame', 'python', 'pytorch', 'q', 'qt', 'r', 'ramda', 'react', 'reactbootstrap', 'react native', 'react router', 'reactivex', 'redis', 'redux', 'relay', 'requirejs', 'rethinkdb', 'ruby', 'ruby minitest', 'ruby on rails', 'rust', 'rxjs', 'saltstack', 'sass', 'scala', 'scikit-image', 'scikit-learn', 'sequelize', 'sinon.js', 'socket.io', 'spring boot', 'sqlite', 'statsmodels', 'support tables', 'svg', 'symfony', 'tailwind css', 'tcl tk', 'tensorflow', 'tensorflow c++', 'terraform', 'trio', 'twig', 'typescript', 'underscore.js', 'vagrant', 'vite', 'vue router', 'vue.js', 'vuex', 'vulkan', 'web extensions', 'webpack', 'werkzeug', 'wordpress', 'xslt & xpath', 'yarn', 'yii']
+		keywords: ['api documentation', 'free', 'open-source', 'developer tools', 'interface', 'offline', 'css', 'html', 'http', 'javascript', 'web apis', 'angular', 'angularjs', 'ansible', 'apache http server', 'apache pig', 'async', 'babel', 'backbone.js','bash', 'bluebird', 'bootstrap', 'bottle', 'bower', 'c', 'c++', 'cakephp', 'chai', 'chef', 'clojure', 'cmake', 'codeception', 'codeceptjs', 'codeigniter', 'coffeescript', 'composer','cordova', 'crystal','cypress','d','d3.js', 'dart', 'deno', 'django', 'django rest framework', 'docker', 'dojo', 'drupal', 'eigen3', 'electron', 'elisp', 'elixir', 'ember.js', 'enzyme', 'erlang', 'esbuild', 'eslint', 'express', 'falcon', 'fish', 'flask', 'flow', 'gcc', 'git', 'gnu fortran', 'gnu make', 'gnucobol','gnuplot', 'go', 'godot', 'graphite', 'groovy', 'grunt', 'gtk', 'handlebars', 'haproxy', 'haskell', 'haxe', 'homebrew', 'i3', 'immutable.js', 'influxdata', 'jasmine', 'jekyll', 'jest', 'jinja', 'jq', 'jquery', 'jquery mobile', 'jquery ui', 'jsdoc', 'julia', 'knockout.js', 'koa', 'kotlin', 'kubectl', 'kubernetes', 'laravel', 'latex', 'leaflet', 'less', 'liquid', 'lodash', 'lua', 'love', 'mariadb', 'marionette.js', 'markdown', 'matplotlib', 'meteor', 'mocha', 'modernizr', 'moment.js', 'mongoose', 'nginx', 'nginx lua module', 'nim', 'nix', 'node.js', 'nokogiri', 'npm', 'numpy', 'ocaml', 'octave', 'openjdk', 'opentsdb', 'padrino', 'pandas', 'perl', 'phalcon', 'phaser', 'phoenix', 'php', 'phpunit', 'pointcloudlibrary', 'pony', 'postgresql', 'prettier', 'pug', 'puppeteer', 'pygame', 'python', 'pytorch', 'q', 'qt', 'r', 'ramda', 'react', 'reactbootstrap', 'react native', 'react router', 'reactivex', 'redis', 'redux', 'relay', 'requirejs', 'rethinkdb', 'ruby', 'ruby minitest', 'ruby on rails', 'rust', 'rxjs', 'saltstack', 'sass', 'scala', 'scikit-image', 'scikit-learn', 'sequelize', 'sinon.js', 'socket.io', 'spring boot', 'sqlite', 'statsmodels', 'support tables', 'svg', 'symfony', 'tailwind css', 'tcl tk', 'tensorflow', 'tensorflow c++', 'terraform' , 'trio', 'twig', 'typescript', 'underscore.js', 'vagrant', 'vite', 'vue router', 'vue.js', 'vuex', 'vulkan', 'web extensions', 'webpack', 'werkzeug', 'wordpress', 'xslt & xpath', 'yarn', 'yii']
 	},
 	{
 		name: 'Picular',
@@ -172,7 +173,7 @@ const resources = [
 	{
 		name: 'Python Tutor: Visualize Code in Python, JavaScript, C, C++, and Java',
 		url: 'https://pythontutor.com/visualize.html#mode=edit',
-		keywords: ['code', 'visualize', 'python', 'javascript', 'c', 'c++', 'javascript', 'java', 'visualize execution', 'coding tutor', 'debug', 'supplement', 'recursion', 'execution', 'frames', 'objects', 'steps']
+		keywords: ['code', 'visualize','python', 'javascript', 'c', 'c++', 'javascript', 'java', 'visualize execution', 'coding tutor', 'debug','supplement', 'recursion', 'execution', 'frames', 'objects', 'steps']
 	},
 	{
 		name: 'Unscreen',
@@ -217,7 +218,7 @@ const resources = [
 	{
 		name: 'Oh My Posh',
 		url: 'https://ohmyposh.dev',
-		keywords: ['theme engine', 'shell', 'color', 'terminal', 'prompt', 'render', 'customizable', 'theme', 'powershell', 'windows', 'macos', 'linux', 'fonts', 'console', 'full color set', 'prompt string', 'function', 'variable']
+		keywords: ['theme engine', 'shell', 'color', 'terminal', 'prompt', 'render', 'customizable', 'theme', 'powershell', 'windows', 'macos','linux', 'fonts', 'console', 'full color set', 'prompt string', 'function', 'variable']
 	},
 	{
 		name: 'Compressor',
@@ -259,48 +260,13 @@ const resources = [
 		url: 'https://cloudconvert.com/jpg-to-webp',
 		keywords: ['jpg', 'webp', 'converter', 'heic', 'formats', 'high-quality', 'api']
 	},
+	// {
+	// 	name: '',
+	// 	url: '',
+	//  description: '',
+	// 	keywords: ['']
+	// },
 
-	{
-		name: 'Thumbnails for Social Media "Metatags',
-		url: 'https://nickcarmont8.medium.com/how-to-add-a-website-thumbnail-for-sharing-your-html-site-on-social-media-facebook-linkedin-12813f8d2618',
-		keywords: ['metadata', 'metatags', 'thumbnails', 'social media']
-	},
-	{
-		name: 'HTML Cheat Sheet',
-		url: 'https://htmlcheatsheet.com/',
-		keywords: ['HTML', 'cheat sheet', 'tags']
-	},
-	{
-		name: 'CSS Cheat Sheet',
-		url: 'https://htmlcheatsheet.com/css/',
-		keywords: ['CSS', 'cheat sheet', 'box model', 'selectors', 'color picker']
-	},
-	{
-		name: 'JS "JavaScript" Cheat Sheet',
-		url: 'https://htmlcheatsheet.com/js/',
-		keywords: ['JS', 'Javascript', 'cheat sheet', 'conditionals', 'loops', 'variables', 'dates', 'events', 'functions', 'regex', 'json', 'promises', 'arrays']
-	},
-	{
-		name: 'SEO Cheat Sheet',
-		url: 'https://htmlcheatsheet.com/seo/',
-		keywords: ['SEO', 'cheat sheet']
-	},
-	{
-		name: 'SEO Guide to Lighthouse Performance Metrics',
-		url: 'https://www.searchenginejournal.com/core-web-vitals/technical-seo-lighthouse/',
-		keywords: ['SEO', 'lighthouse', 'performance', 'metrics']
-	},
-	{
-		name: 'Centering in CSS',
-		url: 'https://ishadeed.com/article/learn-css-centering/#:~:text=To%20center%20an%20inline%20element,is%20text%2Dalign%3A%20center%20.&text=For%20multiple%20inline%20elements%2C%20the,using%20text%2Dalign%3A%20center%20',
-		keywords: ['CSS', 'center', 'align']
-	},
-	// 	Resource Format - please follow the styling below.
-	// 	{
-	// 		name: '',
-	// 		url: '',
-	// 		keywords: ['']
-	// 	},
 ];
 
 exports.resources = resources;
