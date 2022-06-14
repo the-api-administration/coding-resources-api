@@ -191,7 +191,7 @@ main {
 	font-weight: 600;
 }
 
-.api-test form input:hover {
+.api-test form input:focus {
 	width: 70%;
 }
 
