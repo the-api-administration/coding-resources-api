@@ -259,6 +259,11 @@ const resources = [
 		url: 'https://cloudconvert.com/jpg-to-webp',
 		keywords: ['jpg', 'webp', 'converter', 'heic', 'formats', 'high-quality', 'api']
 	},
+	{
+		name: 'Thumbnails for Social Media "Metatags',
+		url: 'https://nickcarmont8.medium.com/how-to-add-a-website-thumbnail-for-sharing-your-html-site-on-social-media-facebook-linkedin-12813f8d2618',
+		keywords: ['metadata', 'metatags', 'thumbnails', 'social media']
+	},
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
