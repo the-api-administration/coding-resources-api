@@ -5,6 +5,7 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
+[![Pull Requests][pullrequests-shield]][pullrequests-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
@@ -148,6 +149,8 @@ Distributed under the MIT License. See <a href="https://github.com/the-api-admin
 [forks-url]: https://github.com/the-api-administration/coding-resources-api/network/members
 [stars-shield]: https://img.shields.io/github/stars/the-api-administration/coding-resources-api.svg?style=for-the-badge
 [stars-url]: https://github.com/the-api-administration/coding-resources-api/stargazers
+[pullrequests-shield]: https://img.shields.io/github/issues-pr/the-api-administration/coding-resources-api?color=red&label=Pull%20Requests&style=for-the-badge
+[pullrequests-url]: https://github.com/the-api-administration/coding-resources-api/pulls
 [issues-shield]: https://img.shields.io/github/issues/the-api-administration/coding-resources-api.svg?style=for-the-badge
 [issues-url]: https://github.com/the-api-administration/coding-resources-api/issues
 [license-shield]: https://img.shields.io/github/license/the-api-administration/coding-resources-api.svg?style=for-the-badge
