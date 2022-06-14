@@ -320,6 +320,11 @@ const resources = [
 		url: 'https://www.hellobonsai.com/',
 		keywords: ['freelance', 'contract', 'templates', 'web design', 'accounting', 'invoices', 'business suite' ]
 	},
+	{
+		name: 'Hello Sign',
+		url: 'https://www.hellosign.com/',
+		keywords: ['electronic signatures', 'contract', 'legally binding' ]
+	},
 	
 	
 			   
