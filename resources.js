@@ -1,4 +1,5 @@
 const resources = [
+
 	{
 		name: 'Oh Shit, Git!',
 		url: 'https://ohshitgit.com/',
@@ -89,7 +90,7 @@ const resources = [
 		url: "https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/",
 		keywords: ["open source", "git"]
 	},
-  {
+	{
 		name: 'CORS Proxy',
 		url: 'https://codetabs.com/cors-proxy/cors-proxy.html',
 		keywords: ['cors', 'proxy', 'api', 'errors']
@@ -104,7 +105,7 @@ const resources = [
 		url: 'https://www.techinterviewhandbook.org/grind75',
 		keywords: ['interview', 'job search', 'coding challenges', 'leet code']
 	},
-  {
+	{
 		name: 'Font Awesome',
 		url: 'https://faicons.com/',
 		keywords: ['icons', 'frontend']
@@ -174,8 +175,6 @@ const resources = [
 		url: 'https://pythontutor.com/visualize.html#mode=edit',
 		keywords: ['code', 'visualize','python', 'javascript', 'c', 'c++', 'javascript', 'java', 'visualize execution', 'coding tutor', 'debug','supplement', 'recursion', 'execution', 'frames', 'objects', 'steps']
 	},
-
-
 ];
 
 exports.resources = resources;
