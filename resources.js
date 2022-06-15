@@ -14,17 +14,19 @@ const resources = [
 	{
 		name: 'Building a Simple CRUD App with Node, Express, and MongoDB',
 		url: 'https://zellwk.com/blog/crud-express-mongodb/',
-		description: 'A comprehensive tutorial on how to build a CRUD app with Node, Express and MongoDB',
+		description: 'A comprehensive tutorial on how to build a CRUD app that lets you track a list of quotes from Star Wars characters using Node, Express and MongoDB ',
 		keywords: ['mongodb', 'express', 'node', 'backend', 'javascript'],
 	},
 	{
 		name: 'Useful string methods',
 		url: 'https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods',
+		description: 'An article on the useful operations that can be done on strings with built-in methods',
 		keywords: ['string methods', 'javascript'],
 	},
 	{
 		name: 'The JavaScript Way',
 		url: 'https://github.com/thejsway/thejsway',
+		description: 'A book that aims to be a useful companion for anyone wishing to (re)discover the many facets of JavaScript',
 		keywords: ['javascript'],
 	},
 	{
