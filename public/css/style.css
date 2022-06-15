@@ -456,18 +456,6 @@ table.darkTable #keywords{
 	justify-content: center;
 }
 
-@media all and (max-width: 1790px) {
-	.contributors {
-		margin: 3rem 11rem;
-	}
-}
-
-@media all and (max-width: 1441px) {
-	.contributors {
-		margin: 3rem 3rem;
-	}
-}
-
 .contributors .section {
 	padding: 0 2rem;
 	width: 435px;
@@ -492,7 +480,7 @@ table.darkTable #keywords{
 	gap: 25px;
 	position: relative;
 	z-index: 2;
-	padding: 0 1.3rem;
+	padding-left: 1.3rem;
 }
 
 .card::after {
@@ -642,7 +630,54 @@ hr {
 
 /* Contributors */
 
-@media all and (max-width: 500px) {
+@media all and (min-width: 1px) and (max-width: 319px) {
+    .frame {
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .contributors {
+        width: 100%;
+        margin: 0;
+		margin-bottom: 3rem;
+        padding: 0;
+        flex-direction: column;
+		display: flex;
+		align-items: center;
+		gap: 15px;
+    }
+
+	.contributors .section {
+		padding: 0 2rem;
+		gap: 20px;
+	}
+	
+	.card {
+		height: 120px;
+		width: 70%;
+		padding-left: 0.8rem;
+		margin: 0;
+		gap: 15px;
+	}
+	
+	.card img {
+		height: 80px;
+		width: 80px;
+	}
+	
+	.cont-info h4 {
+		font-size: 1.2rem;
+	}
+	
+	
+	.icons {
+		gap: 1rem;
+		font-size: 1.5rem;
+	}
+}
+
+@media all and (min-width: 320px) and (max-width: 1024px) {
     .frame {
         margin: 0;
         padding: 0;
@@ -679,4 +714,73 @@ hr {
 	.card h4 {
         font-size: 1.5rem;
     }
+}
+
+@media all and (min-width: 1025px) and (max-width: 1180px) {
+
+	#contributors-title {
+		padding-top: 3rem;
+	}
+	
+	.contributors {
+		margin: 3rem 0rem;	
+	}
+
+	.contributors .section {
+		padding: 0 2rem;
+		gap: 20px;
+	}
+	
+	.card {
+		height: 120px;
+		padding-left: 0.8rem;
+		margin: 0;
+		gap: 15px;
+	}
+	
+	.card img {
+		height: 80px;
+		width: 80px;
+	}
+	
+	.cont-info h4 {
+		font-size: 1.2rem;
+	}
+	
+	
+	.icons {
+		gap: 1rem;
+		font-size: 1.5rem;
+	}
+
+}
+
+@media all and (min-width: 1181px){
+
+	#contributors-title {
+		padding-top: 3rem;
+	}
+	
+	.contributors {
+		margin: 3rem 0rem;	
+	}
+
+	.contributors .section {
+		padding: 0 2rem;
+		width: 380px;
+	}
+	
+	.card {
+		padding-left: 0.8rem;
+	}
+
+	.cont-info h4 {
+		font-size: 1.3rem;
+	}
+	
+	.icons {
+		gap: 1rem;
+		font-size: 1.5rem;
+	}
+
 }
