@@ -32,21 +32,25 @@ const resources = [
 	{
 		name: 'First Timers Only: Beginner Guide to Open Source',
 		url: 'https://www.firsttimersonly.com/',
-		keywords: ['open source'],
+		description: 'Friendly open source projects for code-newbies',
+		keywords: ['open source', 'code newbies'],
 	},
 	{
 		name: 'A Complete Guide to Flexbox',
 		url: 'https://css-tricks.com/snippets/css/a-guide-to-flexbox/',
-		keywords: ['css', 'flexbox'],
+		description: 'A complete guide that explains everything about flexbox, focusing on all the different possible properties for the parent element (the flex container) and the child elements (the flex items). It also includes history, demos, patterns, and a browser support chart',
+		keywords: ['css', 'flexbox', 'properties', 'parent element', 'child element', 'flex items'],
 	},
 	{
 		name: 'Learn to Code HTML & CSS',
 		url: 'https://learn.shayhowe.com/html-css/',
-		keywords: ['css', 'html'],
+		description: 'Learn to Code HTML & CSS is a simple and comprehensive guide dedicated to helping beginners learn HTML and CSS. Outlining the fundamentals, this guide works through all common elements of front-end design and development',
+		keywords: ['css', 'html', 'shay howe'],
 	},
 	{
 		name: 'CSS-Tricks',
 		url: 'https://css-tricks.com/',
+		description: '',
 		keywords: ['css'],
 	},
 	{
