@@ -50,22 +50,25 @@ const resources = [
 	{
 		name: 'CSS-Tricks',
 		url: 'https://css-tricks.com/',
-		description: '',
+		description: 'Daily articles about CSS, HTML, JavaScript, and all things related to web design and development.',
 		keywords: ['css'],
 	},
 	{
 		name: 'All About Floats',
 		url: 'https://css-tricks.com/all-about-floats/',
+		description: 'An article about float concepts',
 		keywords: ['css', 'floats']
 	},
 	{
 		name: 'JavaScript Arrays: Explain Like I\'m Five',
 		url: 'https://sumudusiriwardana.hashnode.dev/javascript-arrays-explain-like-im-five',
-		keywords: ['arrays', 'basics', 'fundamentals', 'javascript'],
+		description: 'A hashnode blog article that explains the basics of arrays and array methods',
+		keywords: ['arrays', 'methods', 'basics', 'fundamentals', 'javascript'],
 	},
 	{
 		name: 'Objects vs. Arrays',
 		url: 'https://medium.com/@zac_heisey/objects-vs-arrays-42601ff79421',
+		description: 'An article explaining the basic differences between objects and arrays',
 		keywords: ['arrays', 'basics', 'fundamentals', 'javascript', 'objects'],
 	},
 	{
