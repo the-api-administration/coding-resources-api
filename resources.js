@@ -285,6 +285,16 @@ const resources = [
 		url: 'https://htmlcheatsheet.com/seo/',
 		keywords: ['SEO', 'cheat sheet']
 	},
+	{
+		name: 'SEO Guide to Lighthouse Performance Metrics',
+		url: 'https://www.searchenginejournal.com/core-web-vitals/technical-seo-lighthouse/',
+		keywords: ['SEO', 'lighthouse', 'performance', 'metrics']
+	},
+	{
+		name: 'Centering in CSS',
+		url: 'https://ishadeed.com/article/learn-css-centering/#:~:text=To%20center%20an%20inline%20element,is%20text%2Dalign%3A%20center%20.&text=For%20multiple%20inline%20elements%2C%20the,using%20text%2Dalign%3A%20center%20',
+		keywords: ['CSS', 'center', 'align']
+	},
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
