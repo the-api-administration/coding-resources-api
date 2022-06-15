@@ -285,6 +285,26 @@ const resources = [
 		url: 'https://htmlcheatsheet.com/seo/',
 		keywords: ['SEO', 'cheat sheet']
 	},
+	  {
+    name: "CSS Reference",
+    url: "https://cssreference.io/",
+    keywords: ["cssreference", "css", "css help", "visual css help", "css examples", "css visual guide", "css properties"],
+  },
+  {
+    name: "BG Jar - Free SVG Background Generator",
+    url: "https://bgjar.com/",
+    keywords: ["free svg background generator", "svg", "free", "svg background", "css background", "background image"],
+  },
+  {
+    name: "Neumorphism",
+    url: "https://neumorphism.io/#e0e0e0",
+    keywords: ["box-shadow", "css box-shadow", "boxshadow", "css shape generator", "css ui code generator"],
+  },
+  {
+    name: "Get Waves!",
+    url: "https://getwaves.io/",
+    keywords: ["free svg wave generator", "svg wave", "svg", "css background", "css", "design"],
+  },
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
