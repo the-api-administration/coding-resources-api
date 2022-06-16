@@ -110,11 +110,13 @@ const resources = [
   {
 		name: 'CORS Proxy',
 		url: 'https://codetabs.com/cors-proxy/cors-proxy.html',
+		description: 'A CORS proxy is a service that allows developers (probably you) to access resources from other websites, without having to own that website. Be careful when you use them! (Jacob).',
 		keywords: ['cors', 'proxy', 'api', 'errors']
 	},
 	{
 		name: 'How to write good commit messages',
 		url: 'https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/',
+		description: '',
 		keywords: ['git', 'commit', 'version control', 'command line']
 	},
 	{
