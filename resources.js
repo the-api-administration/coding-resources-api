@@ -212,21 +212,25 @@ const resources = [
 	{
 		name: 'Unscreen',
 		url: 'https://www.unscreen.com',
-		keywords: ['remove video background', 'video', 'background', 'free', 'hd', 'no watermark', 'api plugins', 'plugins', 'clips', 'video file', 'audio', 'gif', 'presentation', 'remove', '.mp4', '.mov', '.gif', 'url', 'footage', 'record', 'video editing']
+		description:'100% automatic and free video background remover',
+		keywords: ['remove video background', 'free', 'hd', 'no watermark', 'api plugins', 'plugins', 'clips', 'video file', 'audio', 'gif', 'presentation', 'remove', '.mp4', '.mov', '.gif', 'url', 'footage', 'record', 'video editing']
 	},
 	{
 		name: 'Quicktools by Picsart',
 		url: 'https://tools.picsart.com/image/background-remover/',
+		description: 'Tool to remove backgrounds of images',
 		keywords: ['remove', 'background remover', 'image', 'picture', 'transparent', 'ai', 'free', 'refine', 'backgrounds', 'shadows', 'borders']
 	},
 	{
 		name: 'Squoosh',
 		url: 'https://squoosh.app',
+		description: 'Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.',
 		keywords: ['compress image', 'reduce file size', 'reduce', 'high quality', 'image', 'smaller file', 'file size', 'privacy', 'image optimizer', 'compress', 'codecs', 'resize', 'convert image', 'convert', 'free', 'open-source', 'pixels', 'real-time', 'jpg', 'png', 'webp', 'avif']
 	},
 	{
 		name: 'Warp',
 		url: 'https://www.warp.dev',
+		description: 'Warp is a fully native, GPU-accelerated, Rust-based terminal. No Electron or web-tech. 60fps on 4K screens. Along the way, we built our own UI framework, our own Rust-based CRDT editor and our own graphics shaders.',
 		keywords: ['terminal', 'gpu', 'crdt', 'rust', 'zsh', 'fish', 'bash', 'modern', 'development', 'code editor', 'writing code', 'code', 'commands', 'selections', 'cursor positioning', 'ai', 'shell commands', 'terminal sharing', 'customize', 'cli', 'command line']
 	},
 	{
