@@ -122,28 +122,32 @@ const resources = [
 	{
 		name: 'Grind 75 questions',
 		url: 'https://www.techinterviewhandbook.org/grind75',
-		description: '',
+		description: 'Grind 75 is a better version of Blind 75 which goes beyond 75 questions. You can customize the available time you have, difficulty, topics, etc.',
 		keywords: ['interview', 'job search', 'coding challenges', 'leet code']
 	},
   {
 		name: 'Font Awesome',
 		url: 'https://faicons.com/',
+		description: 'Font Awesome is the Internet\'s icon library and toolkit, used by millions of designers, developers, and content creators.',
 		keywords: ['icons', 'frontend']
 	},
 	{
 		name: 'Frontend Project README template',
 		url: 'https://github.com/alecortega/portfolio-template',
+		description: 'A template to get started with your next portfolio README',
 		keywords: ['markdown', 'frontend', 'documentation']
 	},
 	{
 		name: 'CSS Diner',
 		url: 'https://flukeout.github.io/',
-		keywords: ['css']
+		description: 'A fun game to learn and practice CSS Selectors! Selectors are how you pick which element to apply styles to.',
+		keywords: ['css', 'game', 'selectors']
 	},
 	{
 		name: 'Flexbox Froggy',
 		url: 'https://flexboxfroggy.com/',
-		keywords: ['css', 'flexbox']
+		description: 'Flexbox Froggy is a game for learning CSS flexbox. It is a fun way to learn how to format web content.',
+		keywords: ['css', 'flexbox', 'game']
 	},
 	{
 		name: 'Learn Git Branching',
