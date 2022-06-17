@@ -254,36 +254,43 @@ const resources = [
 	{
 		name: 'Screeps',
 		url: 'https://screeps.com',
+		description: 'Screeps World is an open source MMO RTS sandbox game for programming enthusiasts, wherein the core mechanic is programming your units AI. You control your colony by writing JavaScript which operates 24/7 in the single persistent open world filled by other players on par with you.',
 		keywords: ['sandbox', 'game', 'open-source', 'ai', 'programming', 'javascript', 'mmo', 'rts', 'player', 'scripting', 'steam', 'multiplayer', 'strategy game', 'colony', 'resources', 'mine', 'units', 'territory']
 	},
 	{
 		name: 'Oh My Posh',
 		url: 'https://ohmyposh.dev',
+		description: 'Oh My Posh is a custom prompt engine for any shell that has the ability to adjust the prompt string with a function or variable.',
 		keywords: ['theme engine', 'shell', 'color', 'terminal', 'prompt', 'render', 'customizable', 'theme', 'powershell', 'windows', 'macos','linux', 'fonts', 'console', 'full color set', 'prompt string', 'function', 'variable']
 	},
 	{
 		name: 'Compressor',
 		url: 'https://compressor.io',
+		description: 'Optimize and compress JPEG, PNG, SVG, GIF and WEBP images online. Compress, resize and rename your photos for free.',
 		keywords: ['image compressor', 'image', 'fast', 'efficient', 'jpeg', 'png', 'svg', 'gif', 'webp', 'smaller images', 'faster website', 'optimized', 'seo', 'seo ranking', 'lighthouse', 'compression algorithm', 'shrink']
 	},
 	{
 		name: 'tiny png',
 		url: 'https://tinypng.com',
+		description: 'TinyJPG reduces the file size of your JPEG images. Every uploaded image is analyzed to apply the best possible JPEG encoding. Based on the content of your image an optimal strategy is chosen. The result is a quality image without wasting storage or bandwidth!',
 		keywords: ['image compressor', 'image', 'fast', 'efficient', 'jpeg', 'png', 'webp', 'smaller images', 'transparent image', 'faster website', 'optimized', 'seo', 'seo ranking', 'lighthouse', 'compression algorithm', 'shrink']
 	},
 	{
 		name: 'Nerdy Data',
 		url: 'https://www.nerdydata.com',
+		description: 'NerdyData is a search engine for code. So you can plop in a bit of code from your website (ex: a Facebook tracking pixel snippet) and find all of the other sites on the internet that have that code on their website.',
 		keywords: ['search engine', 'source-code', 'tech stack', 'code', 'companies', 'leads', 'integrations', 'api access', 'domain', 'domain lookup', 'seo', 'google analytics', 'images', 'badges', 'websites', 'competitors']
 	},
 	{
 		name: 'Coolors',
 		url: 'https://coolors.co/palettes/trending',
-		keywords: ['color', 'color palettes', 'topics', 'styles', 'hex', 'hex values', 'color schemes', 'color combinations', 'design', 'free', 'css', 'generator']
+		description: 'Get inspired by thousands of beautiful color schemes and make something cool',
+		keywords: ['color palettes', 'styles', 'hex values', 'color schemes', 'color combinations', 'design', 'free', 'css', 'generator']
 	},
 	{
 		name: 'Name Cheap Logo Maker',
 		url: 'https://www.namecheap.com/logo-maker/',
+		description: '',
 		keywords: ['logo', 'logo maker', 'free', 'creator', 'business', 'branding']
 	},
 	{
