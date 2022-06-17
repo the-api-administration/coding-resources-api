@@ -116,12 +116,13 @@ const resources = [
 	{
 		name: 'How to write good commit messages',
 		url: 'https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/',
-		description: '',
+		description: 'An article on how to create a useful revision history by creating an agreed upon commit message convention to use. This applies to both personal and professional projects.',
 		keywords: ['git', 'commit', 'version control', 'command line']
 	},
 	{
 		name: 'Grind 75 questions',
 		url: 'https://www.techinterviewhandbook.org/grind75',
+		description: '',
 		keywords: ['interview', 'job search', 'coding challenges', 'leet code']
 	},
   {
@@ -279,13 +280,47 @@ const resources = [
 		url: 'https://cloudconvert.com/jpg-to-webp',
 		keywords: ['jpg', 'webp', 'converter', 'heic', 'formats', 'high-quality', 'api']
 	},
-	// {
-	// 	name: '',
-	// 	url: '',
-	//  description: '',
-	// 	keywords: ['']
-	// },
-
+	{
+		name: 'Thumbnails for Social Media "Metatags',
+		url: 'https://nickcarmont8.medium.com/how-to-add-a-website-thumbnail-for-sharing-your-html-site-on-social-media-facebook-linkedin-12813f8d2618',
+		keywords: ['metadata', 'metatags', 'thumbnails', 'social media']
+	},
+	{
+		name: 'HTML Cheat Sheet',
+		url: 'https://htmlcheatsheet.com/',
+		keywords: ['HTML', 'cheat sheet', 'tags']
+	},
+	{
+		name: 'CSS Cheat Sheet',
+		url: 'https://htmlcheatsheet.com/css/',
+		keywords: ['CSS', 'cheat sheet', 'box model', 'selectors', 'color picker']
+	},
+	{
+		name: 'JS "JavaScript" Cheat Sheet',
+		url: 'https://htmlcheatsheet.com/js/',
+		keywords: ['JS', 'Javascript', 'cheat sheet', 'conditionals', 'loops', 'variables', 'dates', 'events', 'functions', 'regex', 'json', 'promises', 'arrays']
+	},
+	{
+		name: 'SEO Cheat Sheet',
+		url: 'https://htmlcheatsheet.com/seo/',
+		keywords: ['SEO', 'cheat sheet']
+	},
+	{
+		name: 'SEO Guide to Lighthouse Performance Metrics',
+		url: 'https://www.searchenginejournal.com/core-web-vitals/technical-seo-lighthouse/',
+		keywords: ['SEO', 'lighthouse', 'performance', 'metrics']
+	},
+	{
+		name: 'Centering in CSS',
+		url: 'https://ishadeed.com/article/learn-css-centering/#:~:text=To%20center%20an%20inline%20element,is%20text%2Dalign%3A%20center%20.&text=For%20multiple%20inline%20elements%2C%20the,using%20text%2Dalign%3A%20center%20',
+		keywords: ['CSS', 'center', 'align']
+	},
+	// 	Resource Format - please follow the styling below.
+	// 	{
+	// 		name: '',
+	// 		url: '',
+	// 		keywords: ['']
+	// 	},
 ];
 
 exports.resources = resources;
