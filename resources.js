@@ -332,22 +332,25 @@ const resources = [
 	{
 		name: 'JS "JavaScript" Cheat Sheet',
 		url: 'https://htmlcheatsheet.com/js/',
-		description: '',
+		description: 'JavaScript Cheat Sheet contains useful code examples on a single page. Not just a PDF because it\'s interactive! Find code for JS loops, variables, objects and more.',
 		keywords: ['JS', 'Javascript', 'cheat sheet', 'conditionals', 'loops', 'variables', 'dates', 'events', 'functions', 'regex', 'json', 'promises', 'arrays']
 	},
 	{
 		name: 'SEO Cheat Sheet',
 		url: 'https://htmlcheatsheet.com/seo/',
+		description: 'This online SEO cheat sheet lists everyting you need to know and do to rank your website as high as possible among the Google search results.',
 		keywords: ['SEO', 'cheat sheet']
 	},
 	{
 		name: 'SEO Guide to Lighthouse Performance Metrics',
 		url: 'https://www.searchenginejournal.com/core-web-vitals/technical-seo-lighthouse/',
+		description: 'Take a deep dive into Lighthouse performance metrics with technical SEO pros Jamie Indigo and Rachel Anderson.',
 		keywords: ['SEO', 'lighthouse', 'performance', 'metrics']
 	},
 	{
 		name: 'Centering in CSS',
 		url: 'https://ishadeed.com/article/learn-css-centering/#:~:text=To%20center%20an%20inline%20element,is%20text%2Dalign%3A%20center%20.&text=For%20multiple%20inline%20elements%2C%20the,using%20text%2Dalign%3A%20center%20',
+		description: 'A guide to everything you need to know about centering in CSS',
 		keywords: ['CSS', 'center', 'align']
 	},
 	// 	Resource Format - please follow the styling below.
