@@ -290,42 +290,49 @@ const resources = [
 	{
 		name: 'Name Cheap Logo Maker',
 		url: 'https://www.namecheap.com/logo-maker/',
-		description: '',
+		description: 'Create a logo with our free logo maker. Make your own custom logo design for a website or business with Namecheap Logo Maker and download it free on any device.',
 		keywords: ['logo', 'logo maker', 'free', 'creator', 'business', 'branding']
 	},
 	{
 		name: 'Unsplash',
 		url: 'https://unsplash.com',
+		description: 'Beautiful, free images and photos that you can download and use for any project. Better than any royalty free or stock photos.',
 		keywords: ['images', 'free', 'high-resolution', 'wallpapers', '3d renders', 'textures', 'patterns', 'experimental', 'architecture', 'nature', 'business and work', 'fashion', 'film', 'food', 'drink', 'street photography', 'arts and culture', 'royalty-free', 'stock photo', 'commercial', 'personal projects']
 	},
 	{
 		name: 'Page Speed',
 		url: 'https://pagespeed.web.dev',
-		keywords: ['page speed', 'web page', 'speed', 'load time', 'browser request', 'seo', 'optimization']
+		description: 'PageSpeed Insights (PSI) is performance focused, using both lab (Lighthouse) and field (Chrome UX Report) data to provide a summary of performance. Furthermore, PSI provides origin level insights in the field, whereas web. dev/measure is intended to deep-dive into a single URL in the lab ',
+		keywords: ['page speed', 'web page', 'load time', 'browser request', 'seo', 'optimization']
 	},
 	{
 		name: 'Cloud Convert',
 		url: 'https://cloudconvert.com/jpg-to-webp',
+		description: 'CloudConvert converts your image files online. Amongst many others, we support PNG, JPG, GIF, WEBP and HEIC.',
 		keywords: ['jpg', 'webp', 'converter', 'heic', 'formats', 'high-quality', 'api']
 	},
 	{
-		name: 'Thumbnails for Social Media "Metatags',
-		url: 'https://nickcarmont8.medium.com/how-to-add-a-website-thumbnail-for-sharing-your-html-site-on-social-media-facebook-linkedin-12813f8d2618',
-		keywords: ['metadata', 'metatags', 'thumbnails', 'social media']
+		name: 'The Essential Meta Tags for Social Media',
+		url: 'https://css-tricks.com/essential-meta-tags-social-media/',
+		description: 'These days, almost every website encourages visitors to share its pages on social media. We’ve all seen the ubiquitous Facebook and Twitter icons, among others, just begging to be clicked. This comes as no surprise as sharing via social media, the internet incarnation of word-of-mouth, is one of the most effective ways for businesses and individuals to gain awareness.',
+		keywords: ['metadata', 'metatag', 'thumbnail', 'social media']
 	},
 	{
 		name: 'HTML Cheat Sheet',
 		url: 'https://htmlcheatsheet.com/',
+		description: 'Online interactive HTML Cheat Sheet contains useful code examples and web developer tools, markup generators and more.',
 		keywords: ['HTML', 'cheat sheet', 'tags']
 	},
 	{
 		name: 'CSS Cheat Sheet',
 		url: 'https://htmlcheatsheet.com/css/',
+		description: 'CSS Cheat Sheet contains the most common style snippets: CSS gradient, background, button, font-family, border, radius, box and text shadow generators',
 		keywords: ['CSS', 'cheat sheet', 'box model', 'selectors', 'color picker']
 	},
 	{
 		name: 'JS "JavaScript" Cheat Sheet',
 		url: 'https://htmlcheatsheet.com/js/',
+		description: '',
 		keywords: ['JS', 'Javascript', 'cheat sheet', 'conditionals', 'loops', 'variables', 'dates', 'events', 'functions', 'regex', 'json', 'promises', 'arrays']
 	},
 	{
