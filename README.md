@@ -129,7 +129,7 @@ Distributed under the MIT License. See <a href="https://github.com/the-api-admin
 - [@Dev_Ethos](https://twitter.com/dev_ethos/)
 - [@ErikaTeal_](https://twitter.com/erikateal_)
 - [@JacobEGood](https://twitter.com/jacobegood)
-- [@Lucas_MERN](https://twitter.com/Lucas_MERN)
+- [@MERN_Man_Luke](https://twitter.com/MERN_Man_Luke)
 - [@MoraCodes](https://twitter.com/moracodes)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
