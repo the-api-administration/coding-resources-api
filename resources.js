@@ -152,31 +152,37 @@ const resources = [
 	{
 		name: 'Learn Git Branching',
 		url: 'https://learngitbranching.js.org/',
-		keywords: ['git', 'version control']
+		description: '"Learn Git Branching" is the most visual and interactive way to learn Git on the web; you\'ll be challenged with exciting levels, given step-by-step demonstrations of powerful features, and maybe even have a bit of fun along the way.',
+		keywords: ['git', 'version control', 'branching', 'github']
 	},
 	{
 		name: 'What the Flexbox',
 		url: 'https://flexbox.io/',
-		keywords: ['css', 'flexbox']	
+		description: 'A simple, free 20 video course that will help you master CSS Flexbox! The first 13 videos are aimed at understanding the fundamentals of Flexbox - we will take a deep dive into understanding rows, columns, axes, wrapping, alignment, centering and layout. The last 7 are code alongs where we will build everything from a navigation to a mobile app layout entirely with Flexbox!',
+		keywords: ['css', 'flexbox', 'video course', 'alignment', 'styling']	
 	},
 	{
 		name: 'Code Driven Animation Editor',
 		url: 'https://www.timelinecss.io/',
-		keywords: ['css animations', 'css', 'animations', 'editor', 'visuals']
+		description: 'The CSS file is the "source of truth" for the project. This CSS source code can be edited directly, and changes will be reflected in the live preview and the timeline view immediately',
+		keywords: ['css animations', 'editor', 'visuals']
 	},
 	{
 		name: 'Simple Icons',
 		url: 'https://simpleicons.org',
-		keywords: ['free', 'svg icons', 'svg', 'icons', 'popular brands']
+		description: 'A collection of free SVG icons for your website or web application project',
+		keywords: ['svg icons', 'icons', 'popular brands']
 	},
 	{
 		name: 'JavaScript Visualizer 9000',
 		url: 'https://www.jsv9000.app',
+		description: 'A tool for visualizing execution content, hoisting, closures and scopes in JavaScript',
 		keywords: ['javascript', 'call stack', 'event loop', 'microtask queue', 'task queue']
 	},
 	{
 		name: 'unDraw',
 		url: 'https://undraw.co',
+		description: 'A constantly updated design project with beautiful SVG images that you can use completely free and without attribution.',
 		keywords: ['open-source illustrations', 'svg', 'images', 'design', 'graphics', 'art', 'vectors', 'minimal', 'free', 'modern', 'png', 'interface', 'open-source']
 	},
 	{
@@ -323,6 +329,7 @@ const resources = [
 	// 	{
 	// 		name: '',
 	// 		url: '',
+	//		description: '',
 	// 		keywords: ['']
 	// 	},
 ];
