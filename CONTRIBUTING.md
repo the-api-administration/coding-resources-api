@@ -34,6 +34,7 @@ Contributions are what make the open source community such an amazing place to l
   - Keywords array should contain strings only.
   - Keywords are preferred in lower case.
   - Keywords <ins>must</ins> be specific. Do not include broad keywords such as 'guide', 'tutorial', 'information' or we will be unable to process your PR. Please opt for keywords that are specific to the content.
+  - Description should be clear and concise.
 
   Resource Format:
 
@@ -41,6 +42,7 @@ Contributions are what make the open source community such an amazing place to l
   {
     name: 'resource name',
     url: 'url here',
+    description: 'add a detailed description',
     keywords: ['each', 'keyword', 'should', 'be', 'a', 'string']
   },
   ```
