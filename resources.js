@@ -236,16 +236,19 @@ const resources = [
 	{
 		name: 'Uiverse',
 		url: 'https://uiverse.io',
-		keywords: ['ui', 'ui elements', 'open-source', 'free', 'button', 'checkbox', 'toggle', 'switches', 'cards', 'loaders', 'inputs', 'css', 'html', 'hover', 'copy paste', 'cssbuttons']
+		description: 'Universe of UI elements to help you stand out. Open-source and free to use, just copy and paste! Order by favorites',
+		keywords: ['ui elements', 'open-source', 'free', 'button', 'checkbox', 'toggle', 'switches', 'cards', 'loaders', 'inputs', 'css', 'html', 'hover', 'copy paste', 'cssbuttons']
 	},
 	{
 		name: 'Loaders',
 		url: 'https://cssloaders.github.io',
-		keywords: ['css', 'html', 'loader', 'loaders', 'animations', 'speed', 'simplicity', 'spinners', 'styling', 'pseudo elements', 'website', 'frontend']
+		description: 'CSS Loader is a collection of different types of loaders, spinners and their source code.',
+		keywords: ['css', 'html', 'loaders', 'animations', 'speed', 'spinners', 'styling', 'pseudo elements', 'website', 'frontend']
 	},
 	{
 		name: 'Postman',
 		url: 'https://www.postman.com',
+		description: 'Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.',
 		keywords: ['api', 'api platform', 'data', 'api lifecycle', 'collaboration', 'design', 'build', 'test', 'iterate', 'documentation', 'workspace', 'rest api', 'accessibility', 'http requests', 'tracking']
 	},
 	{
