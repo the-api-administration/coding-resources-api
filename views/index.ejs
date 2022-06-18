@@ -66,6 +66,7 @@
 													<div class="indent">
 														<h4>name: '<%= resources[i].name %>',</h4>
 														<h5>url: '<a href=<%= resources[i].url %> target="_blank"><%= resources[i].url %></a>',</h5>
+														<h4>description: '<%= resources[i].description %>'</h4>
 														<h6 class="text-truncate">keywords: [<%= resources[i].keywords.map(keyword => `'${keyword}'`).join(", ") %>]</h6>
 													</div>
 												},
