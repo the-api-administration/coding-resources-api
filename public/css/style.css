@@ -638,10 +638,8 @@ hr {
 	width: 80% ;
 }
 
-.justify-end {
-	display: flex;
-	justify-content: flex-end;
-	padding: 0;
+#js-example {
+	position: relative;
 }
 
 .copy-icon {
@@ -656,6 +654,9 @@ hr {
 	color: white;
 	cursor: pointer;
 	transition: 250ms;
+	position: absolute;
+	right: 2rem;
+	top: 1rem;
 }
 
 #copy-btn:hover {
