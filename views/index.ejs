@@ -27,11 +27,11 @@
 		<div class="frame">
 			<nav>
 				<img src="public/assets/logo.svg" alt="logo" />
-				<button class="contributors">Contributors</button>
+				<button id="contributors">Contributors</button>
 			</nav>
 			<main>
 				<section class="description">
-					<h1>Coding Resources API-</h1>
+					<h1>Coding Resources API</h1>
 					<p>
 						Search for coding resources by relevant keywords.
 						This API serves educational content for a wide
@@ -45,7 +45,7 @@
 							type="text"
 							name=""
 							value=""
-							placeholder="/api/'keyword'"
+							placeholder="keyword"
 						/>
 						<button id="keyword-btn" type="button">
 							<i class="fa-solid fa-magnifying-glass"></i>
@@ -59,9 +59,17 @@
 								<% for(let i = 0; i < resources.length; i++) { %>
 									<li>
 										<!-- JSON Format for DOM rendering -->
+										<!-- Add indentation, line break and quotes around each key's value -->
 										<pre class="json">
-											<!-- Add indentation, line break and quotes around each key's value -->
-											<code>{<div class="indent"><br>name: '<%= resources[i].name %>',<br>url: '<%= resources[i].url %>',<br class="middle-br">keywords: [<%= resources[i].keywords.map(keyword => `'${keyword}'`).join(", ") %>]</div><br>}</code>
+											<code>
+												{
+													<div class="indent">
+														<h4>name: '<%= resources[i].name %>',</h4>
+														<h5>url: '<a href=<%= resources[i].url %> target="_blank"><%= resources[i].url %></a>',</h5>
+														<h6 class="text-truncate">keywords: [<%= resources[i].keywords.map(keyword => `'${keyword}'`).join(", ") %>]</h6>
+													</div>
+												},
+											</code>
 										</pre>
 									</li>
 								<% } %>
@@ -71,8 +79,178 @@
 				</section>
 			</main>
 			<section class="documentation">
-				<h1>Documentation</h1>
+				<h2>Documentation</h2>
+				<section class='object-table'>
+					<h3>There are 3 properties/keys that come with each resource object:</h3>
+					<table class="darkTable">
+						<thead>
+						<tr>
+						<th id='property'>PROPERTY</th>
+						<th id='description'>DESCRIPTION</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+						<td id='name'>name</td><td>[String] Name or title of the document, article or website. </td></tr>
+						<tr>
+						<td id='url'>url</td><td>[String] Link to website.</td></tr>
+						<tr>
+						<td id='keywords'>keywords</td><td id='array'>[Array] Relevant keywords related to the resource's topic.</td></tr>
+						</tbody>
+						</tr>
+					</table>
+				</section>
+				<h2>Endpoints</h2>
+				<section class='endpoints'>
+					<div class='url'>
+						<h3>Direct link to the complete resources object or a filtered object after using a keyword:</h3>
+						<code>https://coding-resources-api.herokuapp.com/api</code>
+						<h4>*The "/api" endpoint will return every resource object in an array.</h4>
+						<code>https://coding-resources-api.herokuapp.com/api/<span>&lt;keyword&gt;</span></code>
+						<h4>*The "/api/keyword" endpoint accepts a keyword that will be used to search through an array of resources by the content the resource provides.</h4>
+					</div>
+					<div class='js-fetch'>
+						<h3>Example code-block of how to fetch with JavaScript:</h3>
+						<code id='js-example'>const URL = `https://coding-resources-api.herokuapp.com/api/<span>${keyword}</span>`;<br><br>
+							fetch(URL)<br>
+							&emsp;&emsp;&emsp;.then(res => res.json())<br>
+							&emsp;&emsp;&emsp;.then(data => console.log(data))<br>
+							&emsp;&emsp;&emsp;.catch(err => console.error(err));</code>
+					</div>
+				</section>
 			</section>
+			<h2 id='contributors-title'>Contributors</h2>
+			<section class="contributors">	
+				<div class='section'>
+					<div class='card' id='jacob'>
+						<img src="public/assets/Jacob.jpg" alt="Jacob's photo">
+						<div class='cont-info'>
+							<h4>Jacob Asper</h4>
+							<div class='icons'>
+								<a href='https://twitter.com/asper_jacob' target='_blank'><i class="fa-brands fa-twitter"></i></a>
+								<a href='https://www.linkedin.com/in/jacobasper191/' target='_blank'><i class="fa-brands fa-linkedin"></i></a>
+								<a href='https://github.com/20jasper' target='_blank'><i class="fa-brands fa-github"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class='card' id='erika'>
+						<img src="public/assets/Erika.jpg" alt="Erika's photo">
+						<div class='cont-info'>
+							<h4>Erika Teal</h4>
+							<div class='icons'>
+								<a href='https://twitter.com/erikateal_' target='_blank'><i class="fa-brands fa-twitter"></i></a>
+								<a href='https://www.linkedin.com/in/erika-teal/' target='_blank'><i class="fa-brands fa-linkedin"></i></a>
+								<a href='https://github.com/erikateal' target='_blank'><i class="fa-brands fa-github"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class='card' id='alexisintech'>
+						<img src="public/assets/Alex.png" alt="Alexis' photo">
+						<div class='cont-info'>
+							<h4>Alexisintech</h4>
+							<div class='icons'>
+								<a href='https://twitter.com/alexisintech/' target='_blank'><i class="fa-brands fa-twitter"></i></a>
+								<a href='https://www.linkedin.com/in/alexisintech/' target='_blank'><i class="fa-brands fa-linkedin"></i></a>
+								<a href='https://github.com/alexisintech/' target='_blank'><i class="fa-brands fa-github"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class='section'>
+					<div class='card' id='brian'>
+						<img src="public/assets/Brian.png" alt="Brian's photo">
+						<div class='cont-info'>
+							<h4>Brian Schnee</h4>
+							<div class='icons'>
+								<a href='https://twitter.com/BrianSchneeDev' target='_blank'><i class="fa-brands fa-twitter"></i></a>
+								<a href='https://www.linkedin.com/in/brian-schnee-dev/' target='_blank'><i class="fa-brands fa-linkedin"></i></a>
+								<a href='https://github.com/brianschnee' target='_blank'><i class="fa-brands fa-github"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class='card' id='alondra'>
+						<img src="public/assets/Alondra.png" alt="Alondra's photo">
+						<div class='cont-info'>
+							<h4>Alondra Mora</h4>
+							<div class='icons'>
+								<a href='https://twitter.com/moracodes' target='_blank'><i class="fa-brands fa-twitter"></i></a>
+								<a href='https://www.linkedin.com/in/alondramora/' target='_blank'><i class="fa-brands fa-linkedin"></i></a>
+								<a href='https://github.com/alondramora' target='_blank'><i class="fa-brands fa-github"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class='card' id='bianca'>
+						<img src="public/assets/Bianca.jpg" alt="Biancas's photo">
+						<div class='cont-info'>
+							<h4>Bianca T.</h4>
+							<div class='icons'>
+								<a href='https://twitter.com/bytesbybianca' target='_blank'><i class="fa-brands fa-twitter"></i></a>
+								<a href='https://www.linkedin.com/in/biancatogonon/' target='_blank'><i class="fa-brands fa-linkedin"></i></a>
+								<a href='https://github.com/bytesbybianca' target='_blank'><i class="fa-brands fa-github"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class='card' id='jacobg'>
+						<img src="public/assets/JacobGood.jpg" alt="Jacob Good's photo">
+						<div class='cont-info'>
+							<h4>Jacob Good</h4>
+							<div class='icons'>
+								<a href='https://twitter.com/jacobegood' target='_blank'><i class="fa-brands fa-twitter"></i></a>
+								<a href='https://www.linkedin.com/in/jacobegood/' target='_blank'><i class="fa-brands fa-linkedin"></i></a>
+								<a href='https://github.com/Snake0good' target='_blank'><i class="fa-brands fa-github"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class='section'>
+					<div class='card' id='sebastian'>
+						<img src="public/assets/Sebastian.png" alt="Sebastian's photo">
+						<div class='cont-info'>
+							<h4>Sebastian O.</h4>
+							<div class='icons'>
+								<a href='https://twitter.com/dev_ethos' target='_blank'><i class="fa-brands fa-twitter"></i></a>
+								<a href='https://www.linkedin.com/in/sebastianocospina/' target='_blank'><i class="fa-brands fa-linkedin"></i></a>
+								<a href='https://github.com/Ethodeus' target='_blank'><i class="fa-brands fa-github"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class='card' id='alyssha'>
+						<img src="public/assets/Alyssha.jpg" alt="Alyssha's photo">
+						<div class='cont-info'>
+							<h4>Alyssha L.</h4>
+							<div class='icons'>
+								<a href='https://twitter.com/AlysshaLewin' target='_blank'><i class="fa-brands fa-twitter"></i></a>
+								<a href='https://www.linkedin.com/in/alysshalewin/' target='_blank'><i class="fa-brands fa-linkedin"></i></a>
+								<a href='https://github.com/AlysshaLewin' target='_blank'><i class="fa-brands fa-github"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class='card' id='dana'>
+						<img src="public/assets/Dana.jpg" alt="Dana's photo">
+						<div class='cont-info'>
+							<h4>Dana Lee</h4>
+							<div class='icons'>
+								<a href='https://twitter.com/danamitecoder' target='_blank'><i class="fa-brands fa-twitter"></i></a>
+								<a href='https://www.linkedin.com/in/danalee1/' target='_blank'><i class="fa-brands fa-linkedin"></i></a>
+								<a href='https://github.com/Danamitecoder' target='_blank'><i class="fa-brands fa-github"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer>
+				<h2>Thank You!</h2>
+
+				<br/>
+				<p>
+				- THE API ADMINISTRATION.<br><br>
+				<a href='https://github.com/the-api-administration/coding-resources-api' target='_blank'><i class="fa-brands fa-github"></i></a>
+				<br><br>
+				Bugs? Features? Please report them here: <a href="https://github.com/the-api-administration/coding-resources-api/issues" target='_blank'>GitHub</a>.
+				</p>
+				<hr>
+				<p>We would love to see what you are making with this API. Please tweet at us!</p>
+			</footer>
 		</div>
 	</body>
 	<script src="js/main.js"></script>
