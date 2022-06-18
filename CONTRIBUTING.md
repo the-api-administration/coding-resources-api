@@ -80,7 +80,7 @@ If you want to help us improve our API, please fork the repo and follow these st
 5. Create a new branch for your Feature (`git branch AmazingFeature`)
 6. Switch to the branch you are working on (`git checkout AmazingFeature`)
 7. Make your changes, commit after every isolated task.
-8. Add all of your changes (`git add .`)
+8. Add all of your changes (`git add <file name here>` or `git add .`). Do not push any changes to dependencies unless the Issue calls for it.
 9. Commit your changes with a detailed description (`git commit -m 'added a, solved b, etc...'`)
 10. Push to the Branch (`git push origin AmazingFeature`)
 11. Open a Pull Request and follow the rules under "Where should I make my pull request to?"
