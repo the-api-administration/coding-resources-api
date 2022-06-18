@@ -638,4 +638,26 @@ hr {
 	width: 80% ;
 }
 
+.justify-end {
+	display: flex;
+	justify-content: flex-end;
+	padding: 0;
+}
 
+.copy-icon {
+	font-size: 1.3em;
+	margin-right: 1rem;
+}
+#copy-btn {
+	background-color: transparent;
+	border: none;
+	font-size: normal;
+	padding: 0;
+	color: white;
+	cursor: pointer;
+	transition: 250ms;
+}
+
+#copy-btn:hover {
+	color: black;
+}

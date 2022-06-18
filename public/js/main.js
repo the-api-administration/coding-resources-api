@@ -85,3 +85,11 @@ function renderMatches(matches) {
 		list.appendChild(li);
 	}
 }
+
+const codeExample = document.getElementById('js-example')
+const copyBtn = document.getElementById('copy-btn')
+
+copyBtn.addEventListener('click', () => {
+	navigator.clipboard.writeText(codeExample.innerText)
+	// display some toast notification saying "copied to clipboard"
+})

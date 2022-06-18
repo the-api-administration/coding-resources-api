@@ -111,11 +111,18 @@
 					</div>
 					<div class='js-fetch'>
 						<h3>Example code-block of how to fetch with JavaScript:</h3>
-						<code id='js-example'>const URL = `https://coding-resources-api.herokuapp.com/api/<span>${keyword}</span>`;<br><br>
+						<code id='js-example'>
+							<div class="justify-end">
+								<button id="copy-btn" title="copy to clipboard">
+									<i class="fa fa-clipboard copy-icon" aria-hidden="true"></i>
+								</button>
+							</div>
+							const URL = `https://coding-resources-api.herokuapp.com/api/<span>${keyword}</span>`;<br><br>
 							fetch(URL)<br>
 							&emsp;&emsp;&emsp;.then(res => res.json())<br>
 							&emsp;&emsp;&emsp;.then(data => console.log(data))<br>
-							&emsp;&emsp;&emsp;.catch(err => console.error(err));</code>
+							&emsp;&emsp;&emsp;.catch(err => console.error(err));
+						</code>
 					</div>
 				</section>
 			</section>
