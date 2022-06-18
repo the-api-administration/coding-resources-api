@@ -305,6 +305,11 @@ const resources = [
 		url: 'https://www.freepik.com/',
 		keywords: ['vectors', 'illustrations', 'photos', 'templates', 'fonts', 'mockups', 'backgrounds', 'text effects', 'wireframe']
 	},	
+	{
+		name: 'Learn-SQL',
+		url: 'https://github.com/WebDevSimplified/Learn-SQL',
+		keywords: ['sql', 'exercises', 'database', 'tables']
+	},
 
 	// 	Resource Format - please follow the styling below.
 	// 	{
