@@ -268,43 +268,44 @@ const resources = [
 	{
 		name: 'HTML Cheat Sheet',
 		url: 'https://htmlcheatsheet.com/',
-		keywords: ['HTML', 'cheat sheet', 'tags']
+		keywords: ['html', 'cheat sheet', 'tags']
 	},
 	{
 		name: 'CSS Cheat Sheet',
 		url: 'https://htmlcheatsheet.com/css/',
-		keywords: ['CSS', 'cheat sheet', 'box model', 'selectors', 'color picker']
+		keywords: ['css', 'cheat sheet', 'box model', 'selectors', 'color picker']
 	},
 	{
 		name: 'JS "JavaScript" Cheat Sheet',
 		url: 'https://htmlcheatsheet.com/js/',
-		keywords: ['JS', 'Javascript', 'cheat sheet', 'conditionals', 'loops', 'variables', 'dates', 'events', 'functions', 'regex', 'json', 'promises', 'arrays']
+		keywords: ['js', 'Javascript', 'cheat sheet', 'conditionals', 'loops', 'variables', 'dates', 'events', 'functions', 'regex', 'json', 'promises', 'arrays']
 	},
 	{
 		name: 'SEO Cheat Sheet',
 		url: 'https://htmlcheatsheet.com/seo/',
-		keywords: ['SEO', 'cheat sheet']
+		keywords: ['seo', 'cheat sheet']
 	},
 	{
 		name: 'SEO Guide to Lighthouse Performance Metrics',
 		url: 'https://www.searchenginejournal.com/core-web-vitals/technical-seo-lighthouse/',
-		keywords: ['SEO', 'lighthouse', 'performance', 'metrics']
+		keywords: ['seo', 'lighthouse', 'performance', 'metrics']
 	},
 	{
 		name: 'Centering in CSS',
 		url: 'https://ishadeed.com/article/learn-css-centering/',
-		keywords: ['CSS', 'center', 'align', 'guide']
+		keywords: ['css', 'center', 'align', 'guide']
 	},
 	{
 		name: 'MeyerWeb',
 		url: 'https://meyerweb.com/',
-		keywords: ['CSS', 'center', 'align', 'flexbox', 'color blender']
+		keywords: ['css', 'center', 'align', 'flexbox', 'color blender']
 	},
 	{
 		name: 'Free Pik',
 		url: 'https://www.freepik.com/',
 		keywords: ['vectors', 'illustrations', 'photos', 'templates', 'fonts', 'mockups', 'backgrounds', 'text effects', 'wireframe']
-	},			   
+	},	
+
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
