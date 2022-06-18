@@ -69,6 +69,7 @@ function renderMatches(matches) {
 							<div class="indent">
 								<h4>name: ${match.name},</h4>
 								<h5>url: '<a href=${match.url} target="_blank">${match.url}</a>',</h5>
+								<h4>description: ${match.description},</h4>
 								<h6 class="text-truncate">keywords: [${match.keywords.map(keyword => `'${keyword}'`).join(", ")}]</h6>
 							</div>
 						},
