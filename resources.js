@@ -310,7 +310,12 @@ const resources = [
 		url: 'https://github.com/WebDevSimplified/Learn-SQL',
 		keywords: ['sql', 'exercises', 'database', 'tables']
 	},
-
+	{
+		name: 'TypeScript Tutorial for JS Programmers Who Know How to Build a Todo App',
+		url: 'https://ts.chibicode.com/todo/',
+		keywords: ['typescript', 'todo app', 'type checking', 'refactoring', 'union types']
+	},
+	
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
