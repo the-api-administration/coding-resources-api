@@ -6,7 +6,16 @@ Contributions are what make the open source community such an amazing place to l
 
 <ins>Please make sure to follow our guidelines below before making any contributions.</ins>
 
-
+- [Contributing](#contributing)
+  - [Understanding Coding-Resources-API branch structure](#understanding-coding-resources-api-branch-structure)
+    - [Permanent Branches](#permanent-branches)
+      - [Main](#main)
+      - [Test](#test)
+      - [Resources](#resources)
+  - [How often should I stage changes?](#how-often-should-i-stage-changes)
+  - [Where should I make my pull request to?](#where-should-i-make-my-pull-request-to)
+  - [Creating an Issue](#creating-an-issue)
+  - [How to make a PR](#how-to-make-a-pr)
 
 ## Understanding Coding-Resources-API branch structure
 ### Permanent Branches
