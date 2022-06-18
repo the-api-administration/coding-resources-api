@@ -315,6 +315,11 @@ const resources = [
 		url: 'https://ts.chibicode.com/todo/',
 		keywords: ['typescript', 'todo app', 'type checking', 'refactoring', 'union types']
 	},
+	{
+		name: 'Regex 101',
+		url: 'https://regex101.com/',
+		keywords: ['regex', 'sandbox', 'library', 'javascript', 'python', 'golang', 'php', 'java', 'c#', '.net']
+	},
 	
 	// 	Resource Format - please follow the styling below.
 	// 	{
