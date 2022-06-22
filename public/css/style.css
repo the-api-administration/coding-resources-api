@@ -621,6 +621,11 @@ hr {
 
 	nav {
 		justify-content: center;
+		height: 5rem;
+	}
+	
+	nav img {
+		height: 60px;
 	}
 
 	main {
@@ -674,6 +679,11 @@ hr {
 
 	nav {
 		justify-content: center;
+		height: 6rem;
+	}
+
+	nav img {
+		height: 70px;
 	}
 
 	main {
@@ -790,6 +800,10 @@ hr {
 /* Documentation */
 
 @media all and (min-width: 1px) and (max-width: 800px) {
+
+	.frame {
+		border: 0;
+	}
 
 	.documentation {
 		padding: 3rem 1rem;
@@ -958,7 +972,7 @@ hr {
     }
 
     .card {
-        width: 350px;
+        width: 340px;
         padding-left: 1rem;
         margin: 0;
         margin-top: 1rem;	
