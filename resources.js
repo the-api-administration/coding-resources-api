@@ -353,6 +353,13 @@ const resources = [
 		description: 'A guide to everything you need to know about centering in CSS',
 		keywords: ['CSS', 'center', 'align']
 	},
+
+	{
+		name: 'PREP Method for Solving Coding Challenges',
+		url: 'https://blog.barbaralaw.me/how-to-solve-a-coding-challenge',
+		description: 'How to solve a coding challenge. An article on how to PREPare yourself.',
+		keywords: ['prep', 'coding challenge', 'codewars']
+	},
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
