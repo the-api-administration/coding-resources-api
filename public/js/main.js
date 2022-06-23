@@ -87,10 +87,11 @@ function renderMatches(matches) {
 	}
 }
 
-const codeExample = document.getElementById('js-example')
-const copyBtn = document.getElementById('copy-btn')
+const codeExample = document.getElementById('js-example');
+const copyBtn = document.getElementById('copy-btn');
 
+// Copy to Clipboard
 copyBtn.addEventListener('click', () => {
 	navigator.clipboard.writeText(codeExample.innerText)
 	// display some toast notification saying "copied to clipboard"
-})
+});
