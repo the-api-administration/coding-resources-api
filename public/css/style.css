@@ -450,8 +450,8 @@ table.darkTable #keywords{
 	cursor: pointer;
 	transition: 250ms;
 	position: absolute;
-	right: 2rem;
-	top: 1rem;
+	right: 0;
+	top: 0;
 }
 
 #copy-btn:hover {
