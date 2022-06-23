@@ -436,6 +436,12 @@ table.darkTable #keywords{
 	position: relative;
 }
 
+#js-example p{
+	position: relative;
+	padding-right: 1.5em;
+	margin: -3em 0 0 0;
+}
+
 .copy-icon {
 	font-size: 1.3em;
 	margin-right: 1rem;
