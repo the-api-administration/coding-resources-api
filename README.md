@@ -91,7 +91,7 @@ Access our API endpoints to recieve coding resource data in JSON format.
 
 - [X] Add search functionality
 - [ ] Offer more resources
-- [ ] Support mobile devices
+- [X] Support mobile devices
 - [ ] Create more endpoints
 
 See the [open issues](https://github.com/the-api-administration/coding-resources-api/issues) for a full list of proposed features (and known issues).
