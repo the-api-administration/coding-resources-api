@@ -353,6 +353,14 @@ const resources = [
 		description: 'A guide to everything you need to know about centering in CSS',
 		keywords: ['CSS', 'center', 'align']
 	},
+	{
+		name: 'Learn X in Y minutes',
+		url: 'https://learnxinyminutes.com/',
+		description: 'Learn X programming language or technology in Y minutes. Deep dive into programming language or technology literally in a few minutes.',
+		keywords: ['learn programming', 'programming tutorials', 'algorithms', 'data structures', 'python', 'go', 'html', 'css', 'java', 'c', 'c++', 'git', 'bash', 'vim', 'ruby']
+	}
+	
+	
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
