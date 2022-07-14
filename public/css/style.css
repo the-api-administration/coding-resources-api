@@ -66,20 +66,11 @@ nav {
 	background-color: lightgrey;
 }
 
-nav::after {
-	height: 10rem;
-	background-color: transparent;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 0 5rem;
-}
-
 nav > img {
 	height: 100px;
 }
 
-/* contributors */
+/* contributors button */
 
 #contributors {
 	--color: rgb(30, 30, 30);
@@ -228,11 +219,7 @@ main {
 	border-radius: 25px;
 }
 
-@media all and (min-width: 1280px) {
-	.result {
-		margin-top: 2rem;
-	}
-}
+
 
 .scroll-container {
 	overflow-y: scroll;
@@ -457,18 +444,6 @@ table.darkTable #keywords{
 	justify-content: center;
 }
 
-@media all and (max-width: 1790px) {
-	.contributors {
-		margin: 3rem 11rem;
-	}
-}
-
-@media all and (max-width: 1441px) {
-	.contributors {
-		margin: 3rem 3rem;
-	}
-}
-
 .contributors .section {
 	padding: 0 2rem;
 	width: 435px;
@@ -493,7 +468,7 @@ table.darkTable #keywords{
 	gap: 25px;
 	position: relative;
 	z-index: 2;
-	padding: 0 1.3rem;
+	padding-left: 1.3rem;
 }
 
 .card::after {
@@ -637,4 +612,446 @@ footer i {
 hr {
 	border: #979797 solid 1px;
 	width: 80% ;
+}
+
+/* MOBILE RESPONSIVESS */
+
+/* Main */
+
+@media all and (min-width: 1px) and (max-width: 800px) {
+
+	nav {
+		justify-content: center;
+		height: 5rem;
+	}
+	
+	nav img {
+		height: 60px;
+	}
+
+	main {
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.description > h1 {
+		width: 100%;
+		font-size: 3rem;
+	}
+
+	.description > p {
+		width: 100%;
+		font-size: 1.5rem;
+	}
+
+	.description, .api-test {
+		width: 100%;
+	}
+
+	.api-test {
+		margin-top: 2rem;
+	}
+
+	.api-test form{
+		margin-bottom: 2rem;
+	}
+
+	.api-test form input{
+		width: 80%;
+	}
+	.api-test form input:focus{
+		width: 80%;
+	}
+
+	.api-test form button{
+		width: 20%;
+	}
+
+	.api-test .result{
+		width: 100%;
+	}
+
+	#contributors {
+		display: none;
+	}
+}
+
+@media all and (min-width: 801px) and (max-width: 1024px) {
+
+	nav {
+		justify-content: center;
+		height: 6rem;
+	}
+
+	nav img {
+		height: 70px;
+	}
+
+	main {
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.description{
+		text-align: justify;
+	}
+	
+	.description > h1 {
+		width: 100%;
+		font-size: 3rem;
+	}
+
+	.description > p {
+		width: 100%;
+		font-size: 1.5rem;
+	}
+
+	.description{
+		width: 100%;
+	}
+
+	.api-test {
+		margin-top: 2rem;
+		width: 80%;
+	}
+
+
+	.api-test form{
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+
+	.api-test form input{
+		width: 80%;
+	}
+	.api-test form input:focus{
+		width: 80%;
+	}
+
+	.api-test form button{
+		width: 20%;
+	}
+
+	.api-test .result{
+		width: 100%;
+	}
+
+	#contributors {
+		display: none;
+	}
+
+}
+
+
+@media all and (min-width: 1026px) and (max-width: 1180px) {
+	main {
+		gap: 2rem;
+		padding: 3rem;
+		margin: 0;
+	}
+
+	.description {
+		display: flex;
+		align-items: flex-start;
+	}
+
+	.description h1, .description p  {
+		width: 100%;
+	}
+
+	.api-test  {
+		justify-content: space-between;
+	}
+
+	.api-test form input {
+		width: 80%
+	}
+
+	.api-test form button {
+		width: 20%
+	}
+
+	.api-test form input:focus {
+		width: 80%
+	}
+
+	.api-test .result {
+		width: 100%
+	}
+}
+
+
+@media all and (max-width: 500px) {
+	ul {
+		margin: 1.5rem 1rem;
+		list-style: none;
+		padding: 0;
+	}
+}
+
+@media all and (min-width: 1300px) {
+	
+	.api-test form {
+	margin-bottom: 2rem;
+	}
+}
+
+
+/* Documentation */
+
+@media all and (min-width: 1px) and (max-width: 800px) {
+
+	.frame {
+		border: 0;
+	}
+
+	.documentation {
+		padding: 3rem 1rem;
+	}
+
+	table.darkTable {
+		width: 100%;
+	}
+
+	.endpoints {
+		margin: 3rem 0;
+		gap: 5rem;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.endpoints div {
+		width: 100%;
+	}
+	
+	.endpoints h3 {
+		font-size: 1rem;
+		font-weight: 500;
+		margin: 0;
+	}
+}
+
+@media all and (min-width: 320px) and (max-width: 450px) {
+
+	.object-table h3 {
+		text-align: center;
+	}
+	
+	table.darkTable tbody td {
+		font-size: 14px;
+	}
+	
+	table.darkTable thead th {
+		font-size: 12px;
+
+	}
+
+	.endpoints code {
+		font-size: 1rem;
+	}
+
+	.endpoints h3 {
+		text-align: center;
+	}
+
+	.endpoints h4 {
+		padding: 0 1rem;
+		text-align: center;
+	}
+	
+}
+
+
+@media all and (min-width: 320px) and (max-width: 1024px) {
+
+	.endpoints h4 {
+		padding: 0 2rem;
+	}
+
+	.endpoints h3 {
+		padding: 0;
+	}
+	
+}
+
+
+@media all and (min-width: 801px) and (max-width: 1024px) {
+	.endpoints {
+		margin: 3rem 0;
+		gap: 5rem;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.endpoints div {
+		width: 80%;
+	}
+	
+	.endpoints h3 {
+		font-size: 1rem;
+		font-weight: 500;
+		margin: 0;
+	}
+}
+
+
+/* Contributors */
+
+@media all and (min-width: 1px) and (max-width: 319px) {
+    .frame {
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .contributors {
+        width: 100%;
+        margin: 0;
+		margin-bottom: 3rem;
+        padding: 0;
+        flex-direction: column;
+		display: flex;
+		align-items: center;
+		gap: 15px;
+    }
+
+	.contributors .section {
+		padding: 0 2rem;
+		gap: 20px;
+	}
+	
+	.card {
+		height: 120px;
+		width: 70%;
+		padding-left: 0.8rem;
+		margin: 0;
+		gap: 15px;
+	}
+	
+	.card img {
+		height: 80px;
+		width: 80px;
+	}
+	
+	.cont-info h4 {
+		font-size: 1.2rem;
+	}
+	
+	
+	.icons {
+		gap: 1rem;
+		font-size: 1.5rem;
+	}
+}
+
+@media all and (min-width: 320px) and (max-width: 1024px) {
+    .frame {
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .contributors {
+        width: 100%;
+        margin: 0;
+		margin-bottom: 3rem;
+        padding: 0;
+        flex-direction: column;
+		display: flex;
+		align-items: center;
+    }
+
+	.contributors .section {
+        padding: 0;
+    }
+
+    .section {
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+    }
+
+    .card {
+        width: 340px;
+        padding-left: 1rem;
+        margin: 0;
+        margin-top: 1rem;	
+    }
+
+	.card h4 {
+        font-size: 1.5rem;
+    }
+	#contributors-title {
+		padding-bottom: 2rem;
+	}
+}
+
+@media all and (min-width: 1025px) and (max-width: 1180px) {
+
+	#contributors-title {
+		padding-top: 3rem;
+	}
+	
+	.contributors {
+		margin: 3rem 0rem;	
+	}
+
+	.contributors .section {
+		padding: 0 2rem;
+		gap: 20px;
+	}
+	
+	.card {
+		height: 120px;
+		padding-left: 0.8rem;
+		margin: 0;
+		gap: 15px;
+	}
+	
+	.card img {
+		height: 80px;
+		width: 80px;
+	}
+	
+	.cont-info h4 {
+		font-size: 1.2rem;
+	}
+	
+	
+	.icons {
+		gap: 1rem;
+		font-size: 1.5rem;
+	}
+
+}
+
+@media all and (min-width: 1181px){
+
+	#contributors-title {
+		padding-top: 3rem;
+	}
+	
+	.contributors {
+		margin: 3rem 0rem;	
+	}
+
+	.contributors .section {
+		padding: 0 2rem;
+		width: 380px;
+	}
+	
+	.card {
+		padding-left: 0.8rem;
+	}
+
+	.cont-info h4 {
+		font-size: 1.3rem;
+	}
+	
+	.icons {
+		gap: 1rem;
+		font-size: 1.5rem;
+	}
+
 }
