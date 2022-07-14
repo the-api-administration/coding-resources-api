@@ -341,7 +341,7 @@ const resources = [
 		description: 'This online SEO cheat sheet lists everyting you need to know and do to rank your website as high as possible among the Google search results.',
 		keywords: ['SEO', 'cheat sheet']
 	},
-	{
+  {
 		name: 'SEO Guide to Lighthouse Performance Metrics',
 		url: 'https://www.searchenginejournal.com/core-web-vitals/technical-seo-lighthouse/',
 		description: 'Take a deep dive into Lighthouse performance metrics with technical SEO pros Jamie Indigo and Rachel Anderson.',
@@ -358,7 +358,7 @@ const resources = [
 		url: 'https://learnxinyminutes.com/',
 		description: 'Learn X programming language or technology in Y minutes. Deep dive into programming language or technology literally in a few minutes.',
 		keywords: ['algorithms', 'data structures', 'python', 'go', 'html', 'css', 'java', 'c', 'c++', 'git', 'bash', 'vim', 'ruby']
-	}
+	},
   {
 		name: 'freeCodeCamp',
 		url: 'https://www.freecodecamp.org/',
@@ -431,7 +431,37 @@ const resources = [
 		description: 'Empire of Code is a space game with a mix of strategy, tactics and coding.',
 		keywords: ['Javascript', 'python', 'game']
 	},
-  
+  {
+		name: '30 Days of Node',
+		url: 'https://www.nodejsera.com/nodejs-tutorial-day1-thebeginning.html',
+    description: 'Tutorial series to learn how to use and implement Node.js, a JavaScript Runtime, in your applications.',
+		keywords: ['node', 'nodejs']
+	}, 
+	{
+		name: 'John Smilga - React Projects Github Repo',
+		url: 'https://github.com/john-smilga/react-projects', 
+    description: 'Projects to help strengthen your understanding of the React Library.',
+		keywords: ['react', 'reactjs', 'hooks', 'projects', 'tutorial']
+	},
+	{
+		name: '50 Projects in 50 Days - HTML, CSS, JS',
+		url: 'https://github.com/bradtraversy/50projects50days',
+    description: '50 projects to help strengthen your skills as a web developer.',
+		keywords: ['html', 'css', 'javascript', 'js', 'projects', 'tutorial']
+	}, 
+	{
+		name: '10 Hours 10 Projects - Florin Pop', 
+		url: 'https://www.youtube.com/watch?v=dtKciwk_si4&list=PLgBH1CvjOA636I8hnHSyuOnX341XQrBth', 
+    description: '10 hours of projects using HTML, CSS and Vanilla JavaScript.',
+		keywords: ['projects', 'tutorial', 'html', 'css', 'js', 'javascript', 'coding challenge']
+	},
+	{
+		name: 'regexr.com - Regular Expression Testing',
+		url: 'https://regexr.com/',
+    description: 'RegExr is an online tool to learn, build, & test Regular Expressions.',
+		keywords: ['javascript', 'js', 'regex', 'regular expressions']
+	},
+    
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
