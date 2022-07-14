@@ -357,10 +357,81 @@ const resources = [
 		name: 'Learn X in Y minutes',
 		url: 'https://learnxinyminutes.com/',
 		description: 'Learn X programming language or technology in Y minutes. Deep dive into programming language or technology literally in a few minutes.',
-		keywords: ['learn programming', 'programming tutorials', 'algorithms', 'data structures', 'python', 'go', 'html', 'css', 'java', 'c', 'c++', 'git', 'bash', 'vim', 'ruby']
+		keywords: ['algorithms', 'data structures', 'python', 'go', 'html', 'css', 'java', 'c', 'c++', 'git', 'bash', 'vim', 'ruby']
 	}
-	
-	
+  {
+		name: 'freeCodeCamp',
+		url: 'https://www.freecodecamp.org/',
+		description: 'Learn to code - for free. Build Projects. Earn Certifications.',
+		keywords: ['html', 'css', 'Javascript', 'responsive web design', 'data visualization', 'algorithms', 'data structures', 'interview prep', 'frontend', 'backend', 'machine learning']
+	},
+	{
+		name: 'SheCodes HTML Cheatsheet',
+		url: 'https://cheatsheets.shecodes.io/html',
+		description: 'The ultimate HTML cheatsheet for beginners.',
+		keywords: ['html', 'text tags', 'attributes', 'separators', 'containers', 'media tags', 'form tags', 'styling tags', 'SEO']
+	},
+	{
+		name: 'SheCodes CSS Cheatsheet',
+		url: 'https://cheatsheets.shecodes.io/css',
+		description: 'CSS coding snippets to help you style your page.',
+		keywords: ['css', 'selectors', 'colors', 'box', 'text',' list', 'layout', 'mouse', 'advanced css', 'animations']
+	},
+	{
+		name: 'SheCodes JavaScript Cheatsheet',
+		url: 'https://cheatsheets.shecodes.io/javascript',
+		description: 'A reference list of JavaScript variables, strings, and other attributes.',
+		keywords: ['JavaScript', 'variables', 'alerts', 'prompts', 'if else', 'strings', 'arrays', 'dates', 'numbers', 'objects', 'functions', 'debugging', 'selectors', 'events', 'AJAX', 'element manipulation', 'APIs']
+	},
+	{
+		name: 'SheCodes Bootstrap Cheatsheet',
+		url: 'https://cheatsheets.shecodes.io/bootstrap',
+		description: 'Interactive Bootstrap 5 cheatsheet for beginners and professionals.',
+		keywords: ['bootstrap', 'grid', 'buttons', 'forms', 'flexbox', 'navigation', 'cards', 'utility classes', 'spacing', 'image']
+	},
+	{
+		name: 'SheCodes VS Code Cheatsheet',
+		url: 'https://cheatsheets.shecodes.io/vs-code',
+		description: 'Visual Studio Code shortcuts to help you streamline your development workflow, for Windows and Mac.',
+		keywords: ['vs code', 'basic editing', 'search', 'replace', 'navigation']
+	},
+	{
+		name: 'SheCodes React Cheatsheet',
+		url: 'https://cheatsheets.shecodes.io/react',
+		description: 'Comprehensive React cheatsheet for beginners.',
+		keywords: ['react', 'properties', 'css', 'events', 'states', 'forms', 'loops', 'components', 'AJAX']
+	},
+	{
+		name: 'Bundle Phobia',
+		url: 'https://bundlephobia.com/',
+		description: 'Find the cost of adding a npm package to your bundle.',
+		keywords: ['express', 'npm', 'package manager', 'package finder']
+	},
+	{
+		name: 'CSS Grid Critters',
+		url: 'https://gridcritters.com/',
+		description: 'The Grid Mastery Game. Grid Critters gently guides you to master CSS Grid in the most effective, thorough, playful and fun way possible.',
+		keywords: ['css', 'grid', 'game']
+	},
+	{
+		name: 'CSS Grid Garden',
+		url: 'https://cssgridgarden.com/',
+		description: 'Welcome to Grid Garden, where you write CSS code to grow your carrot garden!',
+		keywords: ['css', 'grid', 'game']
+	},
+	{
+		name: 'The Odin Project',
+		url: 'https://www.theodinproject.com/',
+		description: 'The Odin Project empowers aspiring web developers to learn together for free.',
+		keywords: ['Javascript', 'ruby on rails', 'ruby', 'node', 'nodejs', 'node.js', 'html', 'css', 'databases']
+	},
+	{
+		name: 'Empire of Code',
+		url: 'https://empireofcode.com/',
+		description: 'Empire of Code is a space game with a mix of strategy, tactics and coding.',
+		keywords: ['Javascript', 'python', 'game']
+	},
+  
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
