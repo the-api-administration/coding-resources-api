@@ -91,7 +91,7 @@ Access our API endpoints to recieve coding resource data in JSON format.
 
 - [X] Add search functionality
 - [ ] Offer more resources
-- [ ] Support mobile devices
+- [X] Support mobile devices
 - [ ] Create more endpoints
 
 See the [open issues](https://github.com/the-api-administration/coding-resources-api/issues) for a full list of proposed features (and known issues).
@@ -129,6 +129,7 @@ Distributed under the MIT License. See <a href="https://github.com/the-api-admin
 - [@Dev_Ethos](https://twitter.com/dev_ethos/)
 - [@ErikaTeal_](https://twitter.com/erikateal_)
 - [@JacobEGood](https://twitter.com/jacobegood)
+- [@MERN_Man_Luke](https://twitter.com/MERN_Man_Luke)
 - [@MoraCodes](https://twitter.com/moracodes)
 
 <p align="right">(<a href="#top">back to top</a>)</p>

@@ -354,6 +354,12 @@ const resources = [
 		keywords: ['CSS', 'center', 'align']
 	},
 	{
+		name: 'Learn X in Y minutes',
+		url: 'https://learnxinyminutes.com/',
+		description: 'Learn X programming language or technology in Y minutes. Deep dive into programming language or technology literally in a few minutes.',
+		keywords: ['algorithms', 'data structures', 'python', 'go', 'html', 'css', 'java', 'c', 'c++', 'git', 'bash', 'vim', 'ruby']
+	}
+  {
 		name: 'freeCodeCamp',
 		url: 'https://www.freecodecamp.org/',
 		description: 'Learn to code - for free. Build Projects. Earn Certifications.',
@@ -425,6 +431,7 @@ const resources = [
 		description: 'Empire of Code is a space game with a mix of strategy, tactics and coding.',
 		keywords: ['Javascript', 'python', 'game']
 	},
+  
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
