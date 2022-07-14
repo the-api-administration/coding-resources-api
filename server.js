@@ -36,7 +36,7 @@ app.get('/api/:keyword', (req, res) => {
 	} else {
 		// respond with status 404, no matches were found
 		res.status(404).json({
-			error: `No resources were found with the ${keyword} keyword.`
+			error: `No resources were found with the keyword, '${keyword}'.`
 		});
 	}
 });
