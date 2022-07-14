@@ -461,7 +461,31 @@ const resources = [
     description: 'RegExr is an online tool to learn, build, & test Regular Expressions.',
 		keywords: ['javascript', 'js', 'regex', 'regular expressions']
 	},
-    
+  {
+    name: "CSS Reference",
+    url: "https://cssreference.io/",
+    description: 'A guide for css properties and information.',
+    keywords: ["css", "properties"],
+  },
+  {
+    name: "BG Jar - Free SVG Background Generator",
+    url: "https://bgjar.com/",
+    description: 'Free svg background generator for your websites, blogs and app.',
+    keywords: ["background generator", "svg"],
+  },
+  {
+    name: "Neumorphism",
+    url: "https://neumorphism.io/#e0e0e0",
+    description: 'Generates neumorphism shadow effect for HTML elements.',
+    keywords: ["box-shadow", "box shadow", "shape generator", "css"],
+  },
+  {
+    name: "Get Waves!",
+    url: "https://getwaves.io/",
+    description: 'Generates CSS wave designs',
+    keywords: ["svg", "css", "wave"],
+  },
+  
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
