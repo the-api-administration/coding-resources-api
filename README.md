@@ -81,7 +81,7 @@ Simply visit: <a href="https://coding-resources-api.herokuapp.com/">https://codi
 
 ## Usage
 
-Access our API endpoints to recieve coding resource data in JSON format.
+Access our API endpoints to receive coding resource data in JSON format.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
