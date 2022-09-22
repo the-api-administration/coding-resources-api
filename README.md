@@ -24,7 +24,7 @@
     <a href="https://github.com/the-api-administration/coding-resources-api"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://coding-resources-api.herokuapp.com/">View Demo</a>
+    <a href="https://coding-resources-api.up.railway.app/">View Demo</a>
     ·
     <a href="https://github.com/the-api-administration/coding-resources-api/issues">Report Bug</a>
     ·
@@ -73,7 +73,7 @@ Search for coding resources by relevant keywords. This API serves educational co
 
 ## Getting Started
 
-Simply visit: <a href="https://coding-resources-api.herokuapp.com/">https://coding-resources-api.herokuapp.com/</a> and read our documentation to learn how to interact with our API! If you would like to help us out, feel free to create issues through our github repo.
+Simply visit: <a href="https://coding-resources-api.up.railway.app/">https://coding-resources-api.up.railway.app/</a> and read our documentation to learn how to interact with our API! If you would like to help us out, feel free to create issues through our github repo.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
