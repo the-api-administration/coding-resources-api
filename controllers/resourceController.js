@@ -14,7 +14,7 @@ const getResources = asyncHandler(async (req, res) => {
 
     //Throw error if resource doesn't exist.
     if (!resources) {
-        res.status(400).json({
+        res.status(404).json({
             error: `No resources were found with the ${keyword} keyword.`
         })
     } else {
