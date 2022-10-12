@@ -14,7 +14,7 @@ const resourceSchema = mongoose.Schema({
         required: true,
     },
     keywords: {
-        type: [String],
+        type: [String], //["JavaScript", "Git"]
         required: true,
     },
 })
