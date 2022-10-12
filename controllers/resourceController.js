@@ -9,7 +9,10 @@ const Resource = require('../models/resourceSchema') //Schema
 const getResources = asyncHandler(async (req, res) => {
     const keyword = req.params.keyword.toLowerCase();
     const resources = await Resource.find({
-        keywords: keyword
+        keywords: {
+            "$regex": keyword,
+            "$options": "i"
+        }
     })
 
     //Throw error if resource doesn't exist.

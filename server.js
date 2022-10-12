@@ -18,7 +18,7 @@ app.use(cors());
 app.use(express.static('public'));
 
 
-app.use('/api/resources', require('./routes/resourceRoutes'))
+app.use('/api', require('./routes/resourceRoutes'))
 
 app.get('/', (req, res) => {
 	if (resources) {

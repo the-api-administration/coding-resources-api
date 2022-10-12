@@ -32,7 +32,7 @@ async function getMatches() {
 	const keyword = document.querySelector('input').value.toLowerCase().trim();
 
 	try {
-		const res = await fetch(`/api/resources/${keyword}`);
+		const res = await fetch(`/api/${keyword}`);
 		const data = await res.json();
 		renderMatches(data);
 	} catch (err) {
