@@ -6,20 +6,19 @@ const Resource = require('../models/resourceSchema') //Schema
 //@desc Get all resources
 //@route GET /api/resources/:keyword
 //@access Public
-
-const getResource = asyncHandler(async (req, res) => {
+const getResources = asyncHandler(async (req, res) => {
     const keyword = req.params.keyword.toLowerCase();
-    const searchQuery = await Resource.find({
+    const resources = await Resource.find({
         keywords: keyword
     })
 
     //Throw error if resource doesn't exist.
-    if (!searchQuery) {
+    if (!resources) {
         res.status(400).json({
             error: `No resources were found with the ${keyword} keyword.`
         })
     } else {
-        res.status(200).json(searchQuery)
+        res.status(200).json(resources)
     }
 
 })
@@ -50,12 +49,9 @@ const createResource = asyncHandler(async (req, res) => {
     } catch (error) {
        console.log(error) 
     }
-    
-
-   
 })
 
 module.exports = {
     createResource,
-    getResource
+    getResources
 }
