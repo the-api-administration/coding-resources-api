@@ -11,13 +11,13 @@ connectDB()
 
 //Middleware that parses incoming JSON request and puts the data in req.body 
 app.use(express.json())
-app.use(express.urlencoded({extended: false}))
+app.use(express.urlencoded({ extended: false }))
 
 app.set('view engine', 'ejs')
 app.use(cors());
 app.use(express.static('public'));
 
-
+app.use('/', require('./routes/homeRoutes'))
 app.use('/api', require('./routes/resourceRoutes'))
 
 app.get('/', (req, res) => {
