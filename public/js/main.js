@@ -32,11 +32,9 @@ async function getMatches() {
 	const keyword = document.querySelector('input').value.toLowerCase().trim();
 
 	try {
-		const res = await fetch('/api');
+		const res = await fetch(`/api/resources/${keyword}`);
 		const data = await res.json();
-		// Filters array from the API for resources with keywords containing user value
-		const matches = data.filter(resource => resource.keywords.some(str => str.toLowerCase().includes(keyword)));
-		renderMatches(matches);
+		renderMatches(data);
 	} catch (err) {
 		console.error(err);
 	}
