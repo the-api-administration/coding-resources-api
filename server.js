@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const { resources } = require("./resources");
-const dotenv = require('dotenv').config(); //Abstracts our secret keys 
+require("dotenv").config({ path: "./config/.env" }); //Abstracts our secret keys 
 const connectDB = require('./config/db'); //Database Connection.
 const { errorHandler } = require('./middleware/errorMiddleware');
 const PORT = process.env.PORT || 8000;
