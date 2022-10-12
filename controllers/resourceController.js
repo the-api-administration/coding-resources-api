@@ -25,6 +25,35 @@ const getResource = asyncHandler(async (req, res) => {
 })
 
 
+//@desc Create new resource
+//@route POST /api/resources/addResource
+//@access Public
+const createResource = asyncHandler(async (req, res) => {
+    const { name, url, description, keywords } = req.body
+
+    //Verifies all fields have been completed.
+    if (!name || !url || !description || !keywords) {
+        res.status(400)
+        throw new Error('Please fill out all fields to submit a new resource.')
+    }
+
+
+    try {
+       const newResource = await Resource.create({
+        name,
+        url,
+        description,
+        keywords
+       }) 
+        
+     res.status(200).json(newResource);
+    } catch (error) {
+       console.log(error) 
+    }
+    
+
+   
+})
 
 module.exports = {
     createResource,
