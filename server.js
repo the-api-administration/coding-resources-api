@@ -2,11 +2,23 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const { resources } = require("./resources");
+const dotenv = require('dotenv').config(); //Abstracts our secret keys 
+const connectDB = require('./config/db'); //Database Connection.
+const { errorHandler } = require('./middleware/errorMiddleware');
 const PORT = process.env.PORT || 8000;
+
+connectDB()
+
+//Middleware that parses incoming JSON request and puts the data in req.body 
+app.use(express.json())
+app.use(express.urlencoded({extended: false}))
 
 app.set('view engine', 'ejs')
 app.use(cors());
 app.use(express.static('public'));
+
+
+app.use('/api/resources', require('./routes/resourceRoutes'))
 
 app.get('/', (req, res) => {
 	if (resources) {
@@ -23,22 +35,9 @@ app.get('/api', (req, res) => {
 	res.json(resources);
 });
 
-app.get('/api/:keyword', (req, res) => {
-	const keyword = req.params.keyword.toLowerCase();
-	
-	// filter resources array, return items that match query; tag.
-	const matches = resources.filter((obj) => obj.keywords.some(str => str.toLowerCase().includes(keyword)));
 
-	// if matches were found, respond with matches array in JSON format
-	if (matches.length) {
-		res.json(matches);
-	} else {
-		// respond with status 404, no matches were found
-		res.status(404).json({
-			error: `No resources were found with the ${keyword} keyword.`
-		});
-	}
-});
+//Handles Errors 
+app.use(errorHandler)
 
 app.listen(PORT, () => {
 	console.log(`The 👨‍🏭 server 🚗 is 🏃‍♀️ running 👡 on ⚓ port 🐹 ${PORT}, 🛒 better 💅 go 😝 catch 🙀 it! 🍟`);
