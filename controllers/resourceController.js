@@ -8,6 +8,9 @@ const Resource = require('../models/resourceSchema') //Schema
 //@access Public
 const getResources = asyncHandler(async (req, res) => {
     const keyword = req.params.keyword.toLowerCase();
+
+    // $regex: keyword - allows partial string matches for keyword i.e. java finds entries with keyword javascript
+    // $options: i - uses case-insensitive matching 
     const resources = await Resource.find({
         keywords: {
             "$regex": keyword,
