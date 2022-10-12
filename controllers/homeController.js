@@ -30,5 +30,15 @@ const getResources = asyncHandler(async (req, res) => {
 })
 
 
-
 module.exports = getResources
+
+// app.get('/', (req, res) => {
+// 	if (resources) {
+// 		res.render('index.ejs', { resources });
+// 	} else {
+// 		// respond with status 500 if the resources array could not be loaded from resources.js
+// 		res.status(500).json({
+// 			error: 'Resources were not able to be loaded from resources.js.'
+// 		});
+// 	}
+// });
