@@ -24,7 +24,7 @@
     <a href="https://github.com/the-api-administration/coding-resources-api"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://coding-resources-api.herokuapp.com/">View Demo</a>
+    <a href="https://coding-resources-api.up.railway.app/">View Demo</a>
     ·
     <a href="https://github.com/the-api-administration/coding-resources-api/issues">Report Bug</a>
     ·
@@ -73,7 +73,7 @@ Search for coding resources by relevant keywords. This API serves educational co
 
 ## Getting Started
 
-Simply visit: <a href="https://coding-resources-api.herokuapp.com/">https://coding-resources-api.herokuapp.com/</a> and read our documentation to learn how to interact with our API! If you would like to help us out, feel free to create issues through our github repo.
+Simply visit: <a href="https://coding-resources-api.up.railway.app/">https://coding-resources-api.up.railway.app/</a> and read our documentation to learn how to interact with our API! If you would like to help us out, feel free to create issues through our github repo.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -81,7 +81,7 @@ Simply visit: <a href="https://coding-resources-api.herokuapp.com/">https://codi
 
 ## Usage
 
-Access our API endpoints to recieve coding resource data in JSON format.
+Access our API endpoints to receive coding resource data in JSON format.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -91,7 +91,7 @@ Access our API endpoints to recieve coding resource data in JSON format.
 
 - [X] Add search functionality
 - [ ] Offer more resources
-- [ ] Support mobile devices
+- [X] Support mobile devices
 - [ ] Create more endpoints
 
 See the [open issues](https://github.com/the-api-administration/coding-resources-api/issues) for a full list of proposed features (and known issues).
@@ -129,6 +129,7 @@ Distributed under the MIT License. See <a href="https://github.com/the-api-admin
 - [@Dev_Ethos](https://twitter.com/dev_ethos/)
 - [@ErikaTeal_](https://twitter.com/erikateal_)
 - [@JacobEGood](https://twitter.com/jacobegood)
+- [@MERN_Man_Luke](https://twitter.com/MERN_Man_Luke)
 - [@MoraCodes](https://twitter.com/moracodes)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
